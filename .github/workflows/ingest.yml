@@ -25,17 +25,37 @@ jobs:
       - run: npm ci
       - name: Run ingest
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INGEST_BATCH_SIZE: '100'
         run: npm run ingest
-      - name: Commit data changes
+      - name: Rebuild site
+        run: npm run build
+      - name: Deploy updated site to gh-pages
+        run: |
+          git config user.name "gb-ingest-bot"
+          git config user.email "bot@georgiabooked.com"
+          git fetch origin gh-pages
+          git worktree add /tmp/gh-pages gh-pages
+          cd /tmp/gh-pages
+          git rm -rf . > /dev/null 2>&1 || true
+          cp -r $GITHUB_WORKSPACE/dist/* .
+          touch .nojekyll
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "deploy: rebuild $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin gh-pages
+          else
+            echo "No deploy changes"
+          fi
+      - name: Commit data changes to master
         run: |
           git config user.name "gb-ingest-bot"
           git config user.email "bot@georgiabooked.com"
           git add data/arrests.json
           if ! git diff --cached --quiet; then
             git commit -m "data: hourly ingest $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            git push origin master
           else
             echo "No new data"
           fi
