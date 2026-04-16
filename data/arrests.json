@@ -1,5 +1,453 @@
 [
   {
+    "slug": "kahlil-whitley-coffee-county-2026-04-12",
+    "sourceId": 3786012,
+    "name": "Kahlil Whitley",
+    "county": "Coffee",
+    "charges": [
+      "THEFT BY SHOPLIFTING"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:18",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/kahlil-whitley-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/WHITLEY-KAHLIL.jpg",
+    "rewrite": "Kahlil Whitley was booked into the Coffee County jail on April 12, 2026, and was charged with theft by shoplifting. The specific circumstances of the alleged offense and the value of items involved were not detailed in the available booking records.\n\nTheft by shoplifting is classified as a serious misdemeanor under Georgia law. Convictions for shoplifting can result in penalties including fines up to $1,000, imprisonment for up to 12 months, or both, depending on the value of the merchandise allegedly taken and any prior criminal history. In Georgia, shoplifting charges may also carry collateral consequences such as civil liability to the merchant and potential restitution obligations.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "cameron-music-coffee-county-2026-04-12",
+    "sourceId": 3786011,
+    "name": "Cameron Music",
+    "county": "Coffee",
+    "charges": [
+      "SIMPLE BATTERY &#8211",
+      "FAMILY VIOLENCE"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:16",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/cameron-music-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/MUSIC-CAMERON-TAYLOR.jpg",
+    "rewrite": "Cameron Music was booked into the Coffee County, Georgia jail on April 12, 2026, and was charged with simple battery involving family violence. The specific circumstances of the alleged incident were not detailed in the booking record.\n\nSimple battery classified as family violence is a serious misdemeanor under Georgia law. Such charges typically carry potential penalties including jail time of up to 12 months and fines, though exact sentencing varies based on judicial discretion and individual case circumstances. Family violence designations in Georgia law apply to acts of violence involving family or household members, which can affect bail conditions, protective orders, and sentencing guidelines in criminal proceedings.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "otoniel-lopez-ordonez-coffee-county-2026-04-12",
+    "sourceId": 3786010,
+    "name": "Otoniel Lopez-Ordonez",
+    "county": "Coffee",
+    "charges": [
+      "OBSTRUCTION OF AN OFFICER PEDESTRIAN UNDER INFLUENCE 48 DETAINER"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:14",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/otoniel-lopez-ordonez/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/LOPEZ-ORDONEZ-OTONIEL.jpg",
+    "rewrite": "Otoniel Lopez-Ordonez was booked into the Coffee County jail on April 12, 2026, on charges of obstruction of an officer, pedestrian under the influence, and a detainer hold. He is alleged to have committed these offenses and was charged accordingly at the time of booking.\n\nObstruction of an officer is classified as a serious misdemeanor under Georgia law and typically carries penalties including fines and potential jail time. Pedestrian under the influence charges relate to impaired pedestrians on public roadways. A detainer hold indicates that another jurisdiction or agency has requested the subject's custody pending resolution of additional legal matters. The combination of these charges reflects the circumstances documented in the arrest record at the time of booking.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "daiyonnia-howard-coffee-county-2026-04-12",
+    "sourceId": 3786009,
+    "name": "Daiyonnia Howard",
+    "county": "Coffee",
+    "charges": [
+      "CRIMINAL DAMAGE TO PROPERTY &#8211",
+      "2ND DEGREE CRIMINAL TRESPASS"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:11",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/daiyonnia-howard/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/HOWARD-DAIYONNIA.jpg",
+    "rewrite": "Daiyonnia Howard was booked into the Coffee County jail on April 12, 2026, and was charged with second-degree criminal damage to property and criminal trespass. Both charges are classified as misdemeanors under Georgia law. Howard is alleged to have committed these offenses, and the specific circumstances of the incident were documented at the time of booking.\n\nSecond-degree criminal damage to property and criminal trespass are misdemeanor offenses in Georgia. Criminal damage to property in the second degree typically involves property damage that does not rise to felony level, while criminal trespass addresses unlawful entry or remaining on another's property. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in jail, fines, or both, depending on the particulars of the case and any prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "ariel-ferguson-coffee-county-2026-04-12",
+    "sourceId": 3786008,
+    "name": "Ariel Ferguson",
+    "county": "Coffee",
+    "charges": [
+      "DRIVING WHILE LICENSE SUSPENDED OR REVOKED"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:08",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/ariel-ferguson-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/FERGUSON-ARIEL-NICOLE.jpg",
+    "rewrite": "Ariel Ferguson was booked into the Coffee County jail on April 12, 2026, and was charged with driving while license suspended or revoked. The charge is classified as a misdemeanor under Georgia law.\n\nDriving with a suspended or revoked license is a common traffic-related misdemeanor in Georgia. A first offense typically results in a fine of up to $1,000, potential jail time of up to 12 months, or both, depending on the circumstances and the reason for the suspension or revocation. Subsequent offenses carry enhanced penalties. License suspensions or revocations may occur for various reasons, including unpaid traffic fines, failure to maintain insurance, DUI convictions, or accumulation of traffic violations.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "andre-brockington-coffee-county-2026-04-12",
+    "sourceId": 3786006,
+    "name": "Andre Brockington",
+    "county": "Coffee",
+    "charges": [
+      "THEFT BY SHOPLIFTING"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:05",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/andre-brockington-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/BROCKINGTON-ANDRE-PETIONE.jpg",
+    "rewrite": "Andre Brockington was booked into the Coffee County jail on April 12, 2026, and was charged with theft by shoplifting. The charge is classified as a serious misdemeanor under Georgia law.\n\nTheft by shoplifting is a criminal offense that typically involves the unauthorized taking of merchandise from a retail establishment with the intent to deprive the owner of its use or possession. In Georgia, serious misdemeanor convictions can result in sentences of up to one year in jail and fines up to $1,000, depending on the value of the merchandise involved and any prior criminal history of the accused.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "david-bailey-coffee-county-2026-04-12",
+    "sourceId": 3786004,
+    "name": "David Bailey",
+    "county": "Coffee",
+    "charges": [
+      "DISORDERLY CONDUCT"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:52:03",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/david-bailey-29/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/BAILEY-DAVID-ELLIS.jpg",
+    "rewrite": "David Bailey was booked into the Coffee County jail on April 12, 2026, on a charge of disorderly conduct. Bailey is alleged to have committed this offense, and the charge was classified as a serious misdemeanor.\n\nDisorderly conduct is a misdemeanor offense under Georgia law that typically addresses behavior likely to cause public inconvenience, annoyance, or alarm. In Georgia, conviction on a disorderly conduct charge can result in a sentence of up to 12 months in jail, a fine of up to $1,000, or both. The specific circumstances and any prior criminal history generally influence the severity of penalties imposed by the court.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "douglas-watson-pike-county-2026-04-12",
+    "sourceId": 3787273,
+    "name": "Douglas Watson",
+    "county": "Pike",
+    "charges": [
+      "DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR) EXPIRED VEHICLE TAG OR DECAL"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:49:17",
+    "sourceUrl": "https://thegeorgiagazette.com/pike/douglas-watson/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Watson-Douglas.jpg",
+    "rewrite": "Douglas Watson was booked into Pike County custody on April 12, 2026, and was charged with driving while his license was suspended or revoked and operating a vehicle with an expired tag or decal. Both charges are classified as misdemeanors under Georgia law.\n\nDriving with a suspended or revoked license is a common misdemeanor offense in Georgia, typically resulting from prior traffic violations, failure to pay fines, or administrative actions by the Department of Driver Services. Operating a vehicle with an expired registration tag is also a misdemeanor citation. Individuals convicted of these offenses may face fines, license suspension extensions, and potential jail time depending on prior driving history and case circumstances.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "aaron-sippy-hall-county-2026-04-12",
+    "sourceId": 3786925,
+    "name": "Aaron Sippy",
+    "county": "Hall",
+    "charges": [
+      "AGGRAVATED BATTERY/SPOUSE/PARENTS/STEP/FOSTER PARENTS THEFT BY TAKING &#8211",
+      "LESS THAN $1500.00 AGGRAVATED ASSAULT/SPOUSE/PARENTS/STEPPARENTS/FOSTER PARENTS CRIMINAL TRESPASS (TRESPASSING) BATTERY FAMILY VIOLENCE ACT SERVING TIME (M)"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:54",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/aaron-sippy-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Sippy-Aaron-Richard.jpg",
+    "rewrite": "Aaron Sippy was booked into the Hall County jail on April 12, 2026, and was charged with aggravated battery involving a spouse or family member, theft by taking of less than $1500, aggravated assault involving a spouse or family member, criminal trespass, battery under the Family Violence Act, and serving time. According to booking records, Sippy is alleged to have committed these offenses and was classified as charged with violent felonies.\n\nAggravated battery and aggravated assault involving family members are serious felony charges under Georgia law. These offenses carry significant statutory penalties, including potential prison sentences and fines. Criminal charges related to family violence are treated seriously by Georgia courts, which prioritize victim safety and may impose protective orders as conditions of bail or sentencing. The inclusion of multiple related charges suggests the incident involved allegations of both violence and property crime within a family context.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "sanaad-chavous-hall-county-2026-04-12",
+    "sourceId": 3786924,
+    "name": "Sanaad Chavous",
+    "county": "Hall",
+    "charges": [
+      "POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCE RECKLESS DRIVING 1ST OFFENSE FLEEING OR ATTEMPTING TO ELUDE POSSESSION OF MARIJUANA FEL &#8211",
+      "MOVE OVER &#8211",
+      "POLICE",
+      "FIRE",
+      "EMS DRIVING WHILE LICENSE SUSPENDED/REVOKED PEDESTRIAN OBEDIENCE TO TRAFFIC CONTROL DEVICE"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:51",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/sanaad-chavous/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Chavous-Sanaad.jpg",
+    "rewrite": "Sanaad Chavous was booked into Hall County, Georgia custody on April 12, 2026. Chavous was charged with possession of a Schedule II controlled substance, reckless driving (first offense), fleeing or attempting to elude police, possession of marijuana, violation of the Move Over Law for police, fire, and EMS vehicles, driving with a suspended or revoked license, and pedestrian disobedience to a traffic control device.\n\nThe charges against Chavous encompass a mix of traffic violations and drug-related offenses classified as serious misdemeanors under Georgia law. Fleeing or attempting to elude law enforcement is a significant charge that typically carries potential jail time and license suspension. Schedule II controlled substance possession and marijuana possession are drug-related offenses with statutory penalties varying based on quantity and prior record. The Move Over Law violation reflects Georgia's traffic safety requirements intended to protect emergency personnel. Driving with a suspended or revoked license is a standard traffic offense with potential consequences including fines and additional license suspension in Georgia.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "justin-tweedell-hall-county-2026-04-12",
+    "sourceId": 3782237,
+    "name": "Justin Tweedell",
+    "county": "Hall",
+    "charges": [
+      "Possession Marijuana Less Than 1 Oz. &#8211"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:49",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/justin-tweedell-5/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Tweedell-Justin-David.jpg",
+    "rewrite": "Justin Tweedell was booked into the Hall County jail on April 12, 2026, and was charged with possession of marijuana less than one ounce. The charge is classified as a misdemeanor under Georgia law.\n\nPossession of marijuana in quantities less than one ounce is a misdemeanor offense in Georgia. Conviction on such a charge typically carries potential penalties including fines up to $1,000 and imprisonment for up to 12 months, though sentences may vary based on individual circumstances and judicial discretion. Misdemeanor drug possession charges are among the most commonly prosecuted drug offenses in Georgia.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "cory-crawford-hall-county-2026-04-12",
+    "sourceId": 3782244,
+    "name": "Cory Crawford",
+    "county": "Hall",
+    "charges": [
+      "VGCSA POSSESSION OF FIREARM BY CONVICTED FELON TAMPERING W/ EVIDENCE &#8211",
+      "FELONY"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:47",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/cory-crawford-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Crawford-Cory-Deshawn.jpg",
+    "rewrite": "Cory Crawford was booked into the Hall County jail on April 12, 2026. Crawford was charged with possession of a firearm by a convicted felon, tampering with evidence as a felony, and violating the Georgia Controlled Substances Act. All charges are felony-level offenses.\n\nPossession of a firearm by a convicted felon is a serious felony in Georgia that prohibits individuals with prior felony convictions from possessing firearms. Tampering with evidence is also charged as a felony when it involves the destruction or alteration of materials relevant to a legal proceeding. Violations of Georgia's controlled substances laws carry sentences that vary based on the substance type and quantity involved. Felony convictions in Georgia can result in prison sentences ranging from one year to life, depending on the specific offense and criminal history of the defendant.",
+    "severity": "felony"
+  },
+  {
+    "slug": "teara-williams-hall-county-2026-04-12",
+    "sourceId": 3782242,
+    "name": "Teara Williams",
+    "county": "Hall",
+    "charges": [
+      "Possession Of A Schedule II Controlled Substance Drugs To Be Kept In Original Container Open Container Violation While Operating Motor Vehicle License &#8211",
+      "Instruction Permits And Temporary License Driving With Suspended/canceled/revoked Tag Windshields/front Window Tint Bench Warrant Local Municipality"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:46",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/teara-williams-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Williams-Teara-Rochelle.jpg",
+    "rewrite": "Teara Williams was booked into the Hall County jail on April 12, 2026, and was charged with possession of a Schedule II controlled substance, failure to keep drugs in original containers, open container violation while operating a motor vehicle, driving with an instruction permit or temporary license, driving with a suspended, canceled, or revoked tag, windshield or front window tint violations, and a bench warrant issued by a local municipality. All charges were classified as misdemeanors.\n\nSchedule II controlled substances are among the most tightly regulated drug categories in Georgia due to their high potential for abuse and accepted medical uses. Misdemeanor convictions in Georgia can result in sentences of up to twelve months in jail, fines up to one thousand dollars, or both, depending on the specific offense and any prior criminal history. The multiple traffic-related charges suggest the initial contact with law enforcement may have occurred during a vehicle stop, which then led to the discovery of additional violations.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "mason-burch-hall-county-2026-04-12",
+    "sourceId": 3782241,
+    "name": "Mason Burch",
+    "county": "Hall",
+    "charges": [
+      "DISORDERLY CONDUCT"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:44",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/mason-burch/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Burch-Mason-Alexander.jpg",
+    "rewrite": "Mason Burch was booked into the Hall County jail on April 12, 2026, and was charged with disorderly conduct. The specific circumstances of the booking were not detailed in available records.\n\nDisorderly conduct is classified as a serious misdemeanor under Georgia law. Individuals convicted of this offense may face penalties including fines and potential jail time. The charge typically involves conduct that disturbs the public peace or creates a hazardous or physically offensive condition. As with all criminal charges, the presumption of innocence applies, and the outcome of any legal proceedings depends on evidence presented in court.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "christopher-hammond-hall-county-2026-04-12",
+    "sourceId": 3782240,
+    "name": "Christopher Hammond",
+    "county": "Hall",
+    "charges": [
+      "Possession And Use Of Drug Related Objects Prohibited"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:42",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/christopher-hammond-9/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Hammond-Christopher-Eugene.jpg",
+    "rewrite": "Christopher Hammond was booked into the Hall County jail on April 12, 2026, and was charged with possession and use of drug related objects prohibited. The charge is classified as a misdemeanor under Georgia law.\n\nPossession and use of drug related objects is a misdemeanor offense in Georgia that typically applies to the possession of paraphernalia associated with controlled substance use, such as pipes, syringes, or other items intended for drug consumption. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in jail, fines up to $1,000, or both, depending on the circumstances and the defendant's prior record.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "maria-cruz-hall-county-2026-04-12",
+    "sourceId": 3782238,
+    "name": "Maria Cruz",
+    "county": "Hall",
+    "charges": [
+      "Simple Battery Family Violence Act"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:40",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/maria-cruz-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Cruz-Maria-Diana.jpg",
+    "rewrite": "Maria Cruz was booked into the Hall County jail on April 12, 2026, and was charged with Simple Battery under the Family Violence Act. The charge falls under Georgia's violent felony classification.\n\nSimple Battery Family Violence is a criminal offense involving intentional physical contact of an insulting or provoking nature, or intentional physical harm, directed at a family or household member. Under Georgia law, offenses classified as violent felonies carry serious potential consequences, including possible imprisonment and fines. When family violence is an element of a battery charge, it typically requires that the alleged victim and accused share a domestic relationship such as marriage, cohabitation, or parent-child connection. Cases involving family violence charges are treated with particular attention to victim safety and the enforcement of protective orders.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "manuel-chacho-hall-county-2026-04-12",
+    "sourceId": 3782236,
+    "name": "Manuel Chacho",
+    "county": "Hall",
+    "charges": [
+      "Driving While License Suspended/revoked Speeding"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:39",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/manuel-chacho/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Chacho-Manuel.jpg",
+    "rewrite": "Manuel Chacho was booked into the Hall County jail on April 12, 2026, and was charged with driving with a suspended or revoked license and speeding. According to booking records, the charges are classified as misdemeanors.\n\nIn Georgia, driving with a suspended or revoked license is a misdemeanor offense that typically carries penalties including fines, possible jail time of up to 12 months, and potential license suspension extensions. Speeding is also a misdemeanor traffic violation whose penalties vary depending on the speed in excess of the posted limit. Both charges are non-felony offenses and are common traffic-related violations in Georgia's criminal justice system.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "isaiah-bennett-hall-county-2026-04-12",
+    "sourceId": 3782239,
+    "name": "Isaiah Bennett",
+    "county": "Hall",
+    "charges": [
+      "Battery Family Violence Act"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:37",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/isaiah-bennett-6/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Bennett-Isaiah-Lamont.jpg",
+    "rewrite": "Isaiah Bennett was booked into the Hall County jail on April 12, 2026, and was charged with Battery Family Violence Act. The charge is classified as a violent felony under Georgia law.\n\nBattery Family Violence Act is a serious offense in Georgia that involves the intentional physical contact or striking of a family member. Violent felony convictions can result in significant prison sentences and mandatory minimum periods of incarceration depending on prior criminal history and case circumstances. Individuals convicted of family violence offenses in Georgia may also face restrictions on firearm possession, mandatory participation in counseling programs, and potential civil protective orders. Such charges are taken seriously by the criminal justice system due to the vulnerable nature of family relationships and the potential for repeated harm.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "makeisha-nash-hall-county-2026-04-12",
+    "sourceId": 3782243,
+    "name": "Makeisha Nash",
+    "county": "Hall",
+    "charges": [
+      "Driving While License Suspended/revoked No Proof Of Minimum Insurance Fail To Maintain Lane"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:35",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/makeisha-nash-7/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Nash-Makeisha-Shree.jpg",
+    "rewrite": "Makeisha Nash was booked into the Hall County jail on April 12, 2026. Nash was charged with driving while license suspended or revoked, no proof of minimum insurance, and failure to maintain lane. All three charges are classified as misdemeanors.\n\nDriving with a suspended or revoked license, operating a vehicle without proof of minimum insurance, and failure to maintain lane are traffic-related misdemeanor offenses under Georgia law. Misdemeanor convictions in Georgia can result in fines, jail time of up to 12 months, or both. Insurance violations are traffic safety measures intended to protect drivers and passengers. Individuals arrested on such charges retain the presumption of innocence until adjudication in court.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "qiyana-johnson-hall-county-2026-04-12",
+    "sourceId": 3782234,
+    "name": "Qiyana Johnson",
+    "county": "Hall",
+    "charges": [
+      "Simple Assault Harassing Phone Calls"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:33",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/qiyana-johnson/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Johnson-Qiyana-Marie.jpg",
+    "rewrite": "Qiyana Johnson was booked into the Hall County jail on April 12, 2026, on charges of simple assault and harassing phone calls. The specific circumstances of the arrest and alleged incidents were not detailed in the booking record.\n\nSimple assault is classified as a misdemeanor under Georgia law and typically carries penalties of up to 12 months in jail, a fine of up to $1,000, or both. Harassing phone calls are also treated as a misdemeanor offense in Georgia. These charges generally do not rise to the level of felony offenses, which carry more severe statutory penalties including lengthy prison sentences.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "abigail-chandler-hall-county-2026-04-12",
+    "sourceId": 3782233,
+    "name": "Abigail Chandler",
+    "county": "Hall",
+    "charges": [
+      "Maintaining A Disorderly House"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:31",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/abigail-chandler/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Chandler-Abigail-Gay.jpg",
+    "rewrite": "Abigail Chandler was booked into the Hall County jail on April 12, 2026, and was charged with maintaining a disorderly house. According to the booking record, Chandler is alleged to have violated Georgia law regarding the operation or maintenance of a residence in violation of public peace or order statutes.\n\nMaintaining a disorderly house is classified as a serious misdemeanor in Georgia. Convictions for this offense can result in incarceration of up to 12 months and fines up to $1,000, or both. Such charges typically arise from complaints involving excessive noise, frequent disturbances, illegal activity, or other conditions that substantially interfere with neighbors' use and enjoyment of their property or violate local ordinances.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "nyrese-carter-hall-county-2026-04-12",
+    "sourceId": 3782232,
+    "name": "Nyrese Carter",
+    "county": "Hall",
+    "charges": [
+      "Harassing Phone Calls Criminal Trespass (trespassing)"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:30",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/nyrese-carter-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Carter-Nyrese-Eugene.jpg",
+    "rewrite": "Nyrese Carter was booked into the Hall County jail on April 12, 2026, and was charged with harassing phone calls and criminal trespass. Carter is alleged to have committed these misdemeanor offenses.\n\nHarassing phone calls and criminal trespass are classified as misdemeanors under Georgia law. Criminal trespass convictions typically carry penalties including fines and potential jail time of up to twelve months, depending on the specific circumstances and any prior criminal history. Harassing phone calls similarly fall under misdemeanor statutes designed to protect individuals from unwanted contact and communications. First-time misdemeanor convictions in Georgia may result in sentences ranging from probation to incarceration, along with court-ordered fines.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "kylan-coleman-hall-county-2026-04-12",
+    "sourceId": 3782235,
+    "name": "Kylan Coleman",
+    "county": "Hall",
+    "charges": [
+      "OBSTRUCTION-RESISTING OFFICER/ ARREST"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:28",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/kylan-coleman-5/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Coleman-Kylan-Keith.jpg",
+    "rewrite": "Kylan Coleman was booked into the Hall County jail on April 12, 2026, and was charged with obstruction of or resisting an officer or arrest. According to booking records, the arrest was made in Hall County.\n\nObstruction and resisting officer charges are classified as serious misdemeanors under Georgia law. Such offenses typically carry potential penalties including jail time of up to 12 months and fines up to $1,000, though sentences may vary based on case specifics and prior criminal history. These charges often arise from incidents during law enforcement interactions and are prosecuted regularly throughout Georgia.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "jacob-riley-hall-county-2026-04-12",
+    "sourceId": 3782226,
+    "name": "Jacob Riley",
+    "county": "Hall",
+    "charges": [
+      "Simple Battery Family Violence Act Disorderly Conduct"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:27",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/jacob-riley-4/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Riley-Jacob-Nathaniel.jpg",
+    "rewrite": "Jacob Riley was booked into the Hall County jail on April 12, 2026, and was charged with Simple Battery Family Violence Act and Disorderly Conduct. According to booking records, Riley is alleged to have committed these offenses. The specific circumstances of the arrest and alleged incident were documented at the time of his booking.\n\nSimple Battery under Georgia's Family Violence Act is classified as a violent felony offense. Under Georgia law, a conviction for simple battery involving family violence can result in imprisonment and fines. Disorderly conduct is typically a misdemeanor charge involving behavior that disturbs the public peace. Cases involving family violence allegations are often treated with heightened scrutiny by the criminal justice system in Georgia, and defendants charged with such offenses may face conditions of bond or restrictions on contact with alleged victims.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "crissy-burke-hall-county-2026-04-12",
+    "sourceId": 3782230,
+    "name": "Crissy Burke",
+    "county": "Hall",
+    "charges": [
+      "DUI &#8211",
+      "Alcohol/less Safe Open Container Violation While Operating Motor Vehicle"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:26",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/crissy-burke/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Burke-Crissy-Lynn.jpg",
+    "rewrite": "Crissy Burke was booked into the Hall County jail on April 12, 2026, and was charged with driving under the influence involving alcohol and an open container violation while operating a motor vehicle. The charges were classified as serious misdemeanors.\n\nIn Georgia, DUI offenses involving alcohol are governed under O.C.G.A. 40-6-391. Open container violations, codified under O.C.G.A. 40-6-249, prohibit the possession of open containers of alcohol in motor vehicles. Serious misdemeanor convictions in Georgia can result in jail sentences of up to 12 months, fines, mandatory participation in DUI education programs, license suspension, and probation. First-offense DUI charges may carry minimum penalties including fines between $300 and $1,000 and 24 hours to 12 months of incarceration.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "michael-crumbley-hall-county-2026-04-12",
+    "sourceId": 3782229,
+    "name": "Michael Crumbley",
+    "county": "Hall",
+    "charges": [
+      "DUI &#8211",
+      "Alcohol/less Safe No Passing Zone"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:24",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/michael-crumbley-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Crumbley-Michael-Allen.jpg",
+    "rewrite": "Michael Crumbley was booked into the Hall County jail on April 12, 2026, and was charged with DUI - Alcohol/Less Safe No Passing Zone. The specific circumstances of the arrest and booking procedures were recorded in the county's arrest system.\n\nDUI charges in Georgia are classified as serious misdemeanors when alcohol is involved. Under Georgia law, a first-offense DUI conviction can result in penalties including fines ranging from $300 to $1,000, potential jail time of up to 12 months, a mandatory driver's license suspension of at least 120 days, and completion of a DUI risk reduction program. The \"less safe\" designation indicates the arresting officer believed the individual's driving was impaired, even if blood alcohol content levels may have been below the legal threshold. Hall County maintains standard procedures for processing such charges through the local court system.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "latavia-johnson-hall-county-2026-04-12",
+    "sourceId": 3782228,
+    "name": "Latavia Johnson",
+    "county": "Hall",
+    "charges": [
+      "Aggravated Assault &#8211",
+      "Other Weapon Simple Assault/spouses/parents/stepparents/foster Parents Battery"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:23",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/latavia-johnson-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Johnson-Latavia-Charee.jpg",
+    "rewrite": "Latavia Johnson was booked into the Hall County jail on April 12, 2026, and was charged with aggravated assault involving an other weapon, as well as simple assault and battery involving a spouse, parent, stepparent, or foster parent. According to booking records, Johnson is alleged to have committed these acts and was taken into custody on the specified date.\n\nAggravated assault is classified as a violent felony in Georgia. Under state law, aggravated assault convictions can result in imprisonment ranging from one to twenty years. Simple assault and battery charges involving family members or caregivers are also serious offenses that can carry significant penalties. Cases involving domestic violence or assault within family units are treated with particular attention by the Georgia criminal justice system due to the vulnerable nature of such relationships.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "bart-brejcha-hall-county-2026-04-12",
+    "sourceId": 3782227,
+    "name": "Bart Brejcha",
+    "county": "Hall",
+    "charges": [
+      "DUI &#8211",
+      "Alcohol/less Safe Open Container Violation While Operating Motor Vehicle Driving With Suspended/canceled/revoked Tag Following Too Closely No Insurance / False Statement / Fingerprintable"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:22",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/bart-brejcha/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Brejcha-Bart.jpg",
+    "rewrite": "Bart Brejcha was booked into custody in Hall County, Georgia on April 12, 2026. He was charged with DUI involving alcohol or less safe operation of a motor vehicle, an open container violation while operating a motor vehicle, driving with a suspended, canceled, or revoked tag, following too closely, operating a vehicle without insurance, and making a false statement. The charges are classified as serious misdemeanors.\n\nIn Georgia, DUI charges constitute serious misdemeanors that carry significant statutory consequences, including potential jail time, substantial fines, driver's license suspension, and mandatory participation in alcohol education programs. Operating a vehicle without insurance and with suspended registration are also serious traffic violations that reflect the cumulative nature of the charges in this booking. Open container violations and improper following distance represent additional moving violations commonly cited alongside more serious traffic offenses.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "toddrick-turner-hall-county-2026-04-12",
+    "sourceId": 3782223,
+    "name": "Toddrick Turner",
+    "county": "Hall",
+    "charges": [
+      "Probation Violation (F) Pedestrian Under The Influence Of Alcohol Pedestrian Crossing Other Than Crosswalk"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-16T09:38:20",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/toddrick-turner-19/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Turner-Toddrick-Pyrone.jpg",
+    "rewrite": "Toddrick Turner was booked into the Hall County jail on April 12, 2026, and is alleged to have violated probation. Turner was charged with pedestrian under the influence of alcohol and pedestrian crossing other than crosswalk, both misdemeanor offenses. The specific terms of the underlying probation and circumstances of the alleged violations were not detailed in the booking record.\n\nPedestrian-related charges in Georgia are typically classified as misdemeanors and carry potential penalties including fines and jail time. A probation violation charge indicates that Turner was subject to court-ordered probation conditions at the time of the alleged infractions. Violation of probation can result in additional penalties determined by the court, which may include extension of probation, increased supervision requirements, or incarceration, depending on the severity of the violation and the terms of the original probation order.",
+    "severity": "misdemeanor"
+  },
+  {
     "slug": "calvin-fant-stephens-county-2026-04-12",
     "sourceId": 3784919,
     "name": "Calvin Fant",
@@ -710,6 +1158,98 @@
     "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Moya-Michael-Josue.jpg",
     "rewrite": "Michael Moya was booked into the Oconee County jail on April 12, 2026, on a charge of reckless driving. The specific circumstances of the arrest were not detailed in the booking record.\n\nReckless driving is classified as a serious misdemeanor under Georgia law. Convictions for reckless driving can result in penalties including fines up to $1,000, jail time of up to 12 months, or both. The offense typically involves operating a vehicle with willful or wanton disregard for the safety of persons or property. Reckless driving charges are distinct from speeding violations and are generally considered more serious moving violations in Georgia.",
     "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "david-fitzpatrick-hall-county-2026-04-11",
+    "sourceId": 3782052,
+    "name": "David Fitzpatrick",
+    "county": "Hall",
+    "charges": [
+      "Battery"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:43:26",
+    "sourceUrl": "https://thegeorgiagazette.com/hall/david-fitzpatrick-10/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Fitzpatrick-David-Charles-1.jpg",
+    "rewrite": "David Fitzpatrick was booked into the Hall County jail on April 11, 2026, and was charged with battery. According to the booking record, Fitzpatrick is alleged to have committed an act of battery, which constitutes a misdemeanor offense under Georgia law.\n\nBattery is classified as a misdemeanor when it involves intentional physical contact of an insulting or provoking nature, or intentional physical harm to another person without aggravating circumstances. In Georgia, misdemeanor battery convictions can result in incarceration for up to twelve months, fines up to one thousand dollars, or both. The specific circumstances and any prior criminal history would typically be considered during sentencing if a conviction is secured.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "keonta-porter-coffee-county-2026-04-11",
+    "sourceId": 3785956,
+    "name": "Keonta Porter",
+    "county": "Coffee",
+    "charges": [
+      "DRIVING WITHOUT A VALID LICENSE"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:42:53",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/keonta-porter/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/PORTER-KEONTA-JAMAL-RASHAAD.jpg",
+    "rewrite": "Keonta Porter was booked into the Coffee County jail on April 11, 2026, on a charge of driving without a valid license. The charge is alleged to have occurred in Coffee County, Georgia.\n\nDriving without a valid license is a misdemeanor offense in Georgia. Depending on the specific circumstances and any prior violations, penalties may include fines, license suspension, and possible jail time. This charge is one of the more common traffic-related offenses processed through Georgia's criminal justice system.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "tina-poke-shaw-coffee-county-2026-04-11",
+    "sourceId": 3785954,
+    "name": "Tina Poke-Shaw",
+    "county": "Coffee",
+    "charges": [
+      "DRIVING WHILE LICENSE SUSPENDED OR REVOKED"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:42:51",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/tina-poke-shaw-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/POKE-SHAW-TINA.jpg",
+    "rewrite": "Tina Poke-Shaw was booked into the Coffee County jail on April 11, 2026, and was charged with driving while license suspended or revoked. The charge is a misdemeanor offense under Georgia law.\n\nDriving with a suspended or revoked license is classified as a misdemeanor in Georgia. First-time offenders convicted of this charge may face penalties including fines, potential jail time of up to 12 months, license suspension, and mandatory court costs. The severity of penalties often depends on the reason for the initial license suspension or revocation and the defendant's driving history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "devin-francis-lott-coffee-county-2026-04-11",
+    "sourceId": 3785952,
+    "name": "Devin Francis Lott",
+    "county": "Coffee",
+    "charges": [
+      "POSSESSION OF METHAMPHETAMINE POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:42:48",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/devin-francis-lott/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/FRANCIS-LOTT-DEVIN-BROOKE.jpg",
+    "rewrite": "Devin Francis Lott was booked into the Coffee County jail on April 11, 2026, and was charged with possession of methamphetamine and possession of a Schedule I controlled substance. Both charges are felony-level offenses under Georgia law.\n\nIn Georgia, felony drug possession charges carry significant statutory consequences. Possession of methamphetamine is typically prosecuted as a felony drug offense, with sentencing ranges that can include imprisonment and substantial fines depending on the quantity involved and the defendant's criminal history. Schedule I controlled substances represent drugs classified by the federal government as having no accepted medical use and a high potential for abuse. Conviction on these charges can result in felony records that affect employment, housing, and professional licensing opportunities.",
+    "severity": "felony"
+  },
+  {
+    "slug": "marvin-ford-coffee-county-2026-04-11",
+    "sourceId": 3785950,
+    "name": "Marvin Ford",
+    "county": "Coffee",
+    "charges": [
+      "RECKLESS CONDUCT"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:42:44",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/marvin-ford-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/FORD-MARVIN.jpg",
+    "rewrite": "Marvin Ford was booked into the Coffee County jail on April 11, 2026, and was charged with reckless conduct. The specific circumstances of the incident were not detailed in available booking records.\n\nReckless conduct is classified as a misdemeanor under Georgia law. A conviction on this charge can result in penalties including a fine of up to one thousand dollars, imprisonment of up to twelve months, or both. The offense typically involves conduct that demonstrates a conscious disregard for the safety of others. Like all individuals charged with a crime, Ford is presumed innocent unless and until proven guilty in a court of law.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "akeisha-fletcher-coffee-county-2026-04-11",
+    "sourceId": 3785948,
+    "name": "Akeisha Fletcher",
+    "county": "Coffee",
+    "charges": [
+      "NO INSURANCE KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED",
+      "CANCELED",
+      "OR REVOKED REGISTRATION"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-16T09:42:39",
+    "sourceUrl": "https://thegeorgiagazette.com/coffee/akeisha-fletcher/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/FLETCHER-AKEISHA-DARNELL.jpg",
+    "rewrite": "Akeisha Fletcher was booked into the Coffee County jail on April 11, 2026, and was charged with knowingly driving a motor vehicle without insurance while operating the vehicle on a suspended, canceled, or revoked registration. The charge is a misdemeanor-level offense.\n\nDriving without required insurance and operating a vehicle with suspended or invalid registration are misdemeanor violations under Georgia law. These offenses carry potential penalties including fines and possible jail time. Such charges typically address vehicle registration and insurance compliance requirements established to ensure public safety on Georgia roadways.",
+    "severity": "misdemeanor"
   },
   {
     "slug": "stephanie-johnson-towns-county-2026-04-11",
@@ -1425,6 +1965,267 @@
     "severity": "misdemeanor"
   },
   {
+    "slug": "alexis-sparry-troup-county-2026-04-09",
+    "sourceId": 3787302,
+    "name": "Alexis Sparry",
+    "county": "Troup",
+    "charges": [
+      "OBSTRUCTION AND INTERFERENCE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:24",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/alexis-sparry-7/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Sparry-Alexis-Nichole.jpg",
+    "rewrite": "Alexis Sparry was booked into custody in Troup County, Georgia on April 9, 2026, and was charged with obstruction and interference. The specific circumstances surrounding the booking were not provided in the available record.\n\nObstruction and interference charges in Georgia are classified as serious misdemeanors, typically involving actions that impede law enforcement or public officials in the performance of their duties. Under Georgia law, serious misdemeanor convictions can result in sentences of up to 12 months in jail, fines up to $1,000, or both. The specific facts of each case, including the defendant's prior record and the nature of the alleged conduct, generally influence sentencing outcomes.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "wesley-white-troup-county-2026-04-09",
+    "sourceId": 3787303,
+    "name": "Wesley White",
+    "county": "Troup",
+    "charges": [
+      "PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:23",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/wesley-white-8/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/White-Wesley-Charles-William.jpg",
+    "rewrite": "Wesley White was booked into the Troup County jail on April 9, 2026, on a charge of probation violation when probation terms are altered for a fingerprintable charge. The alleged violation occurred when the terms of White's existing probation were modified, triggering the misdemeanor charge.\n\nProbation violation charges in Georgia arise when a defendant fails to comply with the conditions of their probation sentence. When probation terms are altered, violations can occur if the defendant does not adjust to or comply with the modified conditions. As a misdemeanor offense, this charge carries potential penalties including fines and additional jail time, though the specific sentence depends on the underlying fingerprintable offense and the nature of the violation. Probation violations are handled through the court system that originally imposed the probation.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jmonte-shephard-troup-county-2026-04-09",
+    "sourceId": 3787301,
+    "name": "J’Monte Shephard",
+    "county": "Troup",
+    "charges": [
+      "PRODUCTION ORDER/BROUGHT BACK FOR COURT"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:23",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/jmonte-shephard-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Shephard-JMonte-Demario.jpg",
+    "rewrite": "J'Monte Shephard was booked into custody in Troup County, Georgia on April 9, 2026, on a charge of production order/brought back for court. The specific circumstances of the booking were not detailed in available records.\n\nA production order/brought back for court charge is typically a misdemeanor-level offense in Georgia that occurs when a defendant fails to appear or comply with court directives and is subsequently apprehended. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in county jail, fines up to $1,000, or both, depending on the particular circumstances and the defendant's criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "tritez-pollard-troup-county-2026-04-09",
+    "sourceId": 3787300,
+    "name": "Tritez Pollard",
+    "county": "Troup",
+    "charges": [
+      "PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:22",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/tritez-pollard-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Pollard-Tritez-Quartavious.jpg",
+    "rewrite": "Tritez Pollard was booked into custody in Troup County, Georgia on April 9, 2026, on a charge of probation violation related to altered probation terms for a fingerprintable charge. The booking record indicates the charge was classified as a misdemeanor.\n\nProbation violations occur when a defendant fails to comply with the terms of a probation sentence imposed by a court. In Georgia, violations can result in various consequences ranging from a warning to revocation of probation and incarceration. The specific circumstances of how the probation terms were altered, as well as the underlying fingerprintable offense that originally resulted in probation, would typically be evaluated by the court in determining appropriate sanctions.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jaquavius-perryman-troup-county-2026-04-09",
+    "sourceId": 3787299,
+    "name": "Jaquavius Perryman",
+    "county": "Troup",
+    "charges": [
+      "POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCE RECEIPT",
+      "POSSESSION OR TRANSPORT OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDER",
+      "ETC POSSESSION OF A SCHEDULE IV CONTROLLED SUBSTANCE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:22",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/jaquavius-perryman-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Perryman-Jaquavius-Mandrell.jpg",
+    "rewrite": "Jaquavius Perryman was booked into Troup County, Georgia on April 9, 2026. He was charged with possession of a Schedule II controlled substance receipt, possession or transport of a firearm by a convicted felon or felony first offender, and possession of a Schedule IV controlled substance. These charges are classified as felonies.\n\nPossession of Schedule II and Schedule IV controlled substances are felony offenses in Georgia that carry potential imprisonment and fines depending on the quantity and specific substance involved. The charge of firearm possession by a convicted felon or felony first offender is a separate felony offense under Georgia law, with statutory penalties including mandatory minimum sentences in many cases. The combination of drug and firearm-related charges reflects enforcement priorities in Georgia counties regarding public safety and drug-related criminal activity.",
+    "severity": "felony"
+  },
+  {
+    "slug": "barbara-newsom-troup-county-2026-04-09",
+    "sourceId": 3787298,
+    "name": "Barbara Newsom",
+    "county": "Troup",
+    "charges": [
+      "POSSESSION OF MARIJUANA",
+      "MORE THAN AN OUNCE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:21",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/barbara-newsom-2/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Newsom-Barbara-Ann.jpg",
+    "rewrite": "Barbara Newsom was booked into the Troup County jail on April 9, 2026, and was charged with possession of marijuana in an amount exceeding one ounce. The charge was classified as a serious misdemeanor under Georgia law.\n\nUnder Georgia Code Section 16-13-30, possession of more than one ounce of marijuana constitutes a serious misdemeanor offense. Conviction on this charge carries potential penalties of up to 12 months in jail, a fine of up to $1,000, or both. Serious misdemeanors represent a more significant classification than simple misdemeanors but fall below felony-level charges. Depending on individual circumstances, defendants may be eligible for pretrial diversion programs or drug court options in some Georgia counties.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "chyna-miles-troup-county-2026-04-09",
+    "sourceId": 3787297,
+    "name": "Chyna Miles",
+    "county": "Troup",
+    "charges": [
+      "WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS BY USE OF THREATS OR VIOLENCE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:20",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/chyna-miles/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Miles-Chyna-Leigh.jpg",
+    "rewrite": "Chyna Miles was booked into the Troup County jail on April 9, 2026, and was charged with willful obstruction of law enforcement officers by use of threats or violence. The charge is classified as a serious misdemeanor under Georgia law.\n\nWillful obstruction of law enforcement by threats or violence is codified under O.C.G.A. 16-8-21 and carries penalties that may include imprisonment and fines. In Georgia, this offense is punishable by up to twelve months in jail, a fine of up to one thousand dollars, or both. The statute applies when a person knowingly and willfully resists, obstructs, or opposes a law enforcement officer in the lawful discharge of official duties through the use of threats or violence. Conviction of a misdemeanor offense in Georgia becomes part of a person's criminal record and can affect employment, housing, and other opportunities.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "andony-maldonado-morales-troup-county-2026-04-09",
+    "sourceId": 3787296,
+    "name": "Andony Maldonado-Morales",
+    "county": "Troup",
+    "charges": [
+      "DRIVING WITHOUT A VALID LICENSE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:20",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/andony-maldonado-morales/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Maldonado-Morales-Andony-Fabian.jpg",
+    "rewrite": "Andony Maldonado-Morales was booked into the Troup County jail on April 9, 2026, and was charged with driving without a valid license. According to booking records, the arrest took place in Troup County, Georgia.\n\nDriving without a valid license is classified as a misdemeanor offense in Georgia. Typical statutory consequences for this violation include fines, potential jail time of up to 12 months, driver's license suspension, and possible probation, depending on the defendant's prior driving record and criminal history. First-time offenders generally face less severe penalties than repeat offenders.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "pablo-bautista-leslyn-troup-county-2026-04-09",
+    "sourceId": 3787295,
+    "name": "Pablo-Bautista Leslyn",
+    "county": "Troup",
+    "charges": [
+      "DRIVING WITHOUT A VALID LICENSE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:19",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/pablo-bautista-leslyn/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Leslyn-Pablo-Bautista-Yanira.jpg",
+    "rewrite": "Pablo-Bautista Leslyn was booked into the Troup County jail on April 9, 2026, and was charged with driving without a valid license. The charge is classified as a misdemeanor under Georgia law.\n\nDriving without a valid license is a common traffic-related misdemeanor in Georgia. Individuals convicted of this offense may face penalties including fines, license suspension, or jail time, depending on factors such as prior violations and the specific circumstances of the stop. Georgia law requires all drivers to maintain a valid driver's license while operating a motor vehicle on public roads.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "cardarius-leonard-troup-county-2026-04-09",
+    "sourceId": 3787294,
+    "name": "Cardarius Leonard",
+    "county": "Troup",
+    "charges": [
+      "PRODUCTION ORDER/BROUGHT BACK FOR COURT"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:19",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/cardarius-leonard-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Leonard-Cardarius-Daiquan.jpg",
+    "rewrite": "Cardarius Leonard was booked into the Troup County jail on April 9, 2026, on a charge of production order/brought back for court. The charge is classified as a misdemeanor under Georgia law.\n\nA production order in Georgia typically relates to a defendant's failure to appear in court or violation of a court directive requiring the defendant's presence or compliance with specific conditions. When a defendant is brought back for court on a production order, it generally indicates law enforcement executed a warrant or order to return the individual to court proceedings. Misdemeanor charges in Georgia carry potential penalties including fines, jail time up to 12 months, or both, depending on the specific circumstances and prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "gerald-gibson-troup-county-2026-04-09",
+    "sourceId": 3787293,
+    "name": "Gerald Gibson",
+    "county": "Troup",
+    "charges": [
+      "PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:18",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/gerald-gibson-10/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Gibson-Gerald-Edward.jpg",
+    "rewrite": "Gerald Gibson was booked into the Troup County jail on April 9, 2026, on a charge of probation violation related to altered probation terms for a fingerprintable charge. The booking was processed at the Troup County detention facility and classified as a misdemeanor violation.\n\nProbation violations occur when a defendant fails to comply with the terms and conditions established by the court during a period of supervised release. In Georgia, when probation terms are modified or altered, violations of those adjusted conditions remain actionable offenses. Misdemeanor probation violations typically carry potential consequences including additional jail time, extended probation periods, or revocation of the original probation sentence, depending on the nature of the underlying offense and the specific violation circumstances.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "sidney-farley-troup-county-2026-04-09",
+    "sourceId": 3787292,
+    "name": "Sidney Farley",
+    "county": "Troup",
+    "charges": [
+      "DRIVING WHILE LICENSE SUSPENDED OR REVOKED OBSTRUCTION (CITY) RECKLESS DRIVING"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:18",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/sidney-farley-10/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Farley-Sidney-Juwan.jpg",
+    "rewrite": "Sidney Farley was booked into the Troup County jail on April 9, 2026, and was charged with driving while license suspended or revoked, obstruction (city), and reckless driving. The charges were classified as serious misdemeanors. Farley is alleged to have committed these offenses in Troup County.\n\nSerious misdemeanor charges in Georgia carry potential penalties including fines and imprisonment. Driving with a suspended or revoked license is typically punishable by up to 12 months in jail and fines up to $1,000 for a first offense, with enhanced penalties for repeat violations. Reckless driving is similarly classified as a serious misdemeanor, with potential consequences of imprisonment and fines. Obstruction charges relate to alleged interference with law enforcement duties. The specific circumstances and any prior criminal history would be considered during adjudication of these charges.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "amillion-dunn-troup-county-2026-04-09",
+    "sourceId": 3787291,
+    "name": "A’Million Dunn",
+    "county": "Troup",
+    "charges": [
+      "FAILURE TO APPEAR &#8211",
+      "LAGRANGE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:17",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/amillion-dunn-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Dunn-AMillion-High-King-1.jpg",
+    "rewrite": "A'Million Dunn was booked into custody in Troup County, Georgia on April 9, 2026, and is alleged to have committed failure to appear in connection with a case in LaGrange. The charge is classified as a misdemeanor under Georgia law.\n\nFailure to appear charges occur when a defendant does not show up for a scheduled court appearance. Misdemeanor offenses in Georgia carry potential consequences including fines, jail time of up to 12 months, or both, depending on the circumstances and the defendant's prior criminal history. Such charges are typically handled in magistrate or state court, and courts may issue bench warrants or increase bail requirements when defendants fail to appear as ordered.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "antonia-dunlap-troup-county-2026-04-09",
+    "sourceId": 3787290,
+    "name": "Antonia Dunlap",
+    "county": "Troup",
+    "charges": [
+      "AGGRAVATED STALKING"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:17",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/antonia-dunlap-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Dunlap-Antonia-Maurice.jpg",
+    "rewrite": "Antonia Dunlap was booked into the Troup County jail on April 9, 2026, and was charged with aggravated stalking. According to booking records, she is alleged to have committed conduct that meets the statutory definition of this offense.\n\nAggravated stalking is classified as a misdemeanor under Georgia law. This charge typically involves repeated conduct directed at another person that causes reasonable apprehension of bodily harm or places the person in reasonable apprehension of such harm. Misdemeanor convictions in Georgia can result in penalties including incarceration for up to twelve months, fines, or both, depending on the specific circumstances and any prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "makenzie-carter-troup-county-2026-04-09",
+    "sourceId": 3787289,
+    "name": "Makenzie Carter",
+    "county": "Troup",
+    "charges": [
+      "DRIVING WHILE LICENSE SUSPENDED OR REVOKED SPEEDING 15-18 MPH OVER SPEED LIMIT FAILURE TO APPEAR &#8211",
+      "HOGANSVILLE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:16",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/makenzie-carter-3/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Carter-Makenzie-Lou-Ann.jpg",
+    "rewrite": "Makenzie Carter was booked into the Troup County jail on April 9, 2026. Carter was charged with driving while license suspended or revoked, speeding 15-18 miles per hour over the speed limit, and failure to appear in Hogansville. All charges are classified as misdemeanors.\n\nDriving with a suspended or revoked license is a common misdemeanor offense in Georgia, typically resulting from unpaid fines, traffic violations, or administrative actions by the Department of Driver Services. Speeding violations of this magnitude are also handled as misdemeanors in most cases. Failure to appear charges stem from missing a court date and can result in additional penalties. Misdemeanor convictions in Georgia may result in fines, jail time of up to 12 months, probation, or a combination of these penalties, depending on the specific circumstances and the defendant's prior record.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "antonio-burton-troup-county-2026-04-09",
+    "sourceId": 3787287,
+    "name": "Antonio Burton",
+    "county": "Troup",
+    "charges": [
+      "SENTENCED STATE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:15",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/antonio-burton-7/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Burton-Antonio-Clifford.jpg",
+    "rewrite": "Antonio Burton was booked into the Troup County jail system on April 9, 2026, following a sentencing order related to a misdemeanor conviction. The booking was processed as a sentenced state case, indicating that the individual had completed court proceedings and was being remanded to custody to serve the imposed sentence.\n\nMisdemeanor convictions in Georgia carry potential penalties of up to 12 months in jail and fines up to $1,000, though judges have discretion in sentencing based on the specific offense and circumstances. A \"sentenced state\" designation indicates the offender was committed to the custody of the Georgia Department of Corrections rather than remaining under county jurisdiction, which typically occurs when the sentence exceeds local facility capacity or when state custody is deemed appropriate under Georgia law.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "kylie-benefield-troup-county-2026-04-09",
+    "sourceId": 3787286,
+    "name": "Kylie Benefield",
+    "county": "Troup",
+    "charges": [
+      "FAILURE TO APPEAR &#8211",
+      "LAGRANGE"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-16T09:58:15",
+    "sourceUrl": "https://thegeorgiagazette.com/troup/kylie-benefield/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Benefield-Kylie-Diane.jpg",
+    "rewrite": "Kylie Benefield was booked into custody in Troup County, Georgia on April 9, 2026, and was charged with failure to appear in LaGrange. Benefield is alleged to have failed to appear as required in connection with a prior legal matter.\n\nFailure to appear is classified as a misdemeanor offense in Georgia. When a defendant fails to appear for a scheduled court date, it may result in additional charges and can lead to the issuance of a bench warrant. Potential consequences for a misdemeanor failure to appear conviction in Georgia can include fines, jail time of up to twelve months, or both, depending on the circumstances and any prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
     "slug": "desmond-morris-coffee-county-2026-04-09",
     "sourceId": 3784641,
     "name": "Desmond Morris",
@@ -1549,6 +2350,36 @@
     "sourceUrl": "https://thegeorgiagazette.com/towns/douglas-shook/",
     "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Shook-Douglas-Ken.jpg",
     "rewrite": "Douglas Shook was booked into the Towns County jail on April 8, 2026, on charges of driving under the influence of alcohol and open container in vehicle. The specific circumstances of the arrest were not detailed in the booking record.\n\nDUI offenses in Georgia are classified as misdemeanors for first-time offenders, though they carry serious statutory consequences. A conviction for DUI can result in a fine of up to $1,000, license suspension, required completion of a DUI education program, and possible jail time depending on aggravating factors. Open container violations, which prohibit open alcoholic beverages in vehicle passenger areas, carry separate penalties. These charges are taken seriously under Georgia law due to public safety concerns associated with impaired driving.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "william-schultz-pike-county-2026-04-06",
+    "sourceId": 3787272,
+    "name": "William Schultz",
+    "county": "Pike",
+    "charges": [
+      "CONTRIBUTING TO THE DELINQUENCY OF A MINOR."
+    ],
+    "bookingDate": "2026-04-06",
+    "publishedAt": "2026-04-16T09:49:17",
+    "sourceUrl": "https://thegeorgiagazette.com/pike/william-schultz/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Schultz-William.jpg",
+    "rewrite": "William Schultz was booked into Pike County, Georgia custody on April 6, 2026, and was charged with contributing to the delinquency of a minor. The specific circumstances of the booking were not detailed in available records.\n\nContributing to the delinquency of a minor is classified as a misdemeanor under Georgia law. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in jail, fines, or both, depending on the particulars of the case and any prior criminal history. The statute is designed to protect minors and hold adults accountable for actions or omissions that encourage or facilitate a minor's delinquent conduct.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "nhacea-patterson-pike-county-2026-04-06",
+    "sourceId": 3787271,
+    "name": "Nhacea Patterson",
+    "county": "Pike",
+    "charges": [
+      "DRIVING UNDER THE INFLUENCE RECKLESS DRIVING SPEEDING"
+    ],
+    "bookingDate": "2026-04-06",
+    "publishedAt": "2026-04-16T09:49:15",
+    "sourceUrl": "https://thegeorgiagazette.com/pike/nhacea-patterson/",
+    "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Patterson-Nhacea-Marie.jpg",
+    "rewrite": "Nhacea Patterson was booked into the Pike County, Georgia detention facility on April 6, 2026, on charges of driving under the influence, reckless driving, and speeding. Patterson is alleged to have committed these offenses and was charged accordingly at the time of booking.\n\nDriving under the influence is classified as a serious misdemeanor in Georgia and carries potential penalties including fines, license suspension, and possible jail time, depending on prior convictions and case circumstances. Reckless driving and speeding charges are also treated seriously under Georgia law, as they relate to vehicle operation and public safety. The combination of these charges suggests a traffic-related incident that resulted in multiple violations being cited by law enforcement.",
     "severity": "serious_misdemeanor"
   },
   {
