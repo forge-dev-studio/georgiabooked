@@ -20,7 +20,7 @@ for (const c of counties) {
   const link = url(`/counties/${c.slug}/`);
   const title = `${c.name} County - ${count} this week`;
   annotated = annotated.replace(
-    new RegExp(`<path id="county-${c.slug}"([^/]*?)/>`, 's'),
+    new RegExp(`<path id="county-${c.slug}"([^>]*?)>\\s*<title>[^<]*</title>\\s*</path>`, 's'),
     `<a href="${link}"><path id="county-${c.slug}"$1 style="fill:rgba(220,38,38,${alpha});cursor:pointer"><title>${title}</title></path></a>`
   );
 }
