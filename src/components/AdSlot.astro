@@ -1,0 +1,29 @@
+---
+export interface Props {
+  placement: 'header-banner' | 'sidebar-rectangle' | 'inline-native' | 'footer-banner';
+  county?: string;
+}
+
+const { placement, county } = Astro.props;
+
+const dims: Record<Props['placement'], { w: number; h: number; label: string }> = {
+  'header-banner': { w: 728, h: 90, label: 'Sponsored: 728x90 banner' },
+  'sidebar-rectangle': { w: 300, h: 250, label: 'Sponsored: 300x250' },
+  'inline-native': { w: 0, h: 0, label: 'Native sponsored content' },
+  'footer-banner': { w: 728, h: 90, label: 'Sponsored: footer banner' },
+};
+
+const { w, h, label } = dims[placement];
+---
+<div class="ad-slot my-4" data-placement={placement} data-county={county}>
+  <div class="text-[10px] uppercase tracking-wider text-textMuted mb-1 text-right">Advertisement</div>
+  <div
+    class="border border-dashed border-border bg-surfaceAlt/40 flex items-center justify-center text-textMuted text-xs"
+    style={w > 0 ? `max-width:${w}px;min-height:${h}px;margin:0 auto;` : 'min-height:80px;'}
+  >
+    <span>{label}</span>
+    {placement === 'sidebar-rectangle' && (
+      <a href="/advertise" class="ml-2 text-gold hover:underline">Advertise here</a>
+    )}
+  </div>
+</div>

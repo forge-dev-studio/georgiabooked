@@ -1,0 +1,16 @@
+---
+import { SEVERITY_LABEL, SEVERITY_COLOR, type Severity } from '@lib/severity';
+
+export interface Props {
+  severity: Severity;
+  size?: 'sm' | 'md';
+}
+
+const { severity, size = 'md' } = Astro.props;
+const label = SEVERITY_LABEL[severity];
+const color = SEVERITY_COLOR[severity];
+const sizeClass = size === 'sm' ? 'text-[10px] px-1.5 py-0.5' : 'text-xs px-2 py-1';
+---
+<span class={`inline-flex items-center border font-medium uppercase tracking-wider ${color} ${sizeClass}`}>
+  {label}
+</span>

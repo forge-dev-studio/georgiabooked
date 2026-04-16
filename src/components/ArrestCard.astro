@@ -1,0 +1,45 @@
+---
+import type { ArrestRecord } from '../../scripts/merge';
+import SeverityChip from './SeverityChip.astro';
+
+export interface Props {
+  arrest: ArrestRecord;
+}
+
+const { arrest } = Astro.props;
+const excerpt = arrest.rewrite.split('\n')[0].slice(0, 180);
+const dateDisplay = new Date(arrest.bookingDate + 'T00:00:00').toLocaleDateString('en-US', {
+  month: 'short', day: 'numeric', year: 'numeric',
+});
+---
+<a href={`/arrests/${arrest.slug}/`} class="card group flex gap-4 block">
+  {arrest.mugshotUrl ? (
+    <img
+      src={arrest.mugshotUrl}
+      alt={`Booking photo of ${arrest.name}`}
+      loading="lazy"
+      class="w-20 h-20 object-cover border border-border flex-shrink-0 grayscale group-hover:grayscale-0 transition"
+    />
+  ) : (
+    <div class="w-20 h-20 bg-surfaceAlt border border-border flex items-center justify-center text-textMuted text-xs flex-shrink-0">
+      No photo
+    </div>
+  )}
+  <div class="flex-1 min-w-0">
+    <div class="flex items-center gap-2 mb-1">
+      <span class="text-[10px] uppercase tracking-widest text-gold font-semibold">
+        {arrest.county} County
+      </span>
+      <SeverityChip severity={arrest.severity} size="sm" />
+    </div>
+    <h3 class="font-serif text-lg font-semibold text-textPrimary leading-tight group-hover:text-crimson transition mb-1 truncate">
+      {arrest.name}
+    </h3>
+    <p class="text-sm text-textSecondary leading-relaxed line-clamp-2 mb-2">{excerpt}</p>
+    <div class="flex items-center gap-3 text-xs text-textMuted font-mono">
+      <span>Booked {dateDisplay}</span>
+      <span>·</span>
+      <span>{arrest.charges.length} {arrest.charges.length === 1 ? 'charge' : 'charges'}</span>
+    </div>
+  </div>
+</a>
