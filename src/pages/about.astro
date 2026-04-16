@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { url } from '@lib/url';
 ---
 <BaseLayout
   title="About + Editorial Standards - GeorgiaBooked"
@@ -29,7 +30,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
     <h2 class="font-serif text-2xl font-semibold mt-10 mb-3">Contact</h2>
     <p class="text-textPrimary leading-relaxed">
-      For factual corrections or takedowns: <a href="/takedown" class="text-crimson hover:underline">takedown form</a>.<br/>
+      For factual corrections or takedowns: <a href={url('/takedown')} class="text-crimson hover:underline">takedown form</a>.<br/>
       For press, partnership, or advertising inquiries: press@georgiabooked.com
     </p>
   </article>

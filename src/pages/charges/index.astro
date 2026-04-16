@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { SEVERITY_LABEL, type Severity } from '@lib/severity';
 import { loadArrests } from '@lib/data';
+import { url } from '@lib/url';
 
 const arrests = loadArrests();
 const countByCategory: Record<Severity, number> = {
@@ -21,7 +22,7 @@ for (const r of arrests) countByCategory[r.severity]++;
     <p class="text-lg text-textSecondary mb-8">Classified per Georgia statutory definitions.</p>
     <div class="grid md:grid-cols-2 gap-4">
       {(['violent_felony', 'felony', 'serious_misdemeanor', 'misdemeanor'] as const).map((sev) => (
-        <a href={`/charges/${sev.replace('_', '-')}/`} class="card hover:border-crimson">
+        <a href={url(`/charges/${sev.replace('_', '-')}/`)} class="card hover:border-crimson">
           <h2 class="font-serif text-2xl font-semibold mb-1">{SEVERITY_LABEL[sev]}</h2>
           <p class="text-textSecondary text-sm mb-3">
             {sev === 'violent_felony' && 'Murder, aggravated assault, kidnapping, armed robbery, family-violence battery.'}

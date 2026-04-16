@@ -1,6 +1,7 @@
 ---
 import type { ArrestRecord } from '../../scripts/merge';
 import SeverityChip from './SeverityChip.astro';
+import { url } from '@lib/url';
 
 export interface Props {
   arrest: ArrestRecord;
@@ -12,7 +13,7 @@ const dateDisplay = new Date(arrest.bookingDate + 'T00:00:00').toLocaleDateStrin
   month: 'short', day: 'numeric', year: 'numeric',
 });
 ---
-<a href={`/arrests/${arrest.slug}/`} class="card group flex gap-4 block">
+<a href={url(`/arrests/${arrest.slug}/`)} class="card group flex gap-4 block">
   {arrest.mugshotUrl ? (
     <img
       src={arrest.mugshotUrl}

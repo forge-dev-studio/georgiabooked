@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { loadArrests, countyHotness } from '@lib/data';
 import { counties } from '@lib/counties';
+import { url } from '@lib/url';
 
 const arrests = loadArrests();
 const hotness = countyHotness(arrests, 7);
@@ -16,7 +17,7 @@ for (const c of counties) {
   const count = hotness.get(c.name) ?? 0;
   const intensity = count / maxCount;
   const alpha = 0.05 + intensity * 0.75;
-  const link = `/counties/${c.slug}/`;
+  const link = url(`/counties/${c.slug}/`);
   const title = `${c.name} County - ${count} this week`;
   annotated = annotated.replace(
     new RegExp(`<path id="county-${c.slug}"([^/]*?)/>`, 's'),

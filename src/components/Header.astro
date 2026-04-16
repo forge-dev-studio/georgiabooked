@@ -1,24 +1,25 @@
 ---
 import { top20Counties } from '@lib/counties';
+import { url } from '@lib/url';
 ---
 <header class="sticky top-0 z-40 bg-base/95 backdrop-blur border-b border-border">
   <div class="max-w-site mx-auto px-4 py-3 flex items-center justify-between gap-4">
-    <a href="/" class="flex items-center gap-2">
-      <img src="/logo.svg" alt="GeorgiaBooked" class="h-7 w-auto" />
+    <a href={url('/')} class="flex items-center gap-2">
+      <img src={url('/logo.svg')} alt="GeorgiaBooked" class="h-7 w-auto" />
     </a>
     <nav class="flex items-center gap-6 text-sm">
       <div class="relative group">
         <button class="text-textSecondary hover:text-textPrimary">Counties</button>
         <div class="absolute right-0 top-full hidden group-hover:grid grid-cols-2 gap-1 bg-surface border border-border p-3 min-w-[320px]">
           {top20Counties.map((c) => (
-            <a href={`/counties/${c.slug}/`} class="text-xs hover:text-crimson px-2 py-1">{c.name}</a>
+            <a href={url(`/counties/${c.slug}/`)} class="text-xs hover:text-crimson px-2 py-1">{c.name}</a>
           ))}
-          <a href="/counties/" class="text-xs font-semibold text-gold px-2 py-1 col-span-2 border-t border-border mt-1 pt-2">All counties</a>
+          <a href={url('/counties/')} class="text-xs font-semibold text-gold px-2 py-1 col-span-2 border-t border-border mt-1 pt-2">All counties</a>
         </div>
       </div>
-      <a href="/charges/" class="text-textSecondary hover:text-textPrimary hidden md:inline">Charges</a>
-      <a href="/about" class="text-textSecondary hover:text-textPrimary hidden md:inline">About</a>
-      <a href="/search" class="text-textSecondary hover:text-textPrimary flex items-center gap-1">
+      <a href={url('/charges/')} class="text-textSecondary hover:text-textPrimary hidden md:inline">Charges</a>
+      <a href={url('/about')} class="text-textSecondary hover:text-textPrimary hidden md:inline">About</a>
+      <a href={url('/search')} class="text-textSecondary hover:text-textPrimary flex items-center gap-1">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <span class="hidden md:inline">Search</span>
       </a>

@@ -1,10 +1,11 @@
 ---
+import { url } from '@lib/url';
 const year = new Date().getFullYear();
 ---
 <footer class="border-t border-border mt-20 py-10 bg-base">
   <div class="max-w-site mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm text-textSecondary">
     <div>
-      <img src="/logo.svg" alt="GeorgiaBooked" class="h-6 mb-3" />
+      <img src={url('/logo.svg')} alt="GeorgiaBooked" class="h-6 mb-3" />
       <p class="text-xs text-textMuted leading-relaxed">
         Public records journalism for Georgia. All individuals named are presumed innocent until proven guilty in a court of law.
       </p>
@@ -12,17 +13,17 @@ const year = new Date().getFullYear();
     <div>
       <h4 class="text-textPrimary font-semibold mb-3 text-xs uppercase tracking-wider">Explore</h4>
       <ul class="space-y-2">
-        <li><a href="/" class="hover:text-crimson">Home</a></li>
-        <li><a href="/counties/" class="hover:text-crimson">Counties</a></li>
-        <li><a href="/charges/" class="hover:text-crimson">Charges</a></li>
-        <li><a href="/search" class="hover:text-crimson">Search</a></li>
+        <li><a href={url('/')} class="hover:text-crimson">Home</a></li>
+        <li><a href={url('/counties/')} class="hover:text-crimson">Counties</a></li>
+        <li><a href={url('/charges/')} class="hover:text-crimson">Charges</a></li>
+        <li><a href={url('/search')} class="hover:text-crimson">Search</a></li>
       </ul>
     </div>
     <div>
       <h4 class="text-textPrimary font-semibold mb-3 text-xs uppercase tracking-wider">Editorial</h4>
       <ul class="space-y-2">
-        <li><a href="/about" class="hover:text-crimson">About + Standards</a></li>
-        <li><a href="/takedown" class="hover:text-crimson">Takedown Request</a></li>
+        <li><a href={url('/about')} class="hover:text-crimson">About + Standards</a></li>
+        <li><a href={url('/takedown')} class="hover:text-crimson">Takedown Request</a></li>
       </ul>
     </div>
     <div>

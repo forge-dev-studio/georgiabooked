@@ -8,18 +8,21 @@ import AdSlot from '@components/AdSlot.astro';
 import { loadArrests, recentArrests, countyHotness } from '@lib/data';
 import { counties } from '@lib/counties';
 import { websiteSchema } from '@lib/schema';
+import { url } from '@lib/url';
 
 const all = loadArrests();
 const latest = recentArrests(all, 24);
 const hot = Array.from(countyHotness(all, 7).entries())
   .sort((a, b) => b[1] - a[1])
   .slice(0, 10);
-const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked.com';
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://forge-dev-studio.github.io';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteBase = `${site}${baseUrl}`;
 ---
 <BaseLayout
   title="GeorgiaBooked - Live Georgia Arrest Records, County by County"
   description="Track every jail booking across all 159 Georgia counties. Searchable by name, county, and charge. Updated hourly from public records."
-  jsonLd={websiteSchema(site)}
+  jsonLd={websiteSchema(siteBase)}
 >
   <LiveTicker />
 
@@ -43,7 +46,7 @@ const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked
   <section class="max-w-site mx-auto px-4 mb-10">
     <div class="flex items-baseline justify-between mb-5">
       <h2 class="font-serif text-3xl font-semibold">Latest Arrests</h2>
-      <a href="/counties/" class="text-sm text-gold hover:underline">Browse by county</a>
+      <a href={url('/counties/')} class="text-sm text-gold hover:underline">Browse by county</a>
     </div>
     {latest.length === 0 ? (
       <p class="text-textSecondary py-10 text-center border border-border">
@@ -69,7 +72,7 @@ const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked
           const c = counties.find((x) => x.name === name);
           if (!c) return null;
           return (
-            <a href={`/counties/${c.slug}/`} class="card flex items-center justify-between hover:border-crimson">
+            <a href={url(`/counties/${c.slug}/`)} class="card flex items-center justify-between hover:border-crimson">
               <div>
                 <div class="font-serif font-semibold text-textPrimary">{c.name}</div>
                 <div class="text-xs text-textMuted">{c.seat}</div>

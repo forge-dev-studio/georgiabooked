@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { counties } from '@lib/counties';
 import { loadArrests, countyHotness } from '@lib/data';
+import { url } from '@lib/url';
 
 const arrests = loadArrests();
 const hotness = countyHotness(arrests, 30);
@@ -39,7 +40,7 @@ const rows = counties.map((c) => ({
           {rows.map((r) => (
             <tr class="border-b border-border hover:bg-surface">
               <td class="px-4 py-2">
-                <a href={`/counties/${r.slug}/`} class="font-semibold text-textPrimary hover:text-crimson">
+                <a href={url(`/counties/${r.slug}/`)} class="font-semibold text-textPrimary hover:text-crimson">
                   {r.name} {r.top20 && <span class="text-gold text-[10px] ml-1">*</span>}
                 </a>
               </td>

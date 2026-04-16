@@ -3,7 +3,8 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://georgiabooked.com',
+  site: 'https://forge-dev-studio.github.io',
+  base: '/georgiabooked',
   integrations: [
     tailwind({ applyBaseStyles: false }),
     sitemap({

@@ -7,6 +7,7 @@ import { loadArrests, arrestsByCounty } from '@lib/data';
 import { newsArticleSchema, breadcrumbSchema } from '@lib/schema';
 import { SEVERITY_LABEL } from '@lib/severity';
 import { slugifyCounty } from '@lib/counties';
+import { url } from '@lib/url';
 
 export async function getStaticPaths() {
   const arrests = loadArrests();
@@ -14,8 +15,10 @@ export async function getStaticPaths() {
 }
 
 const { arrest } = Astro.props;
-const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked.com';
-const canonical = `${site}/arrests/${arrest.slug}/`;
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://forge-dev-studio.github.io';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteBase = `${site}${baseUrl}`;
+const canonical = `${siteBase}/arrests/${arrest.slug}/`;
 const countySlug = slugifyCounty(arrest.county);
 const allArrests = loadArrests();
 const related = arrestsByCounty(allArrests, arrest.county)
@@ -28,10 +31,10 @@ const dateDisplay = new Date(arrest.bookingDate + 'T00:00:00').toLocaleDateStrin
 const paragraphs = arrest.rewrite.split(/\n\n+/);
 
 const schema = [
-  newsArticleSchema(arrest, site),
+  newsArticleSchema(arrest, siteBase),
   breadcrumbSchema([
-    { name: 'Home', url: site },
-    { name: `${arrest.county} County`, url: `${site}/counties/${countySlug}/` },
+    { name: 'Home', url: siteBase },
+    { name: `${arrest.county} County`, url: `${siteBase}/counties/${countySlug}/` },
     { name: arrest.name, url: canonical },
   ]),
 ];
@@ -40,21 +43,21 @@ const schema = [
   title={`${arrest.name} booked in ${arrest.county} County, Georgia - ${arrest.bookingDate}`}
   description={`${arrest.name} was booked in ${arrest.county} County, Georgia on ${arrest.bookingDate} and charged with ${arrest.charges.slice(0, 3).join(', ')}.`}
   canonical={canonical}
-  ogImage={`${site}/og/${arrest.slug}.png`}
+  ogImage={`${siteBase}/og/${arrest.slug}.png`}
   jsonLd={schema}
 >
   <article class="max-w-3xl mx-auto px-4 py-10">
     <nav class="text-xs text-textMuted uppercase tracking-widest mb-6">
-      <a href="/" class="hover:text-crimson">Home</a>
+      <a href={url('/')} class="hover:text-crimson">Home</a>
       <span class="mx-2">/</span>
-      <a href={`/counties/${countySlug}/`} class="hover:text-crimson">{arrest.county} County</a>
+      <a href={url(`/counties/${countySlug}/`)} class="hover:text-crimson">{arrest.county} County</a>
       <span class="mx-2">/</span>
       <span class="text-textSecondary">{arrest.name}</span>
     </nav>
 
     <header class="mb-8">
       <div class="flex items-center gap-2 mb-3">
-        <a href={`/counties/${countySlug}/`} class="text-xs uppercase tracking-widest text-gold font-semibold hover:underline">
+        <a href={url(`/counties/${countySlug}/`)} class="text-xs uppercase tracking-widest text-gold font-semibold hover:underline">
           {arrest.county} County
         </a>
         <span class="text-textMuted">·</span>
@@ -109,7 +112,7 @@ const schema = [
       </p>
       <p class="mt-2">
         If you believe this record is inaccurate or your charges have been dismissed/expunged,
-        <a href="/takedown" class="text-gold hover:underline">request a correction or takedown</a>.
+        <a href={url('/takedown')} class="text-gold hover:underline">request a correction or takedown</a>.
       </p>
     </section>
   </article>

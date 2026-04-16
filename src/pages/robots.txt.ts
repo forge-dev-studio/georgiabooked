@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 
-const SITE = 'https://georgiabooked.com';
+const SITE = 'https://forge-dev-studio.github.io/georgiabooked';
 
 export const GET: APIRoute = () =>
   new Response(

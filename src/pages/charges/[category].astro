@@ -4,6 +4,7 @@ import ArrestCard from '@components/ArrestCard.astro';
 import AdSlot from '@components/AdSlot.astro';
 import { SEVERITY_LABEL, type Severity } from '@lib/severity';
 import { loadArrests } from '@lib/data';
+import { url } from '@lib/url';
 
 export async function getStaticPaths() {
   const slugs = ['violent-felony', 'felony', 'serious-misdemeanor', 'misdemeanor'];
@@ -29,9 +30,9 @@ const arrests = loadArrests().filter((r) => r.severity === severity);
 >
   <section class="max-w-site mx-auto px-4 py-10">
     <nav class="text-xs text-textMuted uppercase tracking-widest mb-4">
-      <a href="/" class="hover:text-crimson">Home</a>
+      <a href={url('/')} class="hover:text-crimson">Home</a>
       <span class="mx-2">/</span>
-      <a href="/charges/" class="hover:text-crimson">Charges</a>
+      <a href={url('/charges/')} class="hover:text-crimson">Charges</a>
       <span class="mx-2">/</span>
       <span class="text-textSecondary">{SEVERITY_LABEL[severity]}</span>
     </nav>
