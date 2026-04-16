@@ -65,7 +65,7 @@ const schema = breadcrumbSchema([
         No arrests tracked yet for {county.name} County. Check back soon.
       </p>
     ) : (
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in mt-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-8 stagger-in mt-8">
         {arrests.map((a, i) => (
           <>
             <ArrestCard arrest={a} />

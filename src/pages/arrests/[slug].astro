@@ -80,7 +80,7 @@ const schema = [
         <img
           src={arrest.mugshotUrl}
           alt={`Booking photo of ${arrest.name}`}
-          class="w-full max-w-md grayscale"
+          class="w-full max-w-xl grayscale"
           style="border: 1px solid rgba(241, 245, 249, 0.12);"
         />
         <figcaption class="text-[11px] text-textMuted mt-3 uppercase tracking-[0.22em]">
@@ -132,7 +132,7 @@ const schema = [
           More from {arrest.county} County
         </h2>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in">
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-8 stagger-in">
         {related.map((r) => <ArrestCard arrest={r} />)}
       </div>
     </section>

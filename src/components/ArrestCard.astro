@@ -25,7 +25,7 @@ const isFelony = arrest.severity === 'felony' || arrest.severity === 'violent_fe
 >
   <div class="arrest-card-inner flex gap-5 pt-5 pb-5">
     {arrest.mugshotUrl ? (
-      <div class="relative flex-shrink-0 overflow-hidden" style={featured ? 'width: 200px; height: 200px;' : 'width: 104px; height: 104px;'}>
+      <div class="relative flex-shrink-0 overflow-hidden" style={featured ? 'width: 360px; height: 360px;' : 'width: 180px; height: 180px;'}>
         <img
           src={arrest.mugshotUrl}
           alt={`Booking photo of ${arrest.name}`}
@@ -36,7 +36,7 @@ const isFelony = arrest.severity === 'felony' || arrest.severity === 'violent_fe
         <div class="absolute inset-0 pointer-events-none" style="box-shadow: inset 0 0 0 1px rgba(241,245,249,0.08);"></div>
       </div>
     ) : (
-      <div class="bg-surfaceAlt flex items-center justify-center text-textMuted text-[10px] uppercase tracking-widest flex-shrink-0" style={featured ? 'width: 200px; height: 200px; border: 1px solid rgba(241,245,249,0.08);' : 'width: 104px; height: 104px; border: 1px solid rgba(241,245,249,0.08);'}>
+      <div class="bg-surfaceAlt flex items-center justify-center text-textMuted text-[10px] uppercase tracking-widest flex-shrink-0" style={featured ? 'width: 360px; height: 360px; border: 1px solid rgba(241,245,249,0.08);' : 'width: 180px; height: 180px; border: 1px solid rgba(241,245,249,0.08);'}>
         No photo
       </div>
     )}

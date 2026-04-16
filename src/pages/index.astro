@@ -111,7 +111,7 @@ const siteBase = `${site}${baseUrl}`;
         No additional arrests loaded. Data pipeline populates on the next ingestion run.
       </p>
     ) : (
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in">
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-8 stagger-in">
         {rest.map((arrest, i) => (
           <>
             <ArrestCard arrest={arrest} />
