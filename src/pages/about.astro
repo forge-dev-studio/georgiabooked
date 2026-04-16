@@ -1,0 +1,36 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="About + Editorial Standards - GeorgiaBooked"
+  description="Our mission, methodology, and editorial standards for publishing Georgia public arrest records."
+>
+  <article class="max-w-3xl mx-auto px-4 py-12 prose prose-invert">
+    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-3">About GeorgiaBooked</h1>
+    <p class="text-lg text-textSecondary mb-8">An independent, journalist-run public-records publication for the state of Georgia.</p>
+
+    <h2 class="font-serif text-2xl font-semibold mt-10 mb-3">Our mission</h2>
+    <p class="text-textPrimary leading-relaxed">
+      Georgia's Open Records Act (Ga. Code 50-18-72) makes arrest and booking records public because transparent accountability of the criminal justice system is a cornerstone of a functioning democracy. GeorgiaBooked publishes those records in a searchable, verifiable, and navigable format, so that Georgians can follow what is happening in their own counties.
+    </p>
+
+    <h2 class="font-serif text-2xl font-semibold mt-10 mb-3">Editorial standards</h2>
+    <ul class="text-textPrimary leading-relaxed space-y-2">
+      <li><strong>Factual only.</strong> Each entry reflects public records from county sheriff offices or verified aggregators. No speculation, no editorial commentary on guilt or character.</li>
+      <li><strong>Presumption of innocence.</strong> Every arrest page carries a visible disclaimer. An arrest is an allegation, not a conviction.</li>
+      <li><strong>Prompt corrections.</strong> Factual errors are corrected within 72 hours. Expunged or dismissed records are removed on verification.</li>
+      <li><strong>No pay-to-remove.</strong> We do not accept payment to remove records. Takedowns are free and reviewed on the merits.</li>
+    </ul>
+
+    <h2 class="font-serif text-2xl font-semibold mt-10 mb-3">Methodology</h2>
+    <p class="text-textPrimary leading-relaxed">
+      Booking data is aggregated hourly from public Georgia sources. Each entry is summarized into neutral, factual prose using a large language model (Gemini 2.5), then programmatically classified by charge severity. Mugshot photos are sourced from original publishers.
+    </p>
+
+    <h2 class="font-serif text-2xl font-semibold mt-10 mb-3">Contact</h2>
+    <p class="text-textPrimary leading-relaxed">
+      For factual corrections or takedowns: <a href="/takedown" class="text-crimson hover:underline">takedown form</a>.<br/>
+      For press, partnership, or advertising inquiries: press@georgiabooked.com
+    </p>
+  </article>
+</BaseLayout>
