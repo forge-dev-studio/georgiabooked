@@ -11,24 +11,29 @@ for (const r of arrests) {
   totalByCounty.set(r.county, (totalByCounty.get(r.county) ?? 0) + 1);
 }
 
-const rows = counties.map((c) => ({
-  ...c,
-  count30d: hotness.get(c.name) ?? 0,
-  total: totalByCounty.get(c.name) ?? 0,
-})).sort((a, b) => b.count30d - a.count30d || b.population - a.population);
+const rows = counties
+  .filter((c) => (totalByCounty.get(c.name) ?? 0) > 0)
+  .map((c) => ({
+    ...c,
+    count30d: hotness.get(c.name) ?? 0,
+    total: totalByCounty.get(c.name) ?? 0,
+  }))
+  .sort((a, b) => b.count30d - a.count30d || b.total - a.total);
+const totalCoveredCounties = rows.length;
+const totalAllCounties = counties.length;
 ---
 <BaseLayout
-  title="All 159 Georgia Counties - GeorgiaBooked"
-  description="Browse arrest records from every Georgia county. Sorted by recent booking volume."
+  title={`${totalCoveredCounties} Georgia Counties Covered - GeorgiaBooked`}
+  description={`Browse arrest records from ${totalCoveredCounties} Georgia counties. Sorted by recent booking volume.`}
 >
   <section class="max-w-site mx-auto px-4 py-16 md:py-20">
     <div class="mb-12">
       <span class="eyebrow">Directory</span>
       <h1 class="font-serif text-5xl md:text-7xl font-semibold mt-4 mb-4 text-balance" style="letter-spacing: -0.035em; line-height: 0.95;">
-        All 159 Georgia <span class="italic text-crimson" style="font-style: italic;">counties</span>
+        {totalCoveredCounties} Georgia <span class="italic text-crimson" style="font-style: italic;">counties covered</span>
       </h1>
       <p class="display-dek text-textSecondary text-xl max-w-2xl">
-        Sorted by bookings in the last 30 days. Click any county for its full arrest history.
+        Sorted by bookings in the last 30 days. {totalAllCounties - totalCoveredCounties} additional counties coming as direct-sheriff scrapers go live.
       </p>
     </div>
     <div class="hairline-top hairline-bottom overflow-x-auto">
