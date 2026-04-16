@@ -32,11 +32,11 @@ let annotated = rawSvg;
 for (const c of counties) {
   const count = hotness.get(c.name) ?? 0;
   const intensity = count / maxCount;
-  const alpha = count === 0 ? 0.04 : 0.1 + intensity * 0.78;
+  const alpha = count === 0 ? 0.14 : 0.2 + intensity * 0.75;
   const link = url(`/counties/${c.slug}/`);
   const title = `${c.name} County - ${count} this week`;
   const isHottest = c.name === hottestName && count > 0;
-  const strokeAttr = 'stroke="rgba(241,245,249,0.22)" stroke-width="0.6"';
+  const strokeAttr = 'stroke="rgba(241,245,249,0.55)" stroke-width="0.9"';
   const pulseClass = isHottest ? ' class="heatmap-hottest"' : '';
   annotated = annotated.replace(
     new RegExp(`<path id="county-${c.slug}"([^>]*?)>\\s*<title>[^<]*</title>\\s*</path>`, 's'),
