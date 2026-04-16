@@ -1,13 +1,89 @@
 ---
-// GeorgiaBooked placeholder home page
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ArrestCard from '@components/ArrestCard.astro';
+import CountyHeatmap from '@components/CountyHeatmap.astro';
+import LiveTicker from '@components/LiveTicker.astro';
+import NewsletterSignup from '@components/NewsletterSignup.astro';
+import AdSlot from '@components/AdSlot.astro';
+import { loadArrests, recentArrests, countyHotness } from '@lib/data';
+import { counties } from '@lib/counties';
+import { websiteSchema } from '@lib/schema';
+
+const all = loadArrests();
+const latest = recentArrests(all, 24);
+const hot = Array.from(countyHotness(all, 7).entries())
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked.com';
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GeorgiaBooked</title>
-  </head>
-  <body>
-    <h1>GeorgiaBooked</h1>
-  </body>
-</html>
+<BaseLayout
+  title="GeorgiaBooked - Live Georgia Arrest Records, County by County"
+  description="Track every jail booking across all 159 Georgia counties. Searchable by name, county, and charge. Updated hourly from public records."
+  jsonLd={websiteSchema(site)}
+>
+  <LiveTicker />
+
+  <section class="max-w-site mx-auto px-4 pt-10 pb-6">
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight mb-4">
+      Every arrest in Georgia.<br/>
+      <span class="text-crimson">County by county.</span>
+    </h1>
+    <p class="text-lg text-textSecondary max-w-2xl leading-relaxed">
+      Factual, sourced, updated hourly. Searchable by name, filterable by county and charge severity.
+      All individuals named are presumed innocent until proven guilty.
+    </p>
+  </section>
+
+  <section class="max-w-site mx-auto px-4 mb-10">
+    <CountyHeatmap />
+  </section>
+
+  <AdSlot placement="header-banner" />
+
+  <section class="max-w-site mx-auto px-4 mb-10">
+    <div class="flex items-baseline justify-between mb-5">
+      <h2 class="font-serif text-3xl font-semibold">Latest Arrests</h2>
+      <a href="/counties/" class="text-sm text-gold hover:underline">Browse by county</a>
+    </div>
+    {latest.length === 0 ? (
+      <p class="text-textSecondary py-10 text-center border border-border">
+        No arrests loaded yet. Data pipeline will populate on next ingestion run.
+      </p>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {latest.map((arrest, i) => (
+          <>
+            <ArrestCard arrest={arrest} />
+            {(i + 1) % 5 === 0 && <div class="md:col-span-2 lg:col-span-3"><AdSlot placement="inline-native" /></div>}
+          </>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {hot.length > 0 && (
+    <section class="max-w-site mx-auto px-4 mb-10">
+      <h2 class="font-serif text-2xl font-semibold mb-4">Hottest counties this week</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-3">
+        {hot.map(([name, count]) => {
+          const c = counties.find((x) => x.name === name);
+          if (!c) return null;
+          return (
+            <a href={`/counties/${c.slug}/`} class="card flex items-center justify-between hover:border-crimson">
+              <div>
+                <div class="font-serif font-semibold text-textPrimary">{c.name}</div>
+                <div class="text-xs text-textMuted">{c.seat}</div>
+              </div>
+              <div class="text-right">
+                <div class="font-mono font-bold text-crimson text-xl">{count}</div>
+                <div class="text-[10px] uppercase tracking-widest text-textMuted">7 days</div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <NewsletterSignup />
+</BaseLayout>
