@@ -1,15 +1,18 @@
 import 'dotenv/config';
 import { fetchAllGazettePosts } from './fetch-gazette.ts';
 import { extractFacts } from './extract-facts.ts';
-import { rewriteArrest, createGeminiClient } from './rewrite.ts';
+import { rewriteArrest, createGeminiClient, createClaudeClient } from './rewrite.ts';
 import { mergeArrests, type ArrestRecord } from './merge.ts';
 import { loadArrests, saveArrests } from '../src/lib/data.ts';
 import { arrestSlug } from '../src/lib/slug.ts';
 import { classifyWorst } from '../src/lib/severity.ts';
 
 async function main() {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) throw new Error('GEMINI_API_KEY is required');
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY;
+  if (!anthropicKey && !geminiKey) {
+    throw new Error('ANTHROPIC_API_KEY or GEMINI_API_KEY required');
+  }
   const apiUrl = process.env.GAZETTE_API_URL ?? 'https://thegeorgiagazette.com/wp-json/wp/v2/posts';
   const batchSize = Number(process.env.INGEST_BATCH_SIZE ?? 100);
 
@@ -27,7 +30,10 @@ async function main() {
 
   console.log(`[ingest] ${newFacts.length} new arrests to rewrite`);
 
-  const client = createGeminiClient(apiKey);
+  const client = anthropicKey
+    ? createClaudeClient(anthropicKey)
+    : createGeminiClient(geminiKey!);
+  console.log(`[ingest] using ${anthropicKey ? 'Claude Haiku 4.5' : 'Gemini 2.5 Flash'}`);
   const newRecords: ArrestRecord[] = [];
   for (const facts of newFacts) {
     try {

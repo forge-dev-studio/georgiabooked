@@ -1,3 +1,4 @@
+import Anthropic from '@anthropic-ai/sdk';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { ArrestFacts } from './extract-facts.ts';
 import { classifyWorst, SEVERITY_LABEL } from '../src/lib/severity.ts';
@@ -60,6 +61,24 @@ export function createGeminiClient(apiKey: string): GenerativeClient {
     generateContent: async (prompt: string) => {
       const result = await model.generateContent(prompt);
       return { response: { text: () => result.response.text() } };
+    },
+  };
+}
+
+export function createClaudeClient(apiKey: string): GenerativeClient {
+  const anthropic = new Anthropic({ apiKey });
+  return {
+    generateContent: async (prompt: string) => {
+      const result = await anthropic.messages.create({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 600,
+        messages: [{ role: 'user', content: prompt }],
+      });
+      const text = result.content
+        .filter((b) => b.type === 'text')
+        .map((b) => (b as { type: 'text'; text: string }).text)
+        .join('\n');
+      return { response: { text: () => text } };
     },
   };
 }

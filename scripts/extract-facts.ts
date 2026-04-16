@@ -52,15 +52,24 @@ function extractCounty(post: GazettePost): string | null {
 }
 
 function extractCharges(excerpt: string): string[] {
-  const match = excerpt.match(/[Cc]harges?\s*:\s*([^.]+)/);
+  const match =
+    excerpt.match(/Reason\(?s?\)?\s+For\s+Booking\s*:?\s*([^]*?)(?=\s*(?:Name\s*:|Date\s+of\s+Booking|$))/i) ??
+    excerpt.match(/[Cc]harges?\s*:?\s*([^.]+)/);
   if (!match) return [];
   return match[1]
-    .split(/[,;]|\band\b/)
+    .split(/[,;\n]|\s{2,}|\band\b/)
     .map((c) => c.trim())
     .filter((c) => c.length > 2 && c.length < 200);
 }
 
 function extractBookingDate(excerpt: string): string | null {
+  const slashDate = excerpt.match(/Date\s+of\s+Booking\s*:?\s*(\d{1,2})\/(\d{1,2})\/(\d{4})/i) ??
+    excerpt.match(/\b(\d{1,2})\/(\d{1,2})\/(\d{4})\b/);
+  if (slashDate) {
+    const mm = slashDate[1].padStart(2, '0');
+    const dd = slashDate[2].padStart(2, '0');
+    return `${slashDate[3]}-${mm}-${dd}`;
+  }
   const months: Record<string, string> = {
     january: '01', february: '02', march: '03', april: '04', may: '05', june: '06',
     july: '07', august: '08', september: '09', october: '10', november: '11', december: '12',
