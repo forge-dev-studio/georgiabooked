@@ -1,0 +1,80 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ArrestCard from '@components/ArrestCard.astro';
+import AdSlot from '@components/AdSlot.astro';
+import { counties } from '@lib/counties';
+import { loadArrests, arrestsByCounty } from '@lib/data';
+import { breadcrumbSchema } from '@lib/schema';
+
+export async function getStaticPaths() {
+  return counties.map((c) => ({ params: { county: c.slug }, props: { county: c } }));
+}
+
+const { county } = Astro.props;
+const all = loadArrests();
+const arrests = arrestsByCounty(all, county.name);
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://georgiabooked.com';
+
+const last7 = arrests.filter((r) => Date.parse(r.publishedAt) >= Date.now() - 7 * 86400000).length;
+const last30 = arrests.filter((r) => Date.parse(r.publishedAt) >= Date.now() - 30 * 86400000).length;
+
+const schema = breadcrumbSchema([
+  { name: 'Home', url: site },
+  { name: 'Counties', url: `${site}/counties/` },
+  { name: `${county.name} County`, url: `${site}/counties/${county.slug}/` },
+]);
+---
+<BaseLayout
+  title={`${county.name} County, Georgia Arrests - GeorgiaBooked`}
+  description={`Live arrest records for ${county.name} County, Georgia. Seat: ${county.seat}. Population: ${county.population.toLocaleString()}.`}
+  jsonLd={schema}
+>
+  <section class="max-w-site mx-auto px-4 py-10">
+    <nav class="text-xs text-textMuted uppercase tracking-widest mb-4">
+      <a href="/" class="hover:text-crimson">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/counties/" class="hover:text-crimson">Counties</a>
+      <span class="mx-2">/</span>
+      <span class="text-textSecondary">{county.name} County</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold mb-2">{county.name} County Arrests</h1>
+      <p class="text-textSecondary">
+        Seat: {county.seat} · Population: {county.population.toLocaleString()}
+      </p>
+    </header>
+
+    <div class="grid grid-cols-3 gap-3 mb-8">
+      <div class="card text-center">
+        <div class="font-mono text-3xl font-bold text-crimson">{last7}</div>
+        <div class="text-xs uppercase tracking-widest text-textMuted mt-1">Last 7 days</div>
+      </div>
+      <div class="card text-center">
+        <div class="font-mono text-3xl font-bold text-textPrimary">{last30}</div>
+        <div class="text-xs uppercase tracking-widest text-textMuted mt-1">Last 30 days</div>
+      </div>
+      <div class="card text-center">
+        <div class="font-mono text-3xl font-bold text-gold">{arrests.length}</div>
+        <div class="text-xs uppercase tracking-widest text-textMuted mt-1">All-time tracked</div>
+      </div>
+    </div>
+
+    <AdSlot placement="header-banner" county={county.name} />
+
+    {arrests.length === 0 ? (
+      <p class="text-textSecondary py-10 text-center">
+        No arrests tracked yet for {county.name} County. Check back soon.
+      </p>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {arrests.map((a, i) => (
+          <>
+            <ArrestCard arrest={a} />
+            {(i + 1) % 5 === 0 && <div class="md:col-span-2 lg:col-span-3"><AdSlot placement="inline-native" county={county.name} /></div>}
+          </>
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>

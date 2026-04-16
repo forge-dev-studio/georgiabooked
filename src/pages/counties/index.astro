@@ -1,0 +1,59 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { counties } from '@lib/counties';
+import { loadArrests, countyHotness } from '@lib/data';
+
+const arrests = loadArrests();
+const hotness = countyHotness(arrests, 30);
+const totalByCounty = new Map<string, number>();
+for (const r of arrests) {
+  totalByCounty.set(r.county, (totalByCounty.get(r.county) ?? 0) + 1);
+}
+
+const rows = counties.map((c) => ({
+  ...c,
+  count30d: hotness.get(c.name) ?? 0,
+  total: totalByCounty.get(c.name) ?? 0,
+})).sort((a, b) => b.count30d - a.count30d || b.population - a.population);
+---
+<BaseLayout
+  title="All 159 Georgia Counties - GeorgiaBooked"
+  description="Browse arrest records from every Georgia county. Sorted by recent booking volume."
+>
+  <section class="max-w-site mx-auto px-4 py-10">
+    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-2">All 159 Georgia Counties</h1>
+    <p class="text-lg text-textSecondary mb-8">
+      Sorted by bookings in the last 30 days.
+    </p>
+    <div class="border border-border overflow-hidden">
+      <table class="w-full text-sm">
+        <thead class="bg-surface border-b border-border text-[10px] uppercase tracking-widest text-textMuted">
+          <tr>
+            <th class="px-4 py-2 text-left">County</th>
+            <th class="px-4 py-2 text-left hidden md:table-cell">Seat</th>
+            <th class="px-4 py-2 text-right">30-day arrests</th>
+            <th class="px-4 py-2 text-right hidden md:table-cell">All-time</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr class="border-b border-border hover:bg-surface">
+              <td class="px-4 py-2">
+                <a href={`/counties/${r.slug}/`} class="font-semibold text-textPrimary hover:text-crimson">
+                  {r.name} {r.top20 && <span class="text-gold text-[10px] ml-1">*</span>}
+                </a>
+              </td>
+              <td class="px-4 py-2 text-textSecondary hidden md:table-cell">{r.seat}</td>
+              <td class="px-4 py-2 text-right font-mono">
+                <span class={r.count30d > 0 ? 'text-crimson font-semibold' : 'text-textMuted'}>
+                  {r.count30d}
+                </span>
+              </td>
+              <td class="px-4 py-2 text-right font-mono text-textSecondary hidden md:table-cell">{r.total}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>
