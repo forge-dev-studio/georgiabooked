@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    background-color: #0a1628;
+    color: #f1f5f9;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', ui-serif, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  body {
+    background:
+      radial-gradient(circle at 20% 10%, rgba(220, 38, 38, 0.06) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(251, 191, 36, 0.04) 0%, transparent 50%),
+      #0a1628;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded bg-crimson px-4 py-2 text-sm font-medium text-white hover:bg-crimsonDim transition;
+  }
+  .card {
+    @apply bg-surface border border-border p-5 transition hover:border-textMuted;
+  }
+}
