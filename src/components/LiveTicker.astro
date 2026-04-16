@@ -1,0 +1,29 @@
+---
+import { loadArrests, arrestsInLast24h } from '@lib/data';
+
+const arrests = loadArrests();
+const last24 = arrestsInLast24h(arrests);
+const counties = new Set(last24.map((r) => r.county)).size;
+const felonies = last24.filter((r) => r.severity === 'felony' || r.severity === 'violent_felony').length;
+---
+<div class="bg-crimson/10 border-y border-crimson/30 py-2.5 overflow-hidden">
+  <div class="max-w-site mx-auto px-4 flex items-center gap-6 text-sm whitespace-nowrap overflow-x-auto">
+    <span class="inline-flex items-center gap-2 flex-shrink-0">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-crimson opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-crimson"></span>
+      </span>
+      <span class="text-[10px] uppercase tracking-widest font-semibold text-crimson">Live</span>
+    </span>
+    <span class="text-textPrimary">
+      <strong class="font-serif text-xl font-bold text-crimson">{last24.length}</strong>
+      booked in last 24h
+    </span>
+    <span class="text-textSecondary">
+      across <strong class="text-textPrimary">{counties}</strong> counties
+    </span>
+    <span class="text-textSecondary">
+      <strong class="text-textPrimary">{felonies}</strong> felony charges filed
+    </span>
+  </div>
+</div>

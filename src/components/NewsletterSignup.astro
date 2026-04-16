@@ -1,0 +1,23 @@
+---
+// Formspree endpoint swapped in later; for now a stub action placeholder
+---
+<section class="my-20">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h2 class="font-serif text-3xl md:text-4xl font-semibold mb-3">The Daily Booking</h2>
+    <p class="text-textSecondary mb-6 leading-relaxed">
+      Every morning: new Georgia arrests from the last 24 hours, county rankings, notable charges.
+      Factual. Searchable. Free.
+    </p>
+    <form action="https://formspree.io/f/REPLACE_ME" method="POST" class="flex gap-2 max-w-md mx-auto">
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="you@email.com"
+        class="flex-1 bg-surface border border-border px-4 py-2 text-sm focus:border-crimson focus:outline-none"
+      />
+      <button type="submit" class="btn-primary">Subscribe</button>
+    </form>
+    <p class="text-[10px] text-textMuted mt-3 uppercase tracking-widest">No spam. Unsubscribe any time.</p>
+  </div>
+</section>
