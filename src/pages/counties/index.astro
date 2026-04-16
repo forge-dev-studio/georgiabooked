@@ -21,40 +21,48 @@ const rows = counties.map((c) => ({
   title="All 159 Georgia Counties - GeorgiaBooked"
   description="Browse arrest records from every Georgia county. Sorted by recent booking volume."
 >
-  <section class="max-w-site mx-auto px-4 py-10">
-    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-2">All 159 Georgia Counties</h1>
-    <p class="text-lg text-textSecondary mb-8">
-      Sorted by bookings in the last 30 days.
-    </p>
-    <div class="border border-border overflow-hidden">
+  <section class="max-w-site mx-auto px-4 py-16 md:py-20">
+    <div class="mb-12">
+      <span class="eyebrow">Directory</span>
+      <h1 class="font-serif text-5xl md:text-7xl font-semibold mt-4 mb-4 text-balance" style="letter-spacing: -0.035em; line-height: 0.95;">
+        All 159 Georgia <span class="italic text-crimson" style="font-style: italic;">counties</span>
+      </h1>
+      <p class="display-dek text-textSecondary text-xl max-w-2xl">
+        Sorted by bookings in the last 30 days. Click any county for its full arrest history.
+      </p>
+    </div>
+    <div class="hairline-top hairline-bottom overflow-x-auto">
       <table class="w-full text-sm">
-        <thead class="bg-surface border-b border-border text-[10px] uppercase tracking-widest text-textMuted">
-          <tr>
-            <th class="px-4 py-2 text-left">County</th>
-            <th class="px-4 py-2 text-left hidden md:table-cell">Seat</th>
-            <th class="px-4 py-2 text-right">30-day arrests</th>
-            <th class="px-4 py-2 text-right hidden md:table-cell">All-time</th>
+        <thead class="text-[10px] uppercase tracking-[0.24em] text-textMuted">
+          <tr class="hairline-bottom">
+            <th class="px-4 py-3 text-left font-semibold">County</th>
+            <th class="px-4 py-3 text-left font-semibold hidden md:table-cell">Seat</th>
+            <th class="px-4 py-3 text-right font-semibold">30-day</th>
+            <th class="px-4 py-3 text-right font-semibold hidden md:table-cell">All-time</th>
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => (
-            <tr class="border-b border-border hover:bg-surface">
-              <td class="px-4 py-2">
-                <a href={url(`/counties/${r.slug}/`)} class="font-semibold text-textPrimary hover:text-crimson">
-                  {r.name} {r.top20 && <span class="text-gold text-[10px] ml-1">*</span>}
+          {rows.map((r, i) => (
+            <tr class="group transition" style={i > 0 ? 'border-top: 1px solid rgba(241,245,249,0.06);' : ''}>
+              <td class="px-4 py-3">
+                <a href={url(`/counties/${r.slug}/`)} class="font-serif text-lg font-semibold text-textPrimary group-hover:text-crimson transition" style="letter-spacing: -0.02em;">
+                  {r.name} {r.top20 && <span class="text-gold text-[10px] ml-1 align-middle">*</span>}
                 </a>
               </td>
-              <td class="px-4 py-2 text-textSecondary hidden md:table-cell">{r.seat}</td>
-              <td class="px-4 py-2 text-right font-mono">
-                <span class={r.count30d > 0 ? 'text-crimson font-semibold' : 'text-textMuted'}>
+              <td class="px-4 py-3 text-textSecondary hidden md:table-cell text-[13px]">{r.seat}</td>
+              <td class="px-4 py-3 text-right font-mono tabular">
+                <span class={r.count30d > 0 ? 'text-crimson font-medium' : 'text-textMuted'}>
                   {r.count30d}
                 </span>
               </td>
-              <td class="px-4 py-2 text-right font-mono text-textSecondary hidden md:table-cell">{r.total}</td>
+              <td class="px-4 py-3 text-right font-mono tabular text-textSecondary hidden md:table-cell">{r.total}</td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
+    <p class="text-[11px] uppercase tracking-[0.2em] text-textMuted mt-5">
+      <span class="text-gold">*</span> Top 20 most populous counties by 2020 census
+    </p>
   </section>
 </BaseLayout>

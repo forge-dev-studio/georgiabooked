@@ -46,55 +46,62 @@ const schema = [
   ogImage={`${siteBase}/og/${arrest.slug}.png`}
   jsonLd={schema}
 >
-  <article class="max-w-3xl mx-auto px-4 py-10">
-    <nav class="text-xs text-textMuted uppercase tracking-widest mb-6">
-      <a href={url('/')} class="hover:text-crimson">Home</a>
-      <span class="mx-2">/</span>
-      <a href={url(`/counties/${countySlug}/`)} class="hover:text-crimson">{arrest.county} County</a>
-      <span class="mx-2">/</span>
+  <article class="max-w-narrow mx-auto px-4 py-14 md:py-20">
+    <nav class="text-[11px] text-textMuted uppercase tracking-[0.24em] mb-10 font-medium">
+      <a href={url('/')} class="hover:text-crimson transition">Home</a>
+      <span class="mx-2 opacity-50">/</span>
+      <a href={url(`/counties/${countySlug}/`)} class="hover:text-crimson transition">{arrest.county} County</a>
+      <span class="mx-2 opacity-50">/</span>
       <span class="text-textSecondary">{arrest.name}</span>
     </nav>
 
-    <header class="mb-8">
-      <div class="flex items-center gap-2 mb-3">
-        <a href={url(`/counties/${countySlug}/`)} class="text-xs uppercase tracking-widest text-gold font-semibold hover:underline">
+    <header class="mb-10">
+      <div class="flex items-center gap-3 mb-5">
+        <a href={url(`/counties/${countySlug}/`)} class="kicker hover:text-crimson transition">
           {arrest.county} County
         </a>
-        <span class="text-textMuted">·</span>
+        <span class="text-textMuted opacity-50">·</span>
         <SeverityChip severity={arrest.severity} />
       </div>
-      <h1 class="font-serif text-4xl md:text-5xl font-bold leading-tight mb-3">{arrest.name}</h1>
-      <p class="text-lg text-textSecondary">Booked {dateDisplay}</p>
+      <h1 class="font-serif text-5xl md:text-7xl font-semibold mb-5 text-balance" style="letter-spacing: -0.035em; line-height: 0.95; font-variation-settings: 'opsz' 72;">
+        {arrest.name}
+      </h1>
+      <p class="display-dek text-textSecondary text-xl">Booked {dateDisplay}</p>
     </header>
 
-    <div class="bg-amber-900/20 border-l-2 border-amber-500 px-4 py-3 mb-6 text-sm text-amber-100">
-      <strong>Presumption of innocence:</strong> This is a public-record booking report. {arrest.name} has been charged but not convicted. All charges are allegations and the accused is presumed innocent until proven guilty in a court of law.
+    <hr class="rule-hair mb-10" />
+
+    <div class="bg-amber-900/10 px-5 py-4 mb-10 text-sm text-amber-100" style="border-left: 2px solid #f59e0b;">
+      <strong class="font-semibold">Presumption of innocence.</strong> This is a public-record booking report. {arrest.name} has been charged but not convicted. All charges are allegations and the accused is presumed innocent until proven guilty in a court of law.
     </div>
 
     {arrest.mugshotUrl && (
-      <figure class="mb-6">
+      <figure class="mb-10">
         <img
           src={arrest.mugshotUrl}
           alt={`Booking photo of ${arrest.name}`}
-          class="w-full max-w-sm border border-border"
+          class="w-full max-w-md grayscale"
+          style="border: 1px solid rgba(241, 245, 249, 0.12);"
         />
-        <figcaption class="text-xs text-textMuted mt-2">
-          Booking photo provided by source: <a href={arrest.sourceUrl} class="text-gold hover:underline" rel="nofollow">Georgia Gazette</a>
+        <figcaption class="text-[11px] text-textMuted mt-3 uppercase tracking-[0.22em]">
+          Booking photo via <a href={arrest.sourceUrl} class="text-gold hover:text-crimson transition" rel="nofollow">Georgia Gazette</a>
         </figcaption>
       </figure>
     )}
 
-    <div class="prose-arrest text-textPrimary leading-relaxed text-lg mb-8">
-      {paragraphs.map((p) => <p class="mb-4">{p}</p>)}
+    <div class="text-textPrimary leading-relaxed text-lg md:text-xl space-y-5 mb-10 text-pretty" style="font-family: 'Newsreader', Georgia, serif; font-variation-settings: 'opsz' 18;">
+      {paragraphs.map((p, i) => (
+        <p class={i === 0 ? 'drop-cap' : ''}>{p}</p>
+      ))}
     </div>
 
-    <section class="bg-surface border border-border p-5 mb-6">
-      <h2 class="font-serif text-xl font-semibold mb-4">Charges</h2>
-      <ul class="space-y-2">
+    <section class="my-12">
+      <div class="eyebrow mb-4">Charges filed</div>
+      <ul class="hairline-top">
         {arrest.charges.map((charge) => (
-          <li class="flex items-center justify-between border-b border-border pb-2 last:border-0">
-            <span class="text-textPrimary">{charge}</span>
-            <span class="text-xs uppercase tracking-widest text-textMuted">
+          <li class="flex items-start justify-between gap-6 py-4 hairline-bottom">
+            <span class="text-textPrimary font-serif text-lg md:text-xl leading-snug" style="letter-spacing: -0.015em;">{charge}</span>
+            <span class="text-[10px] uppercase tracking-[0.22em] text-crimson font-semibold flex-shrink-0 mt-1.5">
               {SEVERITY_LABEL[arrest.severity]}
             </span>
           </li>
@@ -104,23 +111,28 @@ const schema = [
 
     <AdSlot placement="sidebar-rectangle" county={arrest.county} />
 
-    <section class="border-t border-border pt-6 text-sm text-textSecondary">
+    <section class="hairline-top pt-8 mt-12 text-sm text-textSecondary space-y-3">
       <p>
         <strong class="text-textPrimary">Source:</strong>{' '}
-        <a href={arrest.sourceUrl} class="text-gold hover:underline" rel="nofollow">Georgia Gazette booking report</a>.
+        <a href={arrest.sourceUrl} class="text-gold hover:text-crimson transition" rel="nofollow">Georgia Gazette booking report</a>.
         This page consists of public records republished with editorial context.
       </p>
-      <p class="mt-2">
-        If you believe this record is inaccurate or your charges have been dismissed/expunged,
-        <a href={url('/takedown')} class="text-gold hover:underline">request a correction or takedown</a>.
+      <p>
+        If you believe this record is inaccurate or your charges have been dismissed or expunged,
+        <a href={url('/takedown')} class="text-gold hover:text-crimson transition"> request a correction or takedown</a>.
       </p>
     </section>
   </article>
 
   {related.length > 0 && (
-    <section class="max-w-site mx-auto px-4 py-10 border-t border-border mt-10">
-      <h2 class="font-serif text-2xl font-semibold mb-5">More arrests in {arrest.county} County</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <section class="max-w-site mx-auto px-4 py-14 md:py-20 hairline-top mt-10">
+      <div class="mb-10">
+        <span class="eyebrow">Nearby the desk</span>
+        <h2 class="font-serif text-3xl md:text-4xl font-semibold mt-3 text-balance" style="letter-spacing: -0.025em;">
+          More from {arrest.county} County
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in">
         {related.map((r) => <ArrestCard arrest={r} />)}
       </div>
     </section>

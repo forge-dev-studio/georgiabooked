@@ -1,20 +1,38 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ArrestCard from '@components/ArrestCard.astro';
-import CountyHeatmap from '@components/CountyHeatmap.astro';
 import LiveTicker from '@components/LiveTicker.astro';
 import NewsletterSignup from '@components/NewsletterSignup.astro';
 import AdSlot from '@components/AdSlot.astro';
-import { loadArrests, recentArrests, countyHotness } from '@lib/data';
-import { counties } from '@lib/counties';
+import Hero from '@components/Hero.astro';
+import StatCard from '@components/StatCard.astro';
+import HotCountiesLeaderboard from '@components/HotCountiesLeaderboard.astro';
+import { loadArrests, recentArrests, countyHotness, arrestsInLast24h } from '@lib/data';
 import { websiteSchema } from '@lib/schema';
 import { url } from '@lib/url';
 
 const all = loadArrests();
-const latest = recentArrests(all, 24);
-const hot = Array.from(countyHotness(all, 7).entries())
-  .sort((a, b) => b[1] - a[1])
-  .slice(0, 10);
+const latest = recentArrests(all, 25);
+const featured = latest[0];
+const rest = latest.slice(1);
+
+const last7Hotness = Array.from(countyHotness(all, 7).entries())
+  .sort((a, b) => b[1] - a[1]);
+
+const counties7d = last7Hotness.filter(([, n]) => n > 0).length;
+const totalArrests = all.length;
+const felonyCount = all.filter((r) => r.severity === 'felony' || r.severity === 'violent_felony').length;
+const violentCount = all.filter((r) => r.severity === 'violent_felony').length;
+const seriousMisd = all.filter((r) => r.severity === 'serious_misdemeanor').length;
+const misd = all.filter((r) => r.severity === 'misdemeanor').length;
+const total = Math.max(1, all.length);
+
+const felonyPct = Math.round((felonyCount / total) * 100);
+const seriousPct = Math.round((seriousMisd / total) * 100);
+const misdPct = Math.round((misd / total) * 100);
+
+const last24 = arrestsInLast24h(all).length;
+
 const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://forge-dev-studio.github.io';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteBase = `${site}${baseUrl}`;
@@ -26,67 +44,194 @@ const siteBase = `${site}${baseUrl}`;
 >
   <LiveTicker />
 
-  <section class="max-w-site mx-auto px-4 pt-10 pb-6">
-    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight mb-4">
-      Every arrest in Georgia.<br/>
-      <span class="text-crimson">County by county.</span>
-    </h1>
-    <p class="text-lg text-textSecondary max-w-2xl leading-relaxed">
-      Factual, sourced, updated hourly. Searchable by name, filterable by county and charge severity.
-      All individuals named are presumed innocent until proven guilty.
-    </p>
+  <Hero />
+
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Stats strip -->
+  <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+    <div class="mb-10 flex items-baseline justify-between gap-4 flex-wrap">
+      <div>
+        <span class="eyebrow">By the numbers</span>
+        <h2 class="font-serif text-3xl md:text-4xl font-semibold mt-3 text-balance" style="letter-spacing: -0.025em;">
+          The state of booking in Georgia
+        </h2>
+      </div>
+      <span class="text-[11px] uppercase tracking-[0.24em] text-textMuted font-mono tabular">
+        Updated hourly
+      </span>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 hairline-top hairline-bottom">
+      <StatCard label="Total arrests" value={totalArrests} context={`${last24} in the last 24 hours`} />
+      <StatCard label="Counties covered" value={counties7d || '0'} context="with bookings in last 7 days" />
+      <StatCard label="Felony charges" value={felonyCount} context={`${violentCount} classified violent`} accent="crimson" />
+      <StatCard label="Refresh window" value="1h" context="since last ingestion" accent="gold" />
+    </div>
   </section>
 
-  <section class="max-w-site mx-auto px-4 mb-10">
-    <CountyHeatmap />
-  </section>
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Featured arrest -->
+  {featured && (
+    <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+      <div class="mb-8 flex items-baseline justify-between gap-4">
+        <div>
+          <span class="eyebrow">Top of the page</span>
+          <h2 class="font-serif text-3xl md:text-4xl font-semibold mt-3 text-balance" style="letter-spacing: -0.025em;">
+            Latest booking
+          </h2>
+        </div>
+        <a href={url('/counties/')} class="text-[11px] uppercase tracking-[0.22em] text-gold hover:text-crimson transition hidden sm:inline">
+          All counties →
+        </a>
+      </div>
+      <ArrestCard arrest={featured} featured />
+    </section>
+  )}
 
   <AdSlot placement="header-banner" />
 
-  <section class="max-w-site mx-auto px-4 mb-10">
-    <div class="flex items-baseline justify-between mb-5">
-      <h2 class="font-serif text-3xl font-semibold">Latest Arrests</h2>
-      <a href={url('/counties/')} class="text-sm text-gold hover:underline">Browse by county</a>
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Latest bookings grid -->
+  <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+    <div class="mb-10 flex items-baseline justify-between gap-4">
+      <div>
+        <span class="eyebrow">Dispatch</span>
+        <h2 class="font-serif text-3xl md:text-4xl font-semibold mt-3 text-balance" style="letter-spacing: -0.025em;">
+          Latest bookings
+        </h2>
+      </div>
+      <a href={url('/search')} class="text-[11px] uppercase tracking-[0.22em] text-gold hover:text-crimson transition">
+        Search all →
+      </a>
     </div>
-    {latest.length === 0 ? (
-      <p class="text-textSecondary py-10 text-center border border-border">
-        No arrests loaded yet. Data pipeline will populate on next ingestion run.
+    {rest.length === 0 ? (
+      <p class="text-textSecondary py-10 text-center hairline-top hairline-bottom">
+        No additional arrests loaded. Data pipeline populates on the next ingestion run.
       </p>
     ) : (
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {latest.map((arrest, i) => (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in">
+        {rest.map((arrest, i) => (
           <>
             <ArrestCard arrest={arrest} />
-            {(i + 1) % 5 === 0 && <div class="md:col-span-2 lg:col-span-3"><AdSlot placement="inline-native" /></div>}
+            {(i + 1) % 6 === 0 && (
+              <div class="md:col-span-2 lg:col-span-3 py-6">
+                <AdSlot placement="inline-native" />
+              </div>
+            )}
           </>
         ))}
       </div>
     )}
   </section>
 
-  {hot.length > 0 && (
-    <section class="max-w-site mx-auto px-4 mb-10">
-      <h2 class="font-serif text-2xl font-semibold mb-4">Hottest counties this week</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-3">
-        {hot.map(([name, count]) => {
-          const c = counties.find((x) => x.name === name);
-          if (!c) return null;
-          return (
-            <a href={url(`/counties/${c.slug}/`)} class="card flex items-center justify-between hover:border-crimson">
-              <div>
-                <div class="font-serif font-semibold text-textPrimary">{c.name}</div>
-                <div class="text-xs text-textMuted">{c.seat}</div>
-              </div>
-              <div class="text-right">
-                <div class="font-mono font-bold text-crimson text-xl">{count}</div>
-                <div class="text-[10px] uppercase tracking-widest text-textMuted">7 days</div>
-              </div>
-            </a>
-          );
-        })}
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Hot counties leaderboard -->
+  {last7Hotness.length > 0 && last7Hotness[0][1] > 0 && (
+    <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-8">
+        <div class="lg:col-span-5">
+          <span class="eyebrow">Leaderboard</span>
+          <h2 class="font-serif text-3xl md:text-5xl font-semibold mt-3 text-balance" style="letter-spacing: -0.03em; line-height: 0.98;">
+            Hot counties, <br/><span class="italic text-crimson" style="font-style: italic;">last 7 days</span>
+          </h2>
+          <p class="text-textSecondary text-base leading-relaxed mt-5 max-w-md">
+            Ranked by booking volume over the past week. Click any county for full arrest history.
+          </p>
+          <a href={url('/counties/')} class="inline-flex items-center gap-2 mt-6 text-[11px] uppercase tracking-[0.24em] text-gold hover:text-crimson transition">
+            View all 159 counties
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="lg:col-span-7">
+          <HotCountiesLeaderboard entries={last7Hotness} limit={8} />
+        </div>
       </div>
     </section>
   )}
+
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Charge breakdown -->
+  <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-5">
+        <span class="eyebrow">Severity spectrum</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-semibold mt-3 text-balance" style="letter-spacing: -0.03em; line-height: 0.98;">
+          Charge breakdown
+        </h2>
+        <p class="text-textSecondary text-base leading-relaxed mt-5 max-w-md">
+          How arrests break down across the severity spectrum. Classification is programmatic, based on charge language.
+        </p>
+        <a href={url('/charges/')} class="inline-flex items-center gap-2 mt-6 text-[11px] uppercase tracking-[0.24em] text-gold hover:text-crimson transition">
+          Browse by charge category
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="lg:col-span-7 flex flex-col justify-center">
+        <!-- Stacked horizontal bar -->
+        <div class="flex h-14 w-full overflow-hidden" style="border: 1px solid rgba(241, 245, 249, 0.12);">
+          <div class="h-full flex items-center justify-center text-[10px] uppercase tracking-[0.22em] font-semibold text-white" style={`width: ${felonyPct}%; background: #dc2626;`}>
+            {felonyPct >= 8 && 'Felony'}
+          </div>
+          <div class="h-full flex items-center justify-center text-[10px] uppercase tracking-[0.22em] font-semibold text-amber-50" style={`width: ${seriousPct}%; background: #b45309;`}>
+            {seriousPct >= 12 && 'Serious Misd'}
+          </div>
+          <div class="h-full flex items-center justify-center text-[10px] uppercase tracking-[0.22em] font-semibold text-emerald-50" style={`width: ${misdPct}%; background: #065f46;`}>
+            {misdPct >= 12 && 'Misdemeanor'}
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 mt-5">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-2 h-2 rounded-full bg-crimson"></span>
+              <span class="text-[10px] uppercase tracking-[0.2em] text-textMuted font-semibold">Felony</span>
+            </div>
+            <div class="font-serif text-2xl md:text-3xl font-semibold tabular text-textPrimary" style="letter-spacing: -0.02em;">
+              {felonyPct}%
+            </div>
+            <div class="text-[11px] text-textMuted font-mono tabular">{felonyCount} charges</div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-2 h-2 rounded-full" style="background: #b45309;"></span>
+              <span class="text-[10px] uppercase tracking-[0.2em] text-textMuted font-semibold">Serious Misd</span>
+            </div>
+            <div class="font-serif text-2xl md:text-3xl font-semibold tabular text-textPrimary" style="letter-spacing: -0.02em;">
+              {seriousPct}%
+            </div>
+            <div class="text-[11px] text-textMuted font-mono tabular">{seriousMisd} charges</div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-2 h-2 rounded-full" style="background: #065f46;"></span>
+              <span class="text-[10px] uppercase tracking-[0.2em] text-textMuted font-semibold">Misdemeanor</span>
+            </div>
+            <div class="font-serif text-2xl md:text-3xl font-semibold tabular text-textPrimary" style="letter-spacing: -0.02em;">
+              {misdPct}%
+            </div>
+            <div class="text-[11px] text-textMuted font-mono tabular">{misd} charges</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule-hair max-w-site mx-auto" />
+
+  <!-- Editorial note -->
+  <section class="max-w-narrow mx-auto px-4 py-14 md:py-20 text-center">
+    <span class="eyebrow-muted">Editor's note</span>
+    <p class="font-serif italic text-textSecondary text-lg md:text-xl leading-relaxed mt-5 text-balance" style="font-style: italic; font-variation-settings: 'opsz' 24;">
+      Each entry reflects public records from county sheriff offices and verified aggregators. We publish facts, not opinions. An arrest is an allegation, not a conviction. Factual errors are corrected within 72 hours.
+    </p>
+    <a href={url('/about')} class="inline-flex items-center gap-2 mt-6 text-[11px] uppercase tracking-[0.24em] text-crimson hover:text-gold transition">
+      Read the full methodology
+      <span aria-hidden="true">→</span>
+    </a>
+  </section>
 
   <NewsletterSignup />
 </BaseLayout>

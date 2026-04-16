@@ -28,22 +28,30 @@ const arrests = loadArrests().filter((r) => r.severity === severity);
   title={`${SEVERITY_LABEL[severity]} Arrests in Georgia - GeorgiaBooked`}
   description={`All Georgia arrests classified as ${SEVERITY_LABEL[severity].toLowerCase()}.`}
 >
-  <section class="max-w-site mx-auto px-4 py-10">
-    <nav class="text-xs text-textMuted uppercase tracking-widest mb-4">
-      <a href={url('/')} class="hover:text-crimson">Home</a>
-      <span class="mx-2">/</span>
-      <a href={url('/charges/')} class="hover:text-crimson">Charges</a>
-      <span class="mx-2">/</span>
+  <section class="max-w-site mx-auto px-4 py-14 md:py-20">
+    <nav class="text-[11px] text-textMuted uppercase tracking-[0.24em] mb-8 font-medium">
+      <a href={url('/')} class="hover:text-crimson transition">Home</a>
+      <span class="mx-2 opacity-50">/</span>
+      <a href={url('/charges/')} class="hover:text-crimson transition">Charges</a>
+      <span class="mx-2 opacity-50">/</span>
       <span class="text-textSecondary">{SEVERITY_LABEL[severity]}</span>
     </nav>
-    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-8">{SEVERITY_LABEL[severity]} Arrests</h1>
+    <header class="mb-12">
+      <span class="eyebrow">Charge dossier</span>
+      <h1 class="font-serif text-5xl md:text-7xl font-semibold mt-4 mb-4 text-balance" style="letter-spacing: -0.035em; line-height: 0.95;">
+        {SEVERITY_LABEL[severity]} <span class="italic text-crimson" style="font-style: italic;">arrests</span>
+      </h1>
+      <p class="display-dek text-textSecondary text-xl">
+        <span class="font-mono tabular text-textPrimary">{arrests.length}</span> records tracked.
+      </p>
+    </header>
     <AdSlot placement="header-banner" />
     {arrests.length === 0 ? (
-      <p class="text-textSecondary py-10 text-center">
+      <p class="text-textSecondary py-14 text-center hairline-top hairline-bottom font-serif italic text-xl" style="font-style: italic;">
         No arrests tracked yet in this category.
       </p>
     ) : (
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 stagger-in mt-6">
         {arrests.map((a) => <ArrestCard arrest={a} />)}
       </div>
     )}
