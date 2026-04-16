@@ -1,0 +1,37 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { SEVERITY_LABEL, type Severity } from '@lib/severity';
+import { loadArrests } from '@lib/data';
+
+const arrests = loadArrests();
+const countByCategory: Record<Severity, number> = {
+  violent_felony: 0,
+  felony: 0,
+  serious_misdemeanor: 0,
+  misdemeanor: 0,
+};
+for (const r of arrests) countByCategory[r.severity]++;
+---
+<BaseLayout
+  title="Browse by Charge Category - GeorgiaBooked"
+  description="Georgia arrests grouped by charge severity: violent felonies, felonies, serious misdemeanors, and misdemeanors."
+>
+  <section class="max-w-site mx-auto px-4 py-10">
+    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-2">Browse by Charge Severity</h1>
+    <p class="text-lg text-textSecondary mb-8">Classified per Georgia statutory definitions.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      {(['violent_felony', 'felony', 'serious_misdemeanor', 'misdemeanor'] as const).map((sev) => (
+        <a href={`/charges/${sev.replace('_', '-')}/`} class="card hover:border-crimson">
+          <h2 class="font-serif text-2xl font-semibold mb-1">{SEVERITY_LABEL[sev]}</h2>
+          <p class="text-textSecondary text-sm mb-3">
+            {sev === 'violent_felony' && 'Murder, aggravated assault, kidnapping, armed robbery, family-violence battery.'}
+            {sev === 'felony' && 'Drug trafficking, burglary, identity theft, weapons charges, major fraud.'}
+            {sev === 'serious_misdemeanor' && 'DUI, reckless driving, simple battery, obstruction, shoplifting.'}
+            {sev === 'misdemeanor' && 'Traffic violations, failure to appear, minor infractions.'}
+          </p>
+          <div class="font-mono text-crimson font-semibold">{countByCategory[sev]} arrests</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

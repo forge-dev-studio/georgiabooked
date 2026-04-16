@@ -1,0 +1,50 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ArrestCard from '@components/ArrestCard.astro';
+import AdSlot from '@components/AdSlot.astro';
+import { SEVERITY_LABEL, type Severity } from '@lib/severity';
+import { loadArrests } from '@lib/data';
+
+export async function getStaticPaths() {
+  const slugs = ['violent-felony', 'felony', 'serious-misdemeanor', 'misdemeanor'];
+  return slugs.map((slug) => ({ params: { category: slug } }));
+}
+
+const SEVERITY_SLUGS: Record<string, Severity> = {
+  'violent-felony': 'violent_felony',
+  'felony': 'felony',
+  'serious-misdemeanor': 'serious_misdemeanor',
+  'misdemeanor': 'misdemeanor',
+};
+
+const { category } = Astro.params;
+const severity = SEVERITY_SLUGS[category!];
+if (!severity) throw new Error(`Unknown category: ${category}`);
+
+const arrests = loadArrests().filter((r) => r.severity === severity);
+---
+<BaseLayout
+  title={`${SEVERITY_LABEL[severity]} Arrests in Georgia - GeorgiaBooked`}
+  description={`All Georgia arrests classified as ${SEVERITY_LABEL[severity].toLowerCase()}.`}
+>
+  <section class="max-w-site mx-auto px-4 py-10">
+    <nav class="text-xs text-textMuted uppercase tracking-widest mb-4">
+      <a href="/" class="hover:text-crimson">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/charges/" class="hover:text-crimson">Charges</a>
+      <span class="mx-2">/</span>
+      <span class="text-textSecondary">{SEVERITY_LABEL[severity]}</span>
+    </nav>
+    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-8">{SEVERITY_LABEL[severity]} Arrests</h1>
+    <AdSlot placement="header-banner" />
+    {arrests.length === 0 ? (
+      <p class="text-textSecondary py-10 text-center">
+        No arrests tracked yet in this category.
+      </p>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+        {arrests.map((a) => <ArrestCard arrest={a} />)}
+      </div>
+    )}
+  </section>
+</BaseLayout>
