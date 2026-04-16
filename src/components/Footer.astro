@@ -2,39 +2,44 @@
 import { url } from '@lib/url';
 const year = new Date().getFullYear();
 ---
-<footer class="border-t border-border mt-20 py-10 bg-base">
-  <div class="max-w-site mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm text-textSecondary">
-    <div>
-      <img src={url('/logo.svg')} alt="GeorgiaBooked" class="h-6 mb-3" />
-      <p class="text-xs text-textMuted leading-relaxed">
-        Public records journalism for Georgia. All individuals named are presumed innocent until proven guilty in a court of law.
+<footer class="relative mt-20 pt-14 pb-10 bg-base">
+  <hr class="rule-hair-strong mb-12" />
+  <div class="max-w-site mx-auto px-4 grid md:grid-cols-12 gap-10 text-sm text-textSecondary">
+    <div class="md:col-span-5">
+      <div class="flex items-baseline mb-4">
+        <span class="font-serif text-2xl font-bold tracking-tightest leading-none text-textPrimary">
+          Georgia<span class="text-crimson">Booked</span>
+        </span>
+      </div>
+      <p class="text-xs text-textMuted leading-relaxed max-w-sm">
+        Public-records journalism for Georgia. All individuals named are presumed innocent until proven guilty in a court of law. Arrests are allegations, not convictions.
       </p>
     </div>
-    <div>
-      <h4 class="text-textPrimary font-semibold mb-3 text-xs uppercase tracking-wider">Explore</h4>
-      <ul class="space-y-2">
-        <li><a href={url('/')} class="hover:text-crimson">Home</a></li>
-        <li><a href={url('/counties/')} class="hover:text-crimson">Counties</a></li>
-        <li><a href={url('/charges/')} class="hover:text-crimson">Charges</a></li>
-        <li><a href={url('/search')} class="hover:text-crimson">Search</a></li>
+    <div class="md:col-span-2">
+      <h4 class="text-textPrimary font-semibold mb-4 text-[10px] uppercase tracking-[0.24em]">Explore</h4>
+      <ul class="space-y-2.5">
+        <li><a href={url('/')} class="hover:text-crimson transition">Home</a></li>
+        <li><a href={url('/counties/')} class="hover:text-crimson transition">Counties</a></li>
+        <li><a href={url('/charges/')} class="hover:text-crimson transition">Charges</a></li>
+        <li><a href={url('/search')} class="hover:text-crimson transition">Search</a></li>
       </ul>
     </div>
-    <div>
-      <h4 class="text-textPrimary font-semibold mb-3 text-xs uppercase tracking-wider">Editorial</h4>
-      <ul class="space-y-2">
-        <li><a href={url('/about')} class="hover:text-crimson">About + Standards</a></li>
-        <li><a href={url('/takedown')} class="hover:text-crimson">Takedown Request</a></li>
+    <div class="md:col-span-2">
+      <h4 class="text-textPrimary font-semibold mb-4 text-[10px] uppercase tracking-[0.24em]">Editorial</h4>
+      <ul class="space-y-2.5">
+        <li><a href={url('/about')} class="hover:text-crimson transition">About + Standards</a></li>
+        <li><a href={url('/takedown')} class="hover:text-crimson transition">Takedown Request</a></li>
       </ul>
     </div>
-    <div>
-      <h4 class="text-textPrimary font-semibold mb-3 text-xs uppercase tracking-wider">Legal</h4>
-      <p class="text-xs leading-relaxed">
+    <div class="md:col-span-3">
+      <h4 class="text-textPrimary font-semibold mb-4 text-[10px] uppercase tracking-[0.24em]">Legal</h4>
+      <p class="text-xs leading-relaxed text-textMuted">
         Reporting public-record bookings under Ga. Code 50-18-72 (Open Records Act). We publish accurate facts, not opinions. Corrections reviewed within 72 hours.
       </p>
     </div>
   </div>
-  <div class="max-w-site mx-auto px-4 mt-8 pt-6 border-t border-border text-xs text-textMuted flex justify-between">
-    <span>© {year} GeorgiaBooked</span>
-    <span>An independent Georgia public-records publication.</span>
+  <div class="max-w-site mx-auto px-4 mt-12 pt-6 text-xs text-textMuted flex flex-col md:flex-row justify-between gap-2" style="border-top: 1px solid rgba(241, 245, 249, 0.08);">
+    <span class="tabular">© {year} GeorgiaBooked</span>
+    <span class="italic font-serif text-textMuted" style="font-variation-settings: 'opsz' 14;">An independent Georgia public-records publication.</span>
   </div>
 </footer>

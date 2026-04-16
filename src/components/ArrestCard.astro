@@ -1,46 +1,106 @@
 ---
 import type { ArrestRecord } from '../../scripts/merge';
-import SeverityChip from './SeverityChip.astro';
 import { url } from '@lib/url';
+import { SEVERITY_LABEL } from '@lib/severity';
 
 export interface Props {
   arrest: ArrestRecord;
+  featured?: boolean;
 }
 
-const { arrest } = Astro.props;
-const excerpt = arrest.rewrite.split('\n')[0].slice(0, 180);
+const { arrest, featured = false } = Astro.props;
+const excerpt = arrest.rewrite.split('\n')[0].slice(0, 220);
 const dateDisplay = new Date(arrest.bookingDate + 'T00:00:00').toLocaleDateString('en-US', {
   month: 'short', day: 'numeric', year: 'numeric',
 });
+const severityLabel = SEVERITY_LABEL[arrest.severity].toUpperCase();
+const isFelony = arrest.severity === 'felony' || arrest.severity === 'violent_felony';
 ---
-<a href={url(`/arrests/${arrest.slug}/`)} class="card group flex gap-4 block">
-  {arrest.mugshotUrl ? (
-    <img
-      src={arrest.mugshotUrl}
-      alt={`Booking photo of ${arrest.name}`}
-      loading="lazy"
-      class="w-20 h-20 object-cover border border-border flex-shrink-0 grayscale group-hover:grayscale-0 transition"
-    />
-  ) : (
-    <div class="w-20 h-20 bg-surfaceAlt border border-border flex items-center justify-center text-textMuted text-xs flex-shrink-0">
-      No photo
-    </div>
-  )}
-  <div class="flex-1 min-w-0">
-    <div class="flex items-center gap-2 mb-1">
-      <span class="text-[10px] uppercase tracking-widest text-gold font-semibold">
-        {arrest.county} County
-      </span>
-      <SeverityChip severity={arrest.severity} size="sm" />
-    </div>
-    <h3 class="font-serif text-lg font-semibold text-textPrimary leading-tight group-hover:text-crimson transition mb-1 truncate">
-      {arrest.name}
-    </h3>
-    <p class="text-sm text-textSecondary leading-relaxed line-clamp-2 mb-2">{excerpt}</p>
-    <div class="flex items-center gap-3 text-xs text-textMuted font-mono">
-      <span>Booked {dateDisplay}</span>
-      <span>·</span>
-      <span>{arrest.charges.length} {arrest.charges.length === 1 ? 'charge' : 'charges'}</span>
+<a
+  href={url(`/arrests/${arrest.slug}/`)}
+  class:list={[
+    'arrest-card group block relative transition',
+    featured && 'is-featured',
+  ]}
+>
+  <div class="arrest-card-inner flex gap-5 pt-5 pb-5">
+    {arrest.mugshotUrl ? (
+      <div class="relative flex-shrink-0 overflow-hidden" style={featured ? 'width: 200px; height: 200px;' : 'width: 104px; height: 104px;'}>
+        <img
+          src={arrest.mugshotUrl}
+          alt={`Booking photo of ${arrest.name}`}
+          loading="lazy"
+          class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-[20%] transition duration-500 group-hover:scale-[1.03]"
+          style="transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);"
+        />
+        <div class="absolute inset-0 pointer-events-none" style="box-shadow: inset 0 0 0 1px rgba(241,245,249,0.08);"></div>
+      </div>
+    ) : (
+      <div class="bg-surfaceAlt flex items-center justify-center text-textMuted text-[10px] uppercase tracking-widest flex-shrink-0" style={featured ? 'width: 200px; height: 200px; border: 1px solid rgba(241,245,249,0.08);' : 'width: 104px; height: 104px; border: 1px solid rgba(241,245,249,0.08);'}>
+        No photo
+      </div>
+    )}
+    <div class="flex-1 min-w-0 flex flex-col">
+      <div class="flex items-center gap-2 mb-1.5">
+        <span class="text-[10px] uppercase tracking-[0.22em] text-textMuted font-medium">
+          {arrest.county} County
+        </span>
+      </div>
+      <h3
+        class:list={[
+          'font-serif font-semibold text-textPrimary leading-[0.98] group-hover:text-crimson transition mb-2.5 text-balance',
+          featured ? 'text-4xl md:text-5xl' : 'text-xl md:text-2xl',
+        ]}
+        style="letter-spacing: -0.025em; font-variation-settings: 'opsz' 48;"
+      >
+        {arrest.name}
+        {isFelony && <span class="text-crimson font-sans font-medium text-[10px] tracking-[0.22em] align-middle ml-2 tabular">— {severityLabel}</span>}
+      </h3>
+      <p class:list={[
+        'text-textSecondary leading-relaxed mb-3 text-pretty',
+        featured ? 'text-base md:text-lg line-clamp-4' : 'text-sm line-clamp-2',
+      ]}>{excerpt}</p>
+      <div class="mt-auto flex items-center justify-between gap-3 text-[11px] font-mono text-textMuted">
+        <div class="flex items-center gap-3 tabular">
+          <span>{dateDisplay}</span>
+          <span class="opacity-50">·</span>
+          <span>{arrest.charges.length} {arrest.charges.length === 1 ? 'charge' : 'charges'}</span>
+        </div>
+        <span class="text-crimson font-sans font-semibold tracking-[0.2em] text-[10px] inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+          READ
+          <span aria-hidden="true">→</span>
+        </span>
+      </div>
     </div>
   </div>
 </a>
+
+<style>
+  .arrest-card {
+    border-top: 1px solid rgba(241, 245, 249, 0.12);
+    transition: border-color 280ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .arrest-card::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #dc2626;
+    transition: width 380ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .arrest-card:hover::before {
+    width: 100%;
+  }
+  .arrest-card.is-featured {
+    border-top: 1px solid rgba(220, 38, 38, 0.3);
+    background: linear-gradient(180deg, rgba(13, 21, 36, 0.6) 0%, transparent 100%);
+    padding: 10px 20px;
+  }
+  .arrest-card.is-featured::before {
+    height: 3px;
+    width: 100%;
+    background: #dc2626;
+  }
+</style>
