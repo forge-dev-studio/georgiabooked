@@ -6,7 +6,17 @@ export default defineConfig({
   site: 'https://georgiabooked.com',
   integrations: [
     tailwind({ applyBaseStyles: false }),
-    sitemap({ filter: (page) => !page.includes('/takedown') }),
+    sitemap({
+      filter: (page) => !page.includes('/takedown') && !page.includes('/og/'),
+      changefreq: 'hourly',
+      priority: 0.8,
+      serialize(item) {
+        if (item.url.endsWith('/')) item.priority = 1.0;
+        else if (item.url.includes('/counties/')) item.priority = 0.9;
+        else if (item.url.includes('/arrests/')) item.priority = 0.8;
+        return item;
+      },
+    }),
   ],
   build: {
     format: 'directory',
