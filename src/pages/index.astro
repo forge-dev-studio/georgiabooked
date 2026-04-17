@@ -7,15 +7,14 @@ import AdSlot from '@components/AdSlot.astro';
 import Hero from '@components/Hero.astro';
 import StatCard from '@components/StatCard.astro';
 import HotCountiesLeaderboard from '@components/HotCountiesLeaderboard.astro';
-import { loadArrests, recentArrests, countyHotness, arrestsInLast24h } from '@lib/data';
+import { loadArrests, recentArrests, countyHotness, arrestsInLast24h, withPhotos } from '@lib/data';
 import { websiteSchema } from '@lib/schema';
 import { url } from '@lib/url';
 
 const all = loadArrests();
-const withPhotos = all.filter((r) => r.mugshotUrl);
-const withoutPhotos = all.filter((r) => !r.mugshotUrl);
-const featured = withPhotos[0] ?? all[0];
-const rest = [...withPhotos.slice(1), ...withoutPhotos].slice(0, 24);
+const displayable = withPhotos(all);
+const featured = displayable[0];
+const rest = displayable.slice(1, 25);
 
 const last7Hotness = Array.from(countyHotness(all, 7).entries())
   .sort((a, b) => b[1] - a[1]);

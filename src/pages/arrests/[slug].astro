@@ -3,7 +3,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import SeverityChip from '@components/SeverityChip.astro';
 import AdSlot from '@components/AdSlot.astro';
 import ArrestCard from '@components/ArrestCard.astro';
-import { loadArrests, arrestsByCounty } from '@lib/data';
+import { loadArrests, arrestsByCounty, withPhotos } from '@lib/data';
 import { newsArticleSchema, breadcrumbSchema } from '@lib/schema';
 import { SEVERITY_LABEL } from '@lib/severity';
 import { slugifyCounty } from '@lib/counties';
@@ -21,7 +21,7 @@ const siteBase = `${site}${baseUrl}`;
 const canonical = `${siteBase}/arrests/${arrest.slug}/`;
 const countySlug = slugifyCounty(arrest.county);
 const allArrests = loadArrests();
-const related = arrestsByCounty(allArrests, arrest.county)
+const related = withPhotos(arrestsByCounty(allArrests, arrest.county))
   .filter((r) => r.slug !== arrest.slug)
   .slice(0, 6);
 

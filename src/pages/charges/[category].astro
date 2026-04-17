@@ -3,7 +3,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import ArrestCard from '@components/ArrestCard.astro';
 import AdSlot from '@components/AdSlot.astro';
 import { SEVERITY_LABEL, type Severity } from '@lib/severity';
-import { loadArrests } from '@lib/data';
+import { loadArrests, withPhotos } from '@lib/data';
 import { url } from '@lib/url';
 
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ const { category } = Astro.params;
 const severity = SEVERITY_SLUGS[category!];
 if (!severity) throw new Error(`Unknown category: ${category}`);
 
-const arrests = loadArrests().filter((r) => r.severity === severity);
+const arrests = withPhotos(loadArrests().filter((r) => r.severity === severity));
 ---
 <BaseLayout
   title={`${SEVERITY_LABEL[severity]} Arrests in Georgia - GeorgiaBooked`}

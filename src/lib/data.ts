@@ -38,3 +38,7 @@ export function arrestsInLast24h(records: ArrestRecord[]): ArrestRecord[] {
   const cutoff = Date.now() - 24 * 60 * 60 * 1000;
   return records.filter((r) => Date.parse(r.publishedAt) >= cutoff);
 }
+
+export function withPhotos(records: ArrestRecord[]): ArrestRecord[] {
+  return records.filter((r) => !!r.mugshotUrl);
+}

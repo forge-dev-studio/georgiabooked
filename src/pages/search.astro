@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import { loadArrests } from '@lib/data';
+import { loadArrests, withPhotos } from '@lib/data';
 
-const arrests = loadArrests();
+const arrests = withPhotos(loadArrests());
 const searchIndex = arrests.map((r) => ({
   slug: r.slug,
   name: r.name,
