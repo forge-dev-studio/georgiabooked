@@ -1,6 +1,8 @@
 import type { ArrestFacts } from '../extract-facts.ts';
 import { fetchP2CArrests } from './p2c.ts';
 import { fetchGordonArrests } from './gordon-pdf.ts';
+import { fetchPauldingArrests } from './paulding.ts';
+import { fetchClaytonArrests } from './clayton.ts';
 
 export interface ScraperSource {
   county: string;              // must match counties.ts name field
@@ -41,4 +43,26 @@ const gordonScraper: ScraperSource = {
   },
 };
 
-export const allScrapers: ScraperSource[] = [...p2cScrapers, gordonScraper];
+// Paulding County -- Tyler NewWorld MVC inmate inquiry.
+const pauldingScraper: ScraperSource = {
+  county: 'Paulding',
+  source: 'Tyler:Paulding',
+  fetch: (limit?: number) => {
+    const maxPages = limit ? Math.max(Math.ceil(limit / 20), 1) : 10;
+    return fetchPauldingArrests({ maxPages });
+  },
+};
+
+// Clayton County -- legacy CGI jail booking report.
+const claytonScraper: ScraperSource = {
+  county: 'Clayton',
+  source: 'CGI:Clayton',
+  fetch: (_limit?: number) => fetchClaytonArrests({ days: 14 }),
+};
+
+export const allScrapers: ScraperSource[] = [
+  ...p2cScrapers,
+  gordonScraper,
+  pauldingScraper,
+  claytonScraper,
+];

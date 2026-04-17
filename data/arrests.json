@@ -1,5 +1,78 @@
 [
   {
+    "slug": "charles-joseph-parker-coweta-county-2026-04-17",
+    "sourceId": 79218645,
+    "name": "Charles Joseph Parker",
+    "county": "Coweta",
+    "charges": [
+      "Purchase/Possess/Manufact/Dist/Sale Cont Subst-multiple Cnt",
+      "Purchase/Possess/Manufact/Dist/Sale Cont Subst-multiple Cnt"
+    ],
+    "bookingDate": "2026-04-17",
+    "publishedAt": "2026-04-17T01:29:50.266Z",
+    "sourceUrl": "https://cowetacosoga.policetocitizen.com/RecentArrests",
+    "rewrite": "Charles Joseph Parker was booked into the Coweta County, Georgia jail on April 17, 2026. Parker was charged with purchase, possession, manufacture, distribution, or sale of a controlled substance on multiple counts. He is presumed innocent unless proven guilty in court.\n\nThe charges Parker faced are classified as misdemeanors under Georgia law. Misdemeanor drug offenses in Georgia typically carry potential sentences of up to 12 months in jail and fines up to 1,000 dollars per count, though judges may impose sentences within a range depending on the specific controlled substance involved, the quantity, and other statutory factors. Coweta County, located southwest of Atlanta in the Atlanta metropolitan area, regularly processes drug-related charges through its criminal justice system.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "cristie-ann-ware-coweta-county-2026-04-17",
+    "sourceId": 1193832922,
+    "name": "Cristie Ann Ware",
+    "county": "Coweta",
+    "charges": [
+      "Driving While License Suspended Or Revoked"
+    ],
+    "bookingDate": "2026-04-17",
+    "publishedAt": "2026-04-17T01:29:50.266Z",
+    "sourceUrl": "https://cowetacosoga.policetocitizen.com/RecentArrests",
+    "rewrite": "Cristie Ann Ware was booked into the Coweta County jail on April 17, 2026, and was charged with driving while license suspended or revoked. The booking records indicate that Ware is alleged to have operated a motor vehicle while her driver's license was not valid.\n\nDriving with a suspended or revoked license is classified as a misdemeanor offense in Georgia. Under state law, a first offense can result in fines, potential jail time of up to 12 months, or both. The specific statutory penalties may vary depending on the circumstances of the offense and the driver's prior record. License suspensions or revocations typically occur due to unpaid traffic citations, failure to maintain insurance, accumulation of points, or other violations of traffic law.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "zhi-tian-chen-coweta-county-2026-04-17",
+    "sourceId": 850844688,
+    "name": "Zhi Tian Chen",
+    "county": "Coweta",
+    "charges": [
+      "Purchase/Possess/Manufact/Dist/Sale Cont Subst-multiple Cnt",
+      "Possession And Use Of Drug Related Objects",
+      "Driving While Unlicensed"
+    ],
+    "bookingDate": "2026-04-17",
+    "publishedAt": "2026-04-17T01:29:50.266Z",
+    "sourceUrl": "https://cowetacosoga.policetocitizen.com/RecentArrests",
+    "rewrite": "Zhi Tian Chen was booked into the Coweta County jail on April 17, 2026, and was charged with purchase, possession, manufacture, distribution, and sale of controlled substances on multiple counts, as well as possession and use of drug-related objects and driving while unlicensed. The charges are classified as misdemeanors.\n\nMisdemeanor drug offenses in Georgia carry potential penalties including fines and jail time, typically up to 12 months in county jail depending on the specific substance involved and prior criminal history. Driving without a valid license is also a misdemeanor offense under Georgia law, with potential consequences that may include fines and license suspension. The actual penalties will be determined through the judicial process following arraignment and any subsequent proceedings.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "logan-eric-jungbluth-coweta-county-2026-04-17",
+    "sourceId": 153571226,
+    "name": "Logan Eric Jungbluth",
+    "county": "Coweta",
+    "charges": [
+      "Child Sexual Exploitation- Felony"
+    ],
+    "bookingDate": "2026-04-17",
+    "publishedAt": "2026-04-17T01:29:50.266Z",
+    "sourceUrl": "https://cowetacosoga.policetocitizen.com/RecentArrests",
+    "rewrite": "Logan Eric Jungbluth was booked into the Coweta County, Georgia jail on April 17, 2026, and was charged with Child Sexual Exploitation, a felony offense. The booking record reflects the charge; however, the individual is presumed innocent unless and until proven guilty in a court of law.\n\nChild Sexual Exploitation is classified as a felony under Georgia law and is considered a serious criminal offense involving the exploitation of minors. Felony convictions for such charges typically carry significant statutory penalties, including substantial prison sentences and mandatory registration as a sex offender. Cases of this nature generally involve thorough investigation and adjudication through the Georgia court system.",
+    "severity": "felony"
+  },
+  {
+    "slug": "fabian-jashun-dunlap-coweta-county-2026-04-17",
+    "sourceId": 1588923073,
+    "name": "Fabian Ja`shun Dunlap",
+    "county": "Coweta",
+    "charges": [
+      "Driving While License Suspended Or Revoked"
+    ],
+    "bookingDate": "2026-04-17",
+    "publishedAt": "2026-04-17T01:29:50.266Z",
+    "sourceUrl": "https://cowetacosoga.policetocitizen.com/RecentArrests",
+    "rewrite": "Fabian Ja'shun Dunlap was booked into the Coweta County jail on April 17, 2026, and was charged with driving while his license was suspended or revoked. The charge is classified as a misdemeanor under Georgia law.\n\nDriving with a suspended or revoked license is a common traffic offense in Georgia. Depending on circumstances such as prior violations and the reason for suspension, penalties typically include fines ranging from fifty to five hundred dollars, potential jail time up to twelve months, or both. A conviction may also result in a mandatory license suspension period and points assessed against the driver's record.",
+    "severity": "misdemeanor"
+  },
+  {
     "slug": "jimmy-lee-adams-coweta-county-2026-04-16",
     "sourceId": 1016932724,
     "name": "Jimmy Lee Adams",
@@ -754,6 +827,552 @@
     "severity": "misdemeanor"
   },
   {
+    "slug": "alim-bridges-paulding-county-2026-04-16",
+    "sourceId": 30030094,
+    "name": "Alim Bridges",
+    "county": "Paulding",
+    "charges": [
+      "Housed For Other Agency"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-30094",
+    "rewrite": "Alim Bridges was booked into the Paulding County jail on April 16, 2026, and is alleged to have been held in custody for another law enforcement agency. The nature of the charges for which the other agency sought his custody was not specified in available booking records.\n\nMisdemeanor charges in Georgia typically carry potential sentences of up to 12 months in jail, fines up to $1,000, or both, depending on the specific offense and any prior criminal history. When an individual is booked as \"Housed For Other Agency,\" it generally indicates that a person is being held temporarily pending transfer, arraignment, or further processing by the requesting jurisdiction.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "omazia-coleman-paulding-county-2026-04-16",
+    "sourceId": 30160349,
+    "name": "Omazia Coleman",
+    "county": "Paulding",
+    "charges": [
+      "Criminal Trespass- Damage Less Than $500-family Violence (M)"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-160349",
+    "rewrite": "Omazia Coleman was booked into the Paulding County jail on April 16, 2026, and was charged with Criminal Trespass involving damage of less than $500 in a family violence context. The charge is classified as a misdemeanor. Coleman is alleged to have committed the offense and has been processed according to standard booking procedures.\n\nCriminal trespass charges in Georgia typically involve unlawful entry onto another's property or remaining on property after being told to leave. When property damage is involved and the incident occurs within a family violence context, Georgia law provides enhanced classifications and potential remedies. Misdemeanor convictions in Georgia can result in penalties including fines up to $1,000 and jail time up to 12 months, though specific sentences vary based on individual case circumstances and prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "keviyon-haynes-paulding-county-2026-04-16",
+    "sourceId": 30166298,
+    "name": "Keviyon Haynes",
+    "county": "Paulding",
+    "charges": [
+      "No Proof Of Insurance",
+      "Taillights - Motor Vehicle Required To Have",
+      "Marijuana Less Than 1 Ounce"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166298",
+    "rewrite": "Keviyon Haynes was booked into custody in Paulding County, Georgia on April 16, 2026. Haynes was charged with no proof of insurance, failure to have functioning taillights on a motor vehicle, and marijuana possession of less than one ounce. All charges are classified as misdemeanors.\n\nIn Georgia, these charges fall within the misdemeanor category. Driving without proof of insurance and equipment violations such as nonfunctional taillights are traffic-related offenses typically handled in traffic court. Marijuana possession of less than one ounce is a separate misdemeanor offense under state law, with statutory penalties that vary based on prior criminal history and other case factors.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "timothy-shane-maner-paulding-county-2026-04-16",
+    "sourceId": 30005409,
+    "name": "Timothy Shane Maner",
+    "county": "Paulding",
+    "charges": [
+      "Failure To Appear For Trial Or Court Appearance"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-5409",
+    "rewrite": "Timothy Shane Maner was booked into the Paulding County jail on April 16, 2026, on a charge of failure to appear for trial or court appearance. The charge is classified as a misdemeanor under Georgia law.\n\nFailure to appear charges are pursued when a defendant does not attend a scheduled court proceeding. In Georgia, this offense is codified under O.C.G.A. Section 34-7-2 and can result in additional criminal charges and penalties beyond the original case. A misdemeanor conviction for failure to appear can carry a sentence of up to 12 months in jail, a fine of up to one thousand dollars, or both, depending on the circumstances and the defendant's criminal history. Courts may also issue bench warrants and adjust bail conditions for defendants who fail to appear.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "patrick-leon-stevenson-paulding-county-2026-04-16",
+    "sourceId": 30019364,
+    "name": "Patrick Leon Stevenson",
+    "county": "Paulding",
+    "charges": [
+      "Probation Violation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-19364",
+    "rewrite": "Patrick Leon Stevenson was booked into the Paulding County jail on April 16, 2026, on a charge of probation violation. The specific details of the underlying probation terms and circumstances of the alleged violation were not provided in the booking record.\n\nProbation violations in Georgia are classified as misdemeanor charges when the underlying offense was a misdemeanor. Such violations occur when an individual fails to comply with the conditions set by a court during a probation sentence. Consequences for a probation violation conviction may include additional fines, extended probation, or incarceration, depending on the nature of the violation and the discretion of the presiding judge.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jamar-saunders-clayton-county-2026-04-16",
+    "sourceId": 242611115,
+    "name": "Jamar Saunders",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Probation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jamar Saunders was booked into the Clayton County jail on April 16, 2026, and was charged with violation of probation. Saunders is alleged to have failed to comply with the conditions of an existing probation sentence. The specific circumstances and terms allegedly violated were not detailed in the available booking records.\n\nViolation of probation is classified as a misdemeanor offense in Georgia. Such violations occur when an individual under probation supervision fails to meet court-ordered conditions, which may include regular check-ins with a probation officer, maintaining employment, avoiding criminal activity, or other stipulations set by the sentencing court. Consequences for probation violations can include modification of probation terms, fines, restitution, or incarceration, depending on the severity of the violation and the offender's prior record. Probation violations are handled through the original sentencing court's discretion.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jason-arkez-hood-clayton-county-2026-04-16",
+    "sourceId": 242611114,
+    "name": "Jason Arkez Hood",
+    "county": "Clayton",
+    "charges": [
+      "Vgcsa Manu/Sell/Dist/Deliver Controlled Subs"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jason Arkez Hood was booked into the Clayton County jail on April 16, 2026, and was charged with violating the Georgia Controlled Substances Act by allegedly manufacturing, selling, distributing, or delivering a controlled substance. The specific details of the alleged offense, including the substance involved and quantity, were not provided in the available booking record.\n\nManufacturing, selling, distributing, or delivering controlled substances under Georgia law typically constitutes a felony offense; however, certain circumstances involving smaller quantities or specific substances may be charged as misdemeanors. Penalties vary depending on the drug schedule involved and prior criminal history. Misdemeanor convictions in Georgia can result in imprisonment of up to 12 months and fines up to $1,000, though sentences may differ based on individual case factors and judicial discretion.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "quanesha-leshae-dill-clayton-county-2026-04-16",
+    "sourceId": 242611113,
+    "name": "Quanesha Leshae Dill",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Probation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Quanesha Leshae Dill was booked into the Clayton County jail on April 16, 2026, and was charged with violation of probation. The charge is classified as a misdemeanor offense.\n\nA violation of probation charge is brought when a person is alleged to have breached the conditions of their probation sentence. In Georgia, such violations can result in the revocation of probation and potential incarceration for the original sentence or an additional sentence, depending on the nature and severity of the alleged violation and the discretion of the court.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jameson-loyd-pirkle-clayton-county-2026-04-16",
+    "sourceId": 242611111,
+    "name": "Jameson Loyd Pirkle",
+    "county": "Clayton",
+    "charges": [
+      "Fugitive From Justice"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jameson Loyd Pirkle was booked into Clayton County custody on April 16, 2026, on a charge of Fugitive From Justice. According to booking records, Pirkle is alleged to have been wanted in connection with a matter outside Clayton County jurisdiction.\n\nFugitive From Justice charges in Georgia typically arise when an individual fails to appear in court, violates bail conditions, or is sought by another jurisdiction. As a misdemeanor-level offense, conviction may result in incarceration and fines depending on the underlying circumstances and the jurisdiction pursuing the charge. The specific details of the original charge or warrant were not included in available booking information.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "kuwana-courtney-harrington-clayton-county-2026-04-16",
+    "sourceId": 242611112,
+    "name": "Kuwana Courtney Harrington",
+    "county": "Clayton",
+    "charges": [
+      "Criminal Trespass-unlawful Purpose"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Kuwana Courtney Harrington was booked into the Clayton County jail on April 16, 2026, and was charged with Criminal Trespass-unlawful Purpose. The charge was classified as a misdemeanor offense. Harrington is alleged to have committed this offense in Clayton County.\n\nCriminal Trespass-unlawful Purpose is a misdemeanor under Georgia law, typically charged when a person enters or remains on another's property without authorization and with an unlawful purpose. In Georgia, misdemeanor convictions can result in up to 12 months of incarceration, a fine not exceeding 1,000 dollars, or both, depending on the specific circumstances and any prior criminal history. The severity of sentencing in such cases often depends on factors such as the nature of the property involved, whether the trespass was residential or commercial, and the defendant's prior record.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "victoria-janine-ford-clayton-county-2026-04-16",
+    "sourceId": 242611108,
+    "name": "Victoria Janine Ford",
+    "county": "Clayton",
+    "charges": [
+      "Theft By Shoplifting"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Victoria Janine Ford was booked into Clayton County custody on April 16, 2026, and was charged with Theft By Shoplifting. The specific circumstances of the alleged incident and the value of merchandise involved were not detailed in available booking records.\n\nTheft By Shoplifting is classified as a serious misdemeanor under Georgia law. Convictions for shoplifting can result in penalties including fines, restitution to the business, and potential jail time depending on prior criminal history and the value of items allegedly taken. Such charges are among the most commonly prosecuted retail-related offenses in Georgia.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "dwayne-douglas-peppers-clayton-county-2026-04-16",
+    "sourceId": 242611107,
+    "name": "Dwayne Douglas Peppers",
+    "county": "Clayton",
+    "charges": [
+      "Fugitive From Justice"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Dwayne Douglas Peppers was booked into the Clayton County jail on April 16, 2026, on a charge of Fugitive From Justice. According to booking records, Peppers is alleged to have been apprehended as a fugitive while in Clayton County custody.\n\nFugitive From Justice is classified as a misdemeanor offense in Georgia. The charge typically applies when a person flees or attempts to avoid apprehension for a crime committed in another jurisdiction. Consequences for misdemeanor convictions in Georgia can include fines, jail time of up to 12 months, or both, depending on the circumstances and the underlying offense for which the person was sought.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "cordova-madelyn-lizet-figueroa-clayton-county-2026-04-16",
+    "sourceId": 242611104,
+    "name": "Cordova Madelyn Lizet Figueroa",
+    "county": "Clayton",
+    "charges": [
+      "License-none Or Class Violation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Cordova Madelyn Lizet Figueroa was booked into Clayton County custody on April 16, 2026, and was charged with license-none or class violation. She is alleged to have committed this misdemeanor offense.\n\nLicense-related violations in Georgia are typically classified as misdemeanors when they involve operating a vehicle without a valid license or with an improper class of license. Such offenses generally carry penalties that may include fines, license suspension, or other administrative sanctions depending on the specific circumstances and any prior violations on the driver's record.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "cordova-madelyn-lizet-figueroa-clayton-county-2026-04-16-2",
+    "sourceId": 242611105,
+    "name": "Cordova Madelyn Lizet Figueroa",
+    "county": "Clayton",
+    "charges": [
+      "Drivers Vision Obstructed"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Cordova Madelyn Lizet Figueroa was booked into Clayton County custody on April 16, 2026, and was charged with Drivers Vision Obstructed, a misdemeanor offense. The booking was processed according to standard county procedures for individuals alleged to have committed this traffic-related violation.\n\nDrivers Vision Obstructed is a misdemeanor traffic offense under Georgia law, typically charged when an obstruction prevents a driver from having a clear and unobstructed view of the roadway and surrounding areas. Misdemeanor convictions in Georgia can result in penalties including fines, jail time of up to 12 months, or both, depending on the specific circumstances and the defendant's prior record. Such charges are generally categorized as lower-level traffic violations but are prosecuted to encourage vehicle safety compliance.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jr-john-alfred-lahorace-davis-clayton-county-2026-04-16",
+    "sourceId": 242611103,
+    "name": "Jr John Alfred Lahorace Davis",
+    "county": "Clayton",
+    "charges": [
+      "Criminal Trespass"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jr John Alfred Lahorace Davis was booked into the Clayton County jail on April 16, 2026, on a charge of criminal trespass. The specific circumstances of the alleged incident were not detailed in available records.\n\nCriminal trespass is classified as a misdemeanor under Georgia law. Conviction of this offense typically carries penalties including fines, jail time not to exceed 12 months, or both, depending on the particular circumstances and any prior criminal history. Criminal trespass charges generally involve allegations that a person entered or remained on another's property without permission or lawful authority.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jason-machado-clayton-county-2026-04-16",
+    "sourceId": 242611097,
+    "name": "Jason Machado",
+    "county": "Clayton",
+    "charges": [
+      "Hit & Run (Injury Or Damage) - Misd"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jason Machado was booked into the Clayton County jail on April 16, 2026, and was charged with hit and run involving injury or damage, a misdemeanor offense. The charge indicates that Machado is alleged to have been involved in a vehicle collision and failed to remain at the scene or provide required information to the other party involved.\n\nHit and run charges in Georgia are categorized by the severity of the incident. For misdemeanor cases involving property damage or minor injuries, Georgia law typically permits sentences up to 12 months in jail and fines up to $1,000. More serious hit and run cases involving serious injury or death are charged as felonies with significantly enhanced penalties. Misdemeanor hit and run cases are relatively common in traffic enforcement and typically result from accidents where a driver departs the scene without exchanging information or rendering assistance as required by law.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jason-machado-clayton-county-2026-04-16-2",
+    "sourceId": 242611099,
+    "name": "Jason Machado",
+    "county": "Clayton",
+    "charges": [
+      "Imp Turn-imp Signal"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jason Machado was booked into the Clayton County jail on April 16, 2026, and was charged with improper turn/improper signal, a misdemeanor offense. The specific circumstances of the arrest and booking were recorded in Clayton County's system on that date.\n\nImproper turn or improper signal violations are typically classified as misdemeanor traffic offenses in Georgia. Such charges generally carry potential penalties including fines and possible license points, though the specific consequences depend on factors such as prior driving record and the discretion of the court. These offenses are among the most common traffic violations handled in Georgia's judicial system.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jason-machado-clayton-county-2026-04-16-3",
+    "sourceId": 242611100,
+    "name": "Jason Machado",
+    "county": "Clayton",
+    "charges": [
+      "Improper Lane Change"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jason Machado was booked into the Clayton County jail on April 16, 2026, and was charged with improper lane change, a misdemeanor offense. The specific circumstances of the alleged traffic violation were not detailed in available booking records.\n\nImproper lane change is classified as a misdemeanor traffic violation under Georgia law. Conviction of a misdemeanor can result in penalties including fines, points assessed to a driver's license, and potential jail time of up to 12 months, depending on the case circumstances and any prior violations. Traffic misdemeanors of this nature typically do not result in felony-level sentencing but may impact driving privileges and insurance rates.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jovon-dixon-clayton-county-2026-04-16",
+    "sourceId": 242611096,
+    "name": "Jovon Dixon",
+    "county": "Clayton",
+    "charges": [
+      "Wanted Person Located"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Jovon Dixon was booked into the Clayton County jail on April 16, 2026, on a charge of Wanted Person Located. The charge is classified as a misdemeanor.\n\nA Wanted Person Located charge typically indicates that an individual was apprehended based on an active warrant or outstanding legal matter. In Georgia, misdemeanor offenses carry potential penalties including fines, jail time of up to 12 months, or both, depending on the specific circumstances and underlying reason for the warrant. The exact nature of the original warrant and any subsequent legal proceedings would be determined through the court process.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "eddie-duran-brooks-clayton-county-2026-04-16",
+    "sourceId": 242611095,
+    "name": "Eddie Duran Brooks",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Probation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Eddie Duran Brooks was booked into the Clayton County jail on April 16, 2026, and was charged with violation of probation. The specific conditions allegedly violated were not detailed in the available booking records.\n\nViolation of probation is a misdemeanor-level offense in Georgia that occurs when an individual fails to comply with the terms and conditions set by a court during their probationary period. Consequences for such violations can include revocation of probation, jail time, fines, or modification of the original probationary terms, depending on the nature and severity of the alleged violation and the discretion of the presiding judge.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "gary-fred-keyes-clayton-county-2026-04-16",
+    "sourceId": 242611094,
+    "name": "Gary Fred Keyes",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Probation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Gary Fred Keyes was booked into Clayton County custody on April 16, 2026, and was charged with violation of probation. The specific circumstances of the alleged probation violation were not detailed in the available records.\n\nViolation of probation charges in Georgia arise when a person fails to comply with the terms and conditions imposed during a period of supervised release. These charges are classified as misdemeanors and can result in consequences ranging from warnings and fines to revocation of probation and incarceration, depending on the nature of the violation and the discretion of the supervising court. The outcome of such cases often depends on factors including the seriousness of the violation, the defendant's prior compliance history, and recommendations from the probation officer.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "coralean-harris-clayton-county-2026-04-16",
+    "sourceId": 242611093,
+    "name": "Coralean Harris",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Probation"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Coralean Harris was booked into Clayton County, Georgia custody on April 16, 2026, and was charged with violation of probation. Harris is alleged to have violated the terms of a previously imposed probation sentence.\n\nViolation of probation is classified as a misdemeanor offense in Georgia. When an individual is found to have violated the conditions of probation, the supervising court may impose additional penalties, which can include fines, extended probation, or incarceration depending on the nature and severity of the violation and the defendant's criminal history. The specific circumstances of the alleged violation and the original offense would typically be reviewed during a probation violation hearing.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "raphael-fernando-brown-clayton-county-2026-04-16",
+    "sourceId": 242218072,
+    "name": "Raphael Fernando Brown",
+    "county": "Clayton",
+    "charges": [
+      "Cruelty To Children In 3rd Degree"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Raphael Fernando Brown was booked into the Clayton County jail on April 16, 2026, on a charge of Cruelty To Children In The 3rd Degree. The booking record documents his arrest and processing into custody based on the alleged offense.\n\nCruelty to Children in the 3rd Degree is classified as a misdemeanor under Georgia law. Misdemeanor convictions in Georgia can result in incarceration for up to 12 months in a county jail, a fine of up to $1,000, or both. Child welfare charges are investigated by local law enforcement and may involve coordination with the Georgia Division of Family & Children Services depending on the circumstances of the case.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "dasean-isaiah-lott-clayton-county-2026-04-16",
+    "sourceId": 242611092,
+    "name": "Dasean Isaiah Lott",
+    "county": "Clayton",
+    "charges": [
+      "Speeding 35 Mph And Over"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Dasean Isaiah Lott was booked into the Clayton County jail on April 16, 2026, and was charged with speeding 35 miles per hour and over. The charge is classified as a misdemeanor offense under Georgia law.\n\nSpeeding violations in excess of 35 miles per hour over the posted speed limit constitute a misdemeanor in Georgia. Misdemeanor convictions for traffic offenses can result in fines, license suspension, and points assessed to a driver's record. The specific penalties depend on the defendant's prior driving history and the exact speed at which the vehicle was operating.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "eric-bernard-tucker-clayton-county-2026-04-16",
+    "sourceId": 242611090,
+    "name": "Eric Bernard Tucker",
+    "county": "Clayton",
+    "charges": [
+      "Violation Of Ga Controlled Substance Act"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Eric Bernard Tucker was booked into the Clayton County, Georgia jail on April 16, 2026, on a charge of Violation of Georgia Controlled Substance Act. The charge is classified as a misdemeanor. Tucker is alleged to have committed this offense and was processed according to standard booking procedures.\n\nViolations of the Georgia Controlled Substance Act encompass a range of offenses involving the possession, distribution, or manufacture of controlled substances. Misdemeanor-level controlled substance charges in Georgia typically carry potential penalties including fines up to $1,000 and incarceration for up to 12 months, though specific sentencing depends on factors such as the type and quantity of substance involved and the defendant's criminal history. Such charges are prosecuted at the county level and may result in various outcomes including conviction, acquittal, or plea agreements depending on the course of the case.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "indya-shamari-briggs-clayton-county-2026-04-16",
+    "sourceId": 242611086,
+    "name": "Indya Shamari Briggs",
+    "county": "Clayton",
+    "charges": [
+      "Serious Inj By Vehicle"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Indya Shamari Briggs was booked into Clayton County custody on April 16, 2026, and was charged with Serious Injury by Vehicle. According to the booking record, Briggs is alleged to have committed this offense. The charge was classified as a misdemeanor under Georgia law.\n\nSerious Injury by Vehicle is a misdemeanor offense in Georgia typically involving the operation of a vehicle in a manner that causes serious physical injury to another person, though not amounting to felony-level harm. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in jail, fines up to $1,000, or both, depending on the specific circumstances and any prior criminal history. The actual penalties imposed depend on judicial discretion and the facts presented at trial or during plea proceedings.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "indya-shamari-briggs-clayton-county-2026-04-16-2",
+    "sourceId": 242611087,
+    "name": "Indya Shamari Briggs",
+    "county": "Clayton",
+    "charges": [
+      "Fail Yield R/W Turning Left"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Indya Shamari Briggs was booked into the Clayton County jail on April 16, 2026, and was charged with failure to yield the right of way while turning left. The charge is a misdemeanor traffic violation.\n\nFailure to yield the right of way is a common traffic offense under Georgia law, typically classified as a misdemeanor. In Georgia, traffic violations of this nature can result in fines, points on a driver's license, and possible traffic school requirements. The specific statutory consequences depend on factors such as prior driving history and whether the violation resulted in an accident or injury.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "indya-shamari-briggs-clayton-county-2026-04-16-3",
+    "sourceId": 242611088,
+    "name": "Indya Shamari Briggs",
+    "county": "Clayton",
+    "charges": [
+      "Hit & Run (Accident)"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "Indya Shamari Briggs was booked into the Clayton County jail on April 16, 2026, and was charged with hit and run related to an accident. According to booking records, Briggs is alleged to have been involved in a vehicle accident and left the scene without providing required information or assistance. The specific details of the incident, including the date, location, and extent of any injuries or property damage, were not provided in available records.\n\nHit and run charges in Georgia are typically classified as misdemeanors when no serious injury or death results from the accident. Under Georgia law, drivers involved in accidents are required to provide their name, address, vehicle registration, and insurance information to other parties involved, and to report the incident to law enforcement if there is injury or significant property damage. Conviction of a misdemeanor hit and run can result in penalties including fines, potential jail time of up to twelve months, and suspension of driving privileges. The specific consequences depend on the circumstances of the accident and any prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "william-waters-clayton-county-2026-04-16",
+    "sourceId": 242611085,
+    "name": "William Waters",
+    "county": "Clayton",
+    "charges": [
+      "Theft By Shoplifting"
+    ],
+    "bookingDate": "2026-04-16",
+    "publishedAt": "2026-04-16T00:00:00-04:00",
+    "sourceUrl": "https://weba.claytoncountyga.gov/sjiinqcgi-bin/wsj210r.pgm?days=14&rtype=F",
+    "rewrite": "William Waters was booked into the Clayton County jail on April 16, 2026, and was charged with Theft By Shoplifting. The specific circumstances of the alleged offense, including the location and value of items involved, were not detailed in the available booking information.\n\nTheft By Shoplifting is classified as a serious misdemeanor in Georgia. Under state law, shoplifting convictions can result in jail time of up to 12 months, fines up to $1,000, or both, depending on the value of merchandise involved and any prior criminal history. A conviction may also carry collateral consequences including a permanent criminal record, which can affect employment, housing, and other opportunities. Clayton County, located in the Atlanta metropolitan area, processes thousands of retail-related charges annually through its court system.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "corey-ryan-anderson-paulding-county-2026-04-15",
+    "sourceId": 30166253,
+    "name": "Corey Ryan Anderson",
+    "county": "Paulding",
+    "charges": [
+      "Battery-family Violence"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166253",
+    "rewrite": "Corey Ryan Anderson was booked into the Paulding County jail on April 15, 2026, and was charged with battery-family violence. Anderson is alleged to have committed this offense and remains in custody pending further court proceedings.\n\nBattery-family violence is classified as a violent felony in Georgia. Under state law, a conviction for this offense can result in substantial penalties, including imprisonment and fines. Family violence cases are treated with particular attention by the Georgia criminal justice system, and such charges typically involve allegations of physical harm or threats directed at a family or household member. The specific circumstances and evidence presented will determine the course of the legal proceedings.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "syvanna-denae-bennett-paulding-county-2026-04-15",
+    "sourceId": 30166280,
+    "name": "Syvanna Denae Bennett",
+    "county": "Paulding",
+    "charges": [
+      "Driving While License Suspended Or Revoked (M)",
+      "Speeding",
+      "No Insurance"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166280",
+    "rewrite": "Syvanna Denae Bennett was booked into the Paulding County jail on April 15, 2026. She was charged with driving while her license was suspended or revoked, speeding, and operating a vehicle without insurance. All charges are classified as misdemeanors.\n\nDriving with a suspended or revoked license is a misdemeanor offense in Georgia that typically carries penalties including fines, potential jail time of up to twelve months, and license suspension extension. The accompanying charges of speeding and operating without valid insurance are also misdemeanor traffic violations. These charges commonly result from traffic stops and are among the most frequently processed offenses in Georgia courts.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "carlos-levell-favors-paulding-county-2026-04-15",
+    "sourceId": 30031354,
+    "name": "Carlos Levell Favors",
+    "county": "Paulding",
+    "charges": [
+      "Theft By Taking (F)"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-31354",
+    "rewrite": "Carlos Levell Favors was booked into the Paulding County jail on April 15, 2026, and was charged with Theft By Taking. According to booking records, Favors is alleged to have committed this offense, though he has not been convicted.\n\nTheft By Taking is classified as a misdemeanor under Georgia law. Individuals convicted of misdemeanor theft may face penalties including fines up to $1,000 and imprisonment for up to 12 months in county jail, depending on the value of property involved and other factors specific to the case. Paulding County, located northwest of Atlanta, processes felony and misdemeanor cases through the Superior Court system.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "peteagale-imeacha-frew-paulding-county-2026-04-15",
+    "sourceId": 30166220,
+    "name": "Peteagale Imeacha Frew",
+    "county": "Paulding",
+    "charges": [
+      "Simple Battery- Family Violence (M)"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166220",
+    "rewrite": "Peteagale Imeacha Frew was booked into the Paulding County jail on April 15, 2026, and is alleged to have committed simple battery in a family violence context. The charge is classified as a misdemeanor under Georgia law.\n\nSimple battery involving family violence is prosecuted as a criminal offense in Georgia to address domestic incidents. Under O.C.G.A. 16-5-20, simple battery involves intentional physical contact of an insulting or provoking nature, or intentional physical harm to another. When such conduct occurs within a family or household relationship, it triggers enhanced procedures and potential mandatory arrest policies under Georgia's family violence statutes. Conviction can result in penalties including imprisonment and fines, with specific sentences determined by judicial discretion and consideration of aggravating or mitigating factors.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "dejah-henderson-paulding-county-2026-04-15",
+    "sourceId": 30159218,
+    "name": "Dejah Henderson",
+    "county": "Paulding",
+    "charges": [
+      "Simple Battery - Physical Contact Of Insulting Or Provoking Nature",
+      "False Imprisonment-family Violence (F)"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-159218",
+    "rewrite": "Dejah Henderson was booked into the Paulding County jail on April 15, 2026, and was charged with Simple Battery involving physical contact of an insulting or provoking nature and False Imprisonment in a family violence context. According to the booking record, Henderson is alleged to have committed these offenses, which are classified as serious misdemeanors under Georgia law.\n\nFalse Imprisonment charges, particularly those involving family violence designations, represent serious allegations under Georgia statutes. In Georgia, Simple Battery typically carries potential penalties including fines and possible jail time, while False Imprisonment can result in more substantial criminal consequences depending on the circumstances and any aggravating factors. The family violence designation on the False Imprisonment charge indicates the alleged offense occurred in a domestic context, which may affect sentencing considerations and result in additional conditions such as protective orders or mandatory counseling requirements under Georgia law.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "brooklyn-wylma-howell-paulding-county-2026-04-15",
+    "sourceId": 30014173,
+    "name": "Brooklyn Wylma Howell",
+    "county": "Paulding",
+    "charges": [
+      "Theft By Taking - Theft From Building",
+      "Battery-family Violence"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-14173",
+    "rewrite": "Brooklyn Wylma Howell was booked into the Paulding County jail on April 15, 2026, and was charged with Theft By Taking - Theft From Building and Battery-family Violence. The charges were classified as a violent felony.\n\nBattery-family Violence is a felony offense in Georgia when it involves physical contact or threatening behavior between family or household members. Theft By Taking - Theft From Building constitutes larceny of property taken from within a building and is typically prosecuted as either a felony or misdemeanor depending on the value of items taken. Violent felony convictions in Georgia carry potential prison sentences and can result in additional collateral consequences including restrictions on firearm possession and employment opportunities.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "ashley-jackson-paulding-county-2026-04-15",
+    "sourceId": 30137794,
+    "name": "Ashley Jackson",
+    "county": "Paulding",
+    "charges": [
+      "Obstruction Of Leo (M)",
+      "False Statements/Writings/Conceal Facts/Fraudulent Docs In Matters Of Govt",
+      "Unlawful For Any Person To Purchase, Possess, Or Have Under His Or Her Control Any Controlled Substance."
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-137794",
+    "rewrite": "Ashley Jackson was booked into the Paulding County jail on April 15, 2026, and was charged with obstruction of a law enforcement officer, a misdemeanor; false statements, writings, concealment of facts, or fraudulent documents in matters of government; and unlawful possession or control of a controlled substance. Jackson is alleged to have committed these offenses and was processed according to standard booking procedures.\n\nObstruction of a law enforcement officer is classified as a misdemeanor offense in Georgia, typically carrying penalties of up to twelve months in jail and fines up to one thousand dollars. Charges related to false statements in government matters and controlled substance possession represent serious misdemeanor-level offenses that can result in significant jail time and monetary penalties depending on the specific circumstances and prior criminal history of the accused. These charges commonly arise from interactions with law enforcement and are processed through the Georgia criminal justice system according to applicable state statutes.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "gregory-edward-robinson-paulding-county-2026-04-15",
+    "sourceId": 30166282,
+    "name": "Gregory Edward Robinson",
+    "county": "Paulding",
+    "charges": [
+      "No License On Person",
+      "Speeding",
+      "Dui - Alcohol"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166282",
+    "rewrite": "Gregory Edward Robinson was booked into the Paulding County jail on April 15, 2026, and was charged with driving under the influence of alcohol, speeding, and operating a motor vehicle without a valid license on his person. Robinson is alleged to have committed these violations during a traffic stop in Paulding County.\n\nDUI-alcohol charges in Georgia are classified as serious misdemeanors when a first offense and no accident or injury occurs. A conviction can result in penalties including fines, license suspension, mandatory DUI education programs, and potential jail time. The charge of operating a vehicle without a valid license on person is a misdemeanor traffic offense, distinct from driving with a suspended or revoked license. Speeding charges vary in severity depending on the speed in excess of the legal limit and can result in fines and points against a driver's license. Georgia law provides for increased penalties if multiple traffic violations occur during a single incident.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "john-wesley-wolfe-paulding-county-2026-04-15",
+    "sourceId": 30027930,
+    "name": "John Wesley Wolfe",
+    "county": "Paulding",
+    "charges": [
+      "Simple Battery- Family Violence (M)",
+      "Aggravated Assault With A Deadly Weapon",
+      "Tampering With Evidence (F)",
+      "Terroristic Threats And Acts - Intimidation",
+      "Reckless Conduct (M)"
+    ],
+    "bookingDate": "2026-04-15",
+    "publishedAt": "2026-04-15T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-27930",
+    "rewrite": "John Wesley Wolfe was booked into the Paulding County jail on April 15, 2026. He was charged with Simple Battery - Family Violence, a misdemeanor; Aggravated Assault With A Deadly Weapon; Tampering With Evidence, a felony; Terroristic Threats and Acts - Intimidation; and Reckless Conduct, a misdemeanor. According to booking records, Wolfe is alleged to have committed these offenses, which are classified as violent felonies. He remains presumed innocent unless convicted in court.\n\nIn Georgia, aggravated assault with a deadly weapon is a felony offense that carries a prison sentence of one to twenty years. Tampering with evidence is also a felony with potential imprisonment. Simple battery charges in a family violence context carry enhanced penalties under Georgia's domestic violence statute. Terroristic threats and acts, which involve threats of violence intended to terrorize or intimidate, are prosecuted under O.C.G.A. 16-8-20 and carry significant criminal consequences. The combination of these charges reflects the serious nature of the allegations and indicates the offense involved both violence and potential obstruction of justice.",
+    "severity": "violent_felony"
+  },
+  {
     "slug": "troy-william-smith-gordon-county-2026-04-14",
     "sourceId": 20050070,
     "name": "Troy William Smith",
@@ -1103,6 +1722,39 @@
     "severity": "misdemeanor"
   },
   {
+    "slug": "oliver-chester-cooper-paulding-county-2026-04-14",
+    "sourceId": 30166159,
+    "name": "Oliver Chester Cooper",
+    "county": "Paulding",
+    "charges": [
+      "Unlawful For Any Person To Purchase, Possess, Or Have Under His Or Her Control Any Controlled Substance.",
+      "Housed For Other Agency",
+      "Possession And Use Of Drug Related Objects (M)"
+    ],
+    "bookingDate": "2026-04-14",
+    "publishedAt": "2026-04-14T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166159",
+    "rewrite": "Oliver Chester Cooper was booked into the Paulding County jail on April 14, 2026. He was charged with unlawful possession or control of a controlled substance, possession and use of drug-related objects, and was noted as being housed for another agency. Cooper is alleged to have committed these offenses and is presumed innocent unless proven guilty.\n\nPossession of controlled substances and drug-related objects are typically classified as misdemeanor offenses in Georgia when involving smaller quantities. Such charges generally carry potential penalties including fines, probation, or incarceration for up to twelve months in county jail. The notation regarding housing for another agency indicates Cooper may have additional charges or holds from a separate jurisdiction.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "michael-dean-corcoran-paulding-county-2026-04-14",
+    "sourceId": 30002631,
+    "name": "Michael Dean Corcoran",
+    "county": "Paulding",
+    "charges": [
+      "Failure To Appear",
+      "Simple Battery Against A Person Who Is 65 Years Or Older Or Who Is Pregnant At The Time Of The Offense (M)",
+      "Probation Violation",
+      "Obstruction Of Leo (M)"
+    ],
+    "bookingDate": "2026-04-14",
+    "publishedAt": "2026-04-14T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-2631",
+    "rewrite": "Michael Dean Corcoran was booked into the Paulding County jail on April 14, 2026. He was charged with failure to appear, simple battery against a person 65 years or older or pregnant at the time of the offense, probation violation, and obstruction of a law enforcement officer. The charges are classified as serious misdemeanors.\n\nSimple battery involving elderly or pregnant victims is treated as an aggravated offense under Georgia law due to the vulnerable status of the alleged victims. In Georgia, misdemeanor simple battery is typically punishable by up to 12 months in jail and a fine of up to 1,000 dollars, though cases involving elderly or pregnant individuals may result in enhanced penalties. Failure to appear and obstruction of law enforcement are separate criminal charges that carry their own statutory consequences, and a probation violation charge indicates that Corcoran was under court supervision at the time of the alleged conduct.",
+    "severity": "serious_misdemeanor"
+  },
+  {
     "slug": "bryant-rainey-miller-county-2026-04-13",
     "sourceId": 3780171,
     "name": "Bryant Rainey",
@@ -1395,6 +2047,91 @@
     "sourceUrl": "https://www.gordongazettega.com/_files/ugd/4b5a67_1b733c12bc784b25aa5015f073b525c3.pdf",
     "rewrite": "Stacie Leigh Merk was booked into the Gordon County jail on April 13, 2026, on charges including Criminal Damage to Property in the second degree, False Imprisonment with a Family Violence allegation, Obstructing or Hindering Persons Making an Emergency Telephone Call, and Simple Battery with a Family Violence designation. Merk is alleged to have committed these offenses and was charged accordingly upon booking.\n\nThe charges against Merk are classified as violent felonies under Georgia law. False Imprisonment and Simple Battery involving family violence are serious offenses that carry significant statutory penalties. In Georgia, False Imprisonment can result in felony conviction with prison sentences, while obstruction of emergency communications is treated as a separate criminal violation. Family Violence designations in Georgia carry enhanced consequences and may trigger additional legal provisions related to protective orders and firearm restrictions. Criminal Damage to Property in the second degree is a felony offense with corresponding sentencing guidelines.",
     "severity": "violent_felony"
+  },
+  {
+    "slug": "bryan-demomd-brazil-paulding-county-2026-04-13",
+    "sourceId": 30166079,
+    "name": "Bryan Demomd Brazil",
+    "county": "Paulding",
+    "charges": [
+      "Driving Without A Valid License (M)"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166079",
+    "rewrite": "Bryan Demomd Brazil was booked into the Paulding County jail on April 13, 2026, and was charged with driving without a valid license. According to booking records, Brazil is alleged to have operated a vehicle without proper licensing credentials.\n\nDriving without a valid license is classified as a misdemeanor offense in Georgia. Penalties for such violations typically include fines, potential jail time not to exceed 12 months, or both, depending on prior violations and circumstances. This charge addresses a common traffic violation that law enforcement pursues to ensure public safety and road compliance.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "william-david-jones-paulding-county-2026-04-13",
+    "sourceId": 30120680,
+    "name": "William David Jones",
+    "county": "Paulding",
+    "charges": [
+      "County Sentenced"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-120680",
+    "rewrite": "William David Jones was booked into custody in Paulding County, Georgia on April 13, 2026. According to booking records, Jones was processed following a county sentence determination.\n\nMisdemeanor charges in Georgia are classified as lower-level offenses, typically carrying maximum penalties of up to 12 months in jail and fines up to $1,000, depending on the specific violation and any prior criminal history. Sentencing for misdemeanor convictions may include incarceration, probation, community service, fines, or a combination thereof, as determined by the court.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "brian-david-ledbetter-paulding-county-2026-04-13",
+    "sourceId": 30119006,
+    "name": "Brian David Ledbetter",
+    "county": "Paulding",
+    "charges": [
+      "Probation Violation"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-119006",
+    "rewrite": "Brian David Ledbetter was booked into the Paulding County jail on April 13, 2026, and was charged with probation violation. The specific details of the alleged violation were not specified in available records.\n\nProbation violation is classified as a misdemeanor offense in Georgia. When a person is charged with violating the terms of their probation, the matter typically returns to the court that originally imposed the probation sentence. Depending on the nature and severity of the alleged violation, a judge may impose various sanctions, ranging from a warning to modification of probation terms to revocation of probation and incarceration. The defendant has the right to a hearing to contest the allegation before any sanctions are imposed.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "darryl-sean-junior-mack-paulding-county-2026-04-13",
+    "sourceId": 30166074,
+    "name": "Darryl Sean Junior Mack",
+    "county": "Paulding",
+    "charges": [
+      "Housed For Other Agency"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-166074",
+    "rewrite": "Darryl Sean Junior Mack was booked into the Paulding County jail on April 13, 2026, on a charge of Housed For Other Agency. This charge typically indicates that the defendant was held in custody pending transfer to another jurisdiction or law enforcement agency. Mack is presumed innocent unless proven guilty in court.\n\nHoused For Other Agency is a misdemeanor-level charge under Georgia law. This classification is generally applied to administrative bookings where an individual is temporarily detained to facilitate transfer between agencies or jurisdictions. Misdemeanor convictions in Georgia can result in up to twelve months of incarceration and fines up to one thousand dollars, though specific penalties depend on the underlying charges for which the transfer was requested.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "jeremy-scott-prather-paulding-county-2026-04-13",
+    "sourceId": 30164707,
+    "name": "Jeremy Scott Prather",
+    "county": "Paulding",
+    "charges": [
+      "Pedestrian Right Of Way In Crosswalk",
+      "Pedestrian Under Influence Of Alcohol Or Drug"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-164707",
+    "rewrite": "Jeremy Scott Prather was booked into the Paulding County jail on April 13, 2026. He was charged with pedestrian right of way in crosswalk and pedestrian under the influence of alcohol or drug, both misdemeanor offenses.\n\nThese charges relate to pedestrian conduct violations under Georgia law. A pedestrian right of way violation typically occurs when a pedestrian fails to follow traffic control signals or fails to yield appropriately in designated crosswalks. Pedestrian under the influence is a misdemeanor offense in Georgia that applies when a pedestrian is impaired by alcohol or drugs while in a roadway. Misdemeanor convictions in Georgia can result in fines, probation, or jail sentences up to 12 months, depending on the specific circumstances and the defendant's criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "emily-ann-wilcher-paulding-county-2026-04-13",
+    "sourceId": 30165923,
+    "name": "Emily Ann Wilcher",
+    "county": "Paulding",
+    "charges": [
+      "Cruelty To Animals"
+    ],
+    "bookingDate": "2026-04-13",
+    "publishedAt": "2026-04-13T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-165923",
+    "rewrite": "Emily Ann Wilcher was booked into the Paulding County jail on April 13, 2026, and was charged with Cruelty to Animals. The specific circumstances of the alleged incident were not provided in available booking records.\n\nCruelty to Animals in Georgia is classified as a serious misdemeanor offense. Under Georgia law, animal cruelty convictions can result in jail time, fines, and other penalties. These charges fall under state animal protection statutes designed to prevent harm to animals and enforce standards of humane treatment.",
+    "severity": "serious_misdemeanor"
   },
   {
     "slug": "kahlil-whitley-coffee-county-2026-04-12",
@@ -7910,6 +8647,67 @@
     "severity": "misdemeanor"
   },
   {
+    "slug": "levi-chistopher-adkins-paulding-county-2026-04-12",
+    "sourceId": 30060173,
+    "name": "Levi Chistopher Adkins",
+    "county": "Paulding",
+    "charges": [
+      "Failure To Appear"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-12T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-60173",
+    "rewrite": "Levi Christopher Adkins was booked into the Paulding County jail on April 12, 2026, on a charge of Failure to Appear. According to booking records, Adkins is alleged to have failed to appear as required in connection with a previous court proceeding.\n\nFailure to Appear is classified as a misdemeanor offense in Georgia. This charge typically arises when a defendant does not show up for a scheduled court date without valid legal excuse. Under Georgia law, conviction for such offenses can result in penalties including fines and potential jail time, with severity depending on the circumstances of the original case and any prior criminal history.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "maelyn-paige-bailey-paulding-county-2026-04-12",
+    "sourceId": 30133898,
+    "name": "Maelyn Paige Bailey",
+    "county": "Paulding",
+    "charges": [
+      "Cruelty To Children Causes Excessive Physical Or Mental Pain 1st Degree (F)",
+      "Reckless Conduct (M)",
+      "Aggravated Assault-family Violence (F)"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-12T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-133898",
+    "rewrite": "Maelyn Paige Bailey was booked into the Paulding County jail on April 12, 2026. Bailey was charged with cruelty to children in the first degree, a felony; reckless conduct, a misdemeanor; and aggravated assault in a family violence context, a felony. According to booking records, Bailey is alleged to have committed these offenses, which are classified as violent felonies under Georgia law.\n\nFirst-degree cruelty to children in Georgia is codified under O.C.G.A. 16-8-100 and addresses conduct that causes excessive physical or mental pain to a child. This offense carries significant statutory penalties, including potential imprisonment and fines. Aggravated assault in a family violence context is similarly serious, reflecting Georgia's statutory framework for addressing violence within domestic relationships. Reckless conduct charges typically involve conduct that creates substantial risk of harm to others. Cases involving child welfare and family violence offenses are prioritized through Georgia's court system and may involve additional proceedings related to child protective services.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "ji-sang-hyun-paulding-county-2026-04-12",
+    "sourceId": 30165922,
+    "name": "Ji Sang Hyun",
+    "county": "Paulding",
+    "charges": [
+      "Cruelty To Animals",
+      "Georgia Criminal Alien Tracking",
+      "Cruelty To Children Criminal Negligence/Causes Excessive Physical/Mental Pain 2nd Degree- Family Violence  (F)"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-12T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-165922",
+    "rewrite": "Ji Sang Hyun was booked into the Paulding County jail on April 12, 2026. He was charged with cruelty to animals, a violation tracked under Georgia Criminal Alien Tracking protocols, and cruelty to children involving criminal negligence that causes excessive physical or mental pain in the second degree, classified as a family violence offense. The charges are alleged to have been committed against individuals under his care.\n\nCruelty to animals and cruelty to children charges are classified as serious misdemeanors under Georgia law and carry significant statutory consequences. Second-degree cruelty to children charges involving criminal negligence are prosecuted when a person's reckless or negligent conduct results in excessive physical or mental pain to a minor. Family violence designations carry enhanced penalties and may restrict certain rights, including firearm possession. These charges typically result in potential jail time, fines, probation, and mandatory counseling or treatment programs upon conviction.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "enrico-lenaris-welborn-paulding-county-2026-04-12",
+    "sourceId": 30137639,
+    "name": "Enrico Lenaris Welborn",
+    "county": "Paulding",
+    "charges": [
+      "Cruelty To Children 1st Degree-family Violence (F)",
+      "Battery-family Violence"
+    ],
+    "bookingDate": "2026-04-12",
+    "publishedAt": "2026-04-12T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-137639",
+    "rewrite": "Enrico Lenaris Welborn was booked into the Paulding County jail on April 12, 2026, and was charged with Cruelty to Children in the First Degree involving family violence and Battery involving family violence. These charges are classified as violent felonies under Georgia law.\n\nCruelty to Children in the First Degree is a serious felony offense in Georgia that typically involves intentional acts causing physical injury or serious bodily harm to a minor. Battery involving family violence is also prosecuted as a felony when it occurs within a family or household relationship. Convictions for violent felonies in Georgia carry substantial statutory consequences, which may include significant prison sentences and mandatory registration or other collateral consequences depending on the specific circumstances and outcome of the case.",
+    "severity": "violent_felony"
+  },
+  {
     "slug": "david-fitzpatrick-hall-county-2026-04-11",
     "sourceId": 3782052,
     "name": "David Fitzpatrick",
@@ -9326,6 +10124,40 @@
     "publishedAt": "2026-04-11T00:10:00-04:00",
     "sourceUrl": "https://www.gordongazettega.com/_files/ugd/4b5a67_f4778eadd48f43ca81da5d3930d3f360.pdf",
     "rewrite": "Amanda Gail Jones was booked into the Gordon County jail on April 11, 2026, on a charge of probation violation for a technical violation related to an underlying theft by shoplifting offense. The booking record indicates she was taken into custody in connection with her probation status.\n\nProbation violations classified as technical violations typically occur when a probationer fails to comply with the conditions of their probation rather than committing a new crime. In Georgia, theft by shoplifting is classified as a misdemeanor when the value of merchandise taken is under $500. Technical violations of probation can result in sanctions ranging from a warning to revocation of probation and incarceration for the remainder of the original sentence. The specific consequences depend on the nature of the violation and the discretion of the sentencing court.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "timothy-j-blankenship-paulding-county-2026-04-11",
+    "sourceId": 30147926,
+    "name": "Timothy J Blankenship",
+    "county": "Paulding",
+    "charges": [
+      "Cruelty To Children Child <18yoa Present/Hears Act/Commits Forcible Fel/Batt/ Fv Batt 3rd Degree (M)",
+      "Kidnapping-family Violence (F)",
+      "Battery-family Violence",
+      "Simple Assault - Family Violence"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-11T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-147926",
+    "rewrite": "Timothy J Blankenship was booked into the Paulding County jail on April 11, 2026. He was charged with cruelty to children with a child under 18 years old present or hearing the act or commission of a forcible felony or battery involving family violence in the third degree (misdemeanor); kidnapping involving family violence (felony); battery involving family violence; and simple assault involving family violence.\n\nThe charges categorized as violent felonies carry significant statutory consequences under Georgia law. Kidnapping is classified as a felony offense, while the family violence designation indicates the alleged incidents involved parties in a domestic relationship. Georgia law imposes enhanced penalties for offenses involving family violence, and cruelty to children charges reflect allegations of harm or endangerment involving minors. These charges carry potential imprisonment and criminal penalties proportionate to their felony and misdemeanor classifications under the Georgia Criminal Code.",
+    "severity": "violent_felony"
+  },
+  {
+    "slug": "terry-dewayne-fields-paulding-county-2026-04-11",
+    "sourceId": 30075933,
+    "name": "Terry Dewayne Fields",
+    "county": "Paulding",
+    "charges": [
+      "Theft By Shoplifting - Conceal Or Taking Possession",
+      "Suspended/Revoked License",
+      "Reckless Driving",
+      "Fleeing Or Attempting To Elude(F)"
+    ],
+    "bookingDate": "2026-04-11",
+    "publishedAt": "2026-04-11T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-75933",
+    "rewrite": "Terry Dewayne Fields was booked into the Paulding County jail on April 11, 2026, and is alleged to have committed theft by shoplifting involving the concealment or taking of merchandise, operating a vehicle with a suspended or revoked license, reckless driving, and fleeing or attempting to elude law enforcement. The circumstances of the arrest and the specific locations involved were not detailed in the booking record.\n\nThe charges represent a mix of property and traffic-related offenses. Theft by shoplifting is typically prosecuted as a misdemeanor in Georgia when the value of merchandise is below certain statutory thresholds, while operating with a suspended or revoked license and reckless driving are standard traffic violations that carry license suspension and potential jail time. The fleeing or attempting to elude charge, classified as a felony under Georgia law, is the most serious allegation and generally involves failure to comply with a law enforcement officer's signal to stop a vehicle. The combination of these charges suggests the incident may have involved a traffic stop that escalated.",
     "severity": "serious_misdemeanor"
   },
   {
@@ -11687,6 +12519,59 @@
     "severity": "misdemeanor"
   },
   {
+    "slug": "isaiah-jared-scott-paulding-county-2026-04-10",
+    "sourceId": 30165350,
+    "name": "Isaiah Jared Scott",
+    "county": "Paulding",
+    "charges": [
+      "Failure To Yield Right Of Way Turning",
+      "Reckless Driving",
+      "Unlawful For Any Person To Purchase, Possess, Or Have Under His Or Her Control Any Controlled Substance.",
+      "Open Container In Motor Vehicle",
+      "Failure To Maintain Lane/Improper Driving On Road",
+      "Theft By Receiving Stolen Property",
+      "Failure To Obey Traffic Signal Or Light",
+      "Driving While License Suspended Or Revoked (M)",
+      "Possession Of Firearm Or Knife During Commission Of Or Attempt To Commit Certain Felonies",
+      "Fleeing Or Attempting To Elude(F)"
+    ],
+    "bookingDate": "2026-04-10",
+    "publishedAt": "2026-04-10T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-165350",
+    "rewrite": "Isaiah Jared Scott was booked into the Paulding County jail on April 10, 2026. He was charged with failure to yield right of way turning, reckless driving, unlawful possession of a controlled substance, open container in a motor vehicle, failure to maintain lane or improper driving on a road, theft by receiving stolen property, failure to obey a traffic signal or light, driving with a suspended or revoked license, possession of a firearm or knife during the commission of or attempt to commit certain felonies, and fleeing or attempting to elude police. Scott is alleged to have committed these offenses and was charged accordingly.\n\nThese charges span traffic violations, drug possession, and more serious felony-level offenses under Georgia law. Felony charges such as fleeing or attempting to elude police and possession of a firearm during the commission of felonies carry potential prison sentences, while misdemeanor traffic and drug-related charges typically result in fines, license suspension, or shorter jail terms. Georgia statute defines driving with a suspended or revoked license as a misdemeanor with potential incarceration, and controlled substance possession penalties vary depending on the substance and amount involved.",
+    "severity": "serious_misdemeanor"
+  },
+  {
+    "slug": "georgia-thomas-paulding-county-2026-04-10",
+    "sourceId": 30165878,
+    "name": "Georgia Thomas",
+    "county": "Paulding",
+    "charges": [
+      "Windshields, Wipers Or Tints",
+      "Material Affixed Which Obstructs Vision",
+      "Purchase, Possession, Manufacture, Distribution, Or Sale Of Controlled Substances Or Marijuana; Penalties"
+    ],
+    "bookingDate": "2026-04-10",
+    "publishedAt": "2026-04-10T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-165878",
+    "rewrite": "Georgia Thomas was booked into the Paulding County jail on April 10, 2026. She was charged with material affixed to a windshield, wiper, or tint that obstructs vision, and with purchase, possession, manufacture, distribution, or sale of controlled substances or marijuana with penalties. Thomas is presumed innocent until proven guilty in court.\n\nThe charge related to obstructed vision falls under Georgia's traffic safety regulations governing vehicle modifications. The controlled substance charge is a misdemeanor-level offense in Georgia, with potential penalties varying based on the type and quantity of the substance involved. Misdemeanor convictions in Georgia can result in fines, probation, community service, or jail time up to twelve months, depending on the specific circumstances and prior criminal history of the defendant.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "thomas-floyd-turner-paulding-county-2026-04-10",
+    "sourceId": 30034773,
+    "name": "Thomas Floyd Turner",
+    "county": "Paulding",
+    "charges": [
+      "State Sentenced"
+    ],
+    "bookingDate": "2026-04-10",
+    "publishedAt": "2026-04-10T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-34773",
+    "rewrite": "Thomas Floyd Turner was booked into the Paulding County jail on April 10, 2026, according to county records. Turner's booking was classified as a state sentence matter, indicating he was admitted to custody following a court conviction and sentencing in a Georgia state court.\n\nMisdemeanor convictions in Georgia carry maximum penalties of up to 12 months in jail and fines up to $1,000, depending on the specific offense. State-sentenced bookings reflect individuals who have completed the judicial process and are now serving imposed sentences within the custody system. The specific charges and sentencing details would be documented in Paulding County court records.",
+    "severity": "misdemeanor"
+  },
+  {
     "slug": "alexis-sparry-troup-county-2026-04-09",
     "sourceId": 3787302,
     "name": "Alexis Sparry",
@@ -13032,6 +13917,49 @@
     "mugshotUrl": "https://cdn.thegeorgiagazette.com/wp-content/uploads/2026/04/Elmore-Samuel-Curtis.jpg",
     "rewrite": "Samuel Elmore was booked into the Barrow County jail on April 9, 2026, on charges including possession of marijuana less than one ounce, cruelty to children involving a minor present during an act of forcible felony or battery, and third-degree battery classified as family violence. The charges include both felony and misdemeanor counts, with the family violence battery charge listed as a first offense misdemeanor.\n\nThird-degree battery in Georgia is classified as a misdemeanor offense, typically carrying penalties of up to 12 months in jail and fines up to $1,000. Cruelty to children charges, however, are felony offenses that carry substantially more severe penalties, including potential imprisonment of multiple years depending on the circumstances and specific statutory classification. When a minor is alleged to have been present during acts of battery or forcible felony, the severity of charges may be enhanced under Georgia law. Marijuana possession charges in quantities less than one ounce are misdemeanor offenses in Georgia.",
     "severity": "felony"
+  },
+  {
+    "slug": "jorge-enqique-calderon-vergel-paulding-county-2026-04-09",
+    "sourceId": 30165805,
+    "name": "Jorge Enqique Calderon Vergel",
+    "county": "Paulding",
+    "charges": [
+      "Georgia Criminal Alien Tracking",
+      "Driving While Unlicensed/Expired License"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-09T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-165805",
+    "rewrite": "Jorge Enrique Calderon Vergel was booked into the Paulding County, Georgia jail on April 9, 2026, on charges of Georgia Criminal Alien Tracking and Driving While Unlicensed/Expired License. Both charges are classified as misdemeanors. Calderon Vergel is alleged to have committed these offenses and was charged accordingly during the booking process.\n\nMisdemeanor charges in Georgia carry potential consequences including fines, jail time of up to 12 months, or both, depending on the specific offense and any prior criminal history. Driving with an unlicensed or expired license is a common traffic-related charge in Georgia that addresses vehicle operation without valid driving credentials. The Georgia Criminal Alien Tracking charge relates to state-level documentation and tracking procedures applicable to certain individuals. Severity and sentencing outcomes for these offenses depend on case-specific factors and judicial determination.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "james-andrew-payne-paulding-county-2026-04-09",
+    "sourceId": 30041728,
+    "name": "James Andrew Payne",
+    "county": "Paulding",
+    "charges": [
+      "Theft By Deception"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-09T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-41728",
+    "rewrite": "James Andrew Payne was booked into the Paulding County jail on April 9, 2026, and was charged with Theft By Deception, a misdemeanor offense. The specific circumstances and details surrounding the charge were not provided in the booking record.\n\nTheft By Deception is classified as a misdemeanor under Georgia law when the property value or circumstances do not meet the threshold for felony classification. Misdemeanor convictions in Georgia can result in sentences of up to 12 months in jail, fines up to $1,000, or both, depending on the circumstances and the defendant's criminal history. All individuals are presumed innocent until proven guilty in a court of law.",
+    "severity": "misdemeanor"
+  },
+  {
+    "slug": "babatunde-adesina-reed-tacla-paulding-county-2026-04-09",
+    "sourceId": 30076174,
+    "name": "Babatunde Adesina Reed-tacla",
+    "county": "Paulding",
+    "charges": [
+      "To Go To Court"
+    ],
+    "bookingDate": "2026-04-09",
+    "publishedAt": "2026-04-09T00:00:00-04:00",
+    "sourceUrl": "https://inmate.paulding.gov:9443/NewWorld.InmateInquiry/GA1100000/Inmate/Detail/-76174",
+    "rewrite": "Babatunde Adesina Reed-tacla was booked into custody in Paulding County, Georgia on April 9, 2026, and is scheduled to appear in court. The booking record indicates a misdemeanor-level charge, though specific details regarding the nature of the alleged offense were not provided in the available documentation.\n\nMisdemeanor charges in Georgia are classified as offenses punishable by up to 12 months in jail, a fine of up to $1,000, or both. The defendant is presumed innocent unless and until proven guilty in a court of law. Court appearance requirements allow defendants the opportunity to address charges, receive formal notification of allegations, and access legal representation before any adjudication occurs.",
+    "severity": "misdemeanor"
   },
   {
     "slug": "douglas-shook-towns-county-2026-04-08",
