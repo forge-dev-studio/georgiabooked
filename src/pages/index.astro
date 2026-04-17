@@ -12,9 +12,10 @@ import { websiteSchema } from '@lib/schema';
 import { url } from '@lib/url';
 
 const all = loadArrests();
-const latest = recentArrests(all, 25);
-const featured = latest[0];
-const rest = latest.slice(1);
+const withPhotos = all.filter((r) => r.mugshotUrl);
+const withoutPhotos = all.filter((r) => !r.mugshotUrl);
+const featured = withPhotos[0] ?? all[0];
+const rest = [...withPhotos.slice(1), ...withoutPhotos].slice(0, 24);
 
 const last7Hotness = Array.from(countyHotness(all, 7).entries())
   .sort((a, b) => b[1] - a[1]);
