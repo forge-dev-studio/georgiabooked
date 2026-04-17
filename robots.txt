@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /takedown
+Disallow: /og/
+
+Sitemap: https://forge-dev-studio.github.io/georgiabooked/sitemap-index.xml
